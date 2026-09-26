@@ -36,5 +36,5 @@ Measurements: shoot and root biomass, tissue moisture, WinRHIZO root phenotyping
 - Say "microbiome" for the collective system and "bacteria" when specifically about bacteria. Never "microbial community" or "bacterial community".
 - `summary`: what the paper did and found, 80 to 140 words, only claims that are in the paper.
 - `why`: how understanding it helps her specific experiment or thesis, 80 to 140 words, concrete (which treatment, which analysis, which chapter).
-- Prefer peer-reviewed primary research from the last 24 months; older classics are fine when they fill one of the gaps above. One paper per week.
-- Every DOI must resolve (check https://doi.org/<doi>) and must not already appear anywhere in papers.json.
+- Recency is a hard rule: the paper must have been published within the last 60 days of the week it is posted (widen to 90 days only if nothing suitable exists in 60). Never post older papers; the `classics` list in papers.json is reference only. Peer-reviewed primary research preferred over reviews. One paper per week.
+- Every DOI must have a Crossref record (https://api.crossref.org/works/<doi> returns 200 with a matching title) and must not already appear anywhere in papers.json. Record the publication date in a `published` field (YYYY-MM-DD).
