@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T03:10:01Z",
+  "generated_at": "2026-09-26T03:11:08Z",
   "window_days": 60,
   "fallback_days": 90,
   "note": "Candidates published recently, not already in papers.json, metadata from Crossref, abstracts from OpenAlex/Crossref. Ranked by a keyword score; the routine makes the final choice and writes the notes.",
@@ -28,7 +28,7 @@
       "window_days": 60,
       "score": 16.55,
       "published": "2026-07-29",
-      "age_days": 58,
+      "age_days": 59,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.1111/pce.70631"
     },
@@ -53,7 +53,7 @@
       "window_days": 60,
       "score": 15.71,
       "published": "2026-09-22",
-      "age_days": 3,
+      "age_days": 4,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.3390/agronomy16191871"
     },
@@ -81,7 +81,7 @@
       "window_days": 60,
       "score": 15.53,
       "published": "2026-08-01",
-      "age_days": 55,
+      "age_days": 56,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.1016/j.xplc.2026.102083"
     },
@@ -113,7 +113,7 @@
       "window_days": 60,
       "score": 13.55,
       "published": "2026-09-01",
-      "age_days": 24,
+      "age_days": 25,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.1016/j.ecoenv.2026.120704"
     },
@@ -138,7 +138,7 @@
       "window_days": 60,
       "score": 9.57,
       "published": "2026-08-03",
-      "age_days": 53,
+      "age_days": 54,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.1186/s40793-026-00921-8"
     },
@@ -160,7 +160,7 @@
       "window_days": 60,
       "score": 9.51,
       "published": "2026-08-31",
-      "age_days": 25,
+      "age_days": 26,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.3389/fmicb.2026.1874667"
     },
@@ -186,7 +186,7 @@
       "window_days": 60,
       "score": 8.56,
       "published": "2026-09-01",
-      "age_days": 24,
+      "age_days": 25,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.1016/j.plaphy.2026.111626"
     },
@@ -205,14 +205,14 @@
         "Waqar Ahmed"
       ],
       "abstract": "Agricultural sustainability increasingly depends on optimizing the rhizosphere nexus, where plants, soil, and microorganisms interact to regulate nutrient cycling, stress resilience, and soil health. Traditional approaches favour single-strain inoculants, which frequently fail under field conditions owing to poor persistence, strong context dependency, and limited functional scope. This review critiques the limitations of reductionist inoculation paradigms and advances a shift toward engineering the rhizosphere by integrating plant traits, soil physicochemical constraints, and microbial functional diversity. We examined the fundamental tripartite interaction, emphasizing root architecture and exudation as heritable chemical blueprints that filter microbial recruitment, while soil properties serve as environmental constraints that govern microbial persistence and functional expression. Particular emphasis was placed on molecular communication networks, including cross-kingdom signalling among plants, bacteria, and fungi, and on how conventional agricultural inputs may disrupt these coordination processes. Beyond nutrient availability, we examined how microbial communities regulate the timing of macronutrient (N, P) and essential micronutrient (Fe, Mn, Zn) availability, and critically assessed the context-dependent trade-offs of arbuscular mycorrhizal fungi (AMF) under intensive management. The review further evaluates the role of the rhizosphere microbiome in enhancing resilience to abiotic stresses, such as drought, salinity, and heat, and in suppressing biotic stresses through induced systemic resistance and the development of disease-suppressive soils. Furthermore, we have highlighted emerging strategies for rhizosphere engineering, including microbiome-enabled breeding, synthetic microbial consortia, agronomic steering, and precision microbiome management. By integrating mechanistic insights with digital agriculture, metagenomics, and data-driven decision frameworks, this review reframes the farm as a dynamically regulated ecological system rather than a site for substituting chemical inputs, offering a pathway toward a more predictable and sustainable agricultural ecosystem.",
-      "relevance": 1.8942579,
+      "relevance": 1.8942246,
       "hits": [
         "root exudation drought bacteria"
       ],
       "window_days": 60,
       "score": 8.52,
       "published": "2026-09-01",
-      "age_days": 24,
+      "age_days": 25,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.1016/j.indcrop.2026.124090"
     },
@@ -233,7 +233,7 @@
       "window_days": 60,
       "score": 8.06,
       "published": "2026-08-07",
-      "age_days": 49,
+      "age_days": 50,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.67784/0041"
     },
@@ -248,14 +248,14 @@
         "Zhibiao Nan"
       ],
       "abstract": "ABSTRACT Drought stress threatens the ecological functions and economic value of grasses, posing a major challenge to their sustainable production. Plants co‐evolve with rhizosphere microbial communities, sometimes described as the plant's second genome, that can contribute to drought adaptation. Drought alters root architecture, hormonal and redox regulation and belowground carbon allocation, thereby modifying the quantity and composition of root exudation and reshaping the rhizosphere environment. This review uses the rhizosphere dialogue as an integrative framework to link these plant responses with microbial recruitment and subsequent feedback to the host. We summarise three linked stages of this dialogue: drought‐induced changes in root exudation; microbial recruitment and colonisation through chemotaxis, attachment, biofilm formation, and root colonisation; and microbiome‐mediated feedback that improves plant water relations, hormonal and redox homoeostasis, nutrient acquisition, and root function. We highlight microbial extracellular polymeric substances, 1‐aminocyclopropane‐1‐carboxylate deaminase, and microbial volatile organic compounds as key mediators of drought alleviation. We then discuss how this framework may inform rational synthetic microbial community (SynCom) design, microbiome‐informed breeding, artificial intelligence and machine‐learning assisted strain prioritisation, rhizosphere legacy effects, and real‐time monitoring. Future work should distinguish active exudate‐mediated recruitment from drought‐driven environmental filtering and integrate multi‐omics, plant genetics, functional validation, and multi‐location field trials to determine whether rhizosphere dialogue can become a predictive framework for climate‐resilient grass production.",
-      "relevance": 17.117828,
+      "relevance": 17.11689,
       "hits": [
         "rhizosphere microbiome drought root exudate"
       ],
       "window_days": 60,
       "score": 7.67,
       "published": "2026-09-13",
-      "age_days": 12,
+      "age_days": 13,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.1111/pce.70876"
     },
@@ -281,7 +281,7 @@
       "window_days": 60,
       "score": 7.57,
       "published": "2026-09-22",
-      "age_days": 3,
+      "age_days": 4,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.1038/s41522-026-01150-0"
     },
@@ -305,7 +305,7 @@
       "window_days": 60,
       "score": 7.57,
       "published": "2026-09-01",
-      "age_days": 24,
+      "age_days": 25,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.1016/j.insi.2026.100646"
     },
@@ -325,7 +325,7 @@
       "window_days": 60,
       "score": 7.56,
       "published": "2026-09-15",
-      "age_days": 10,
+      "age_days": 11,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.3389/fpls.2026.1839892"
     },
@@ -353,7 +353,7 @@
       "window_days": 60,
       "score": 7.56,
       "published": "2026-09-01",
-      "age_days": 24,
+      "age_days": 25,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.1016/j.stress.2026.101531"
     },
@@ -384,7 +384,7 @@
       "window_days": 60,
       "score": 7.55,
       "published": "2026-09-24",
-      "age_days": 1,
+      "age_days": 2,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.1186/s44375-026-00011-7"
     },
@@ -405,14 +405,14 @@
         "Jiayin Pang"
       ],
       "abstract": "Abstract Background and aims Low soil silicon (Si) availability may restrict crop silicification and its associated benefits for resistance to environmental stress. Cereal–legume intercropping offers a potential strategy to enhance soil Si mobility through the release of Si-mobilizing root exudates by legumes, particularly carboxylates. However, direct evidence supporting this mechanism remains limited. Methods In a glasshouse pot experiment, wheat ( Triticum aestivum ) was grown either as two individuals per pot or in combination with one chickpea ( Cicer arietinum ) individual. To test whether chickpea root exudates could mobilize soil Si and increase wheat Si concentrations ([Si]), 20 chickpea accessions with different patterns of carboxylate release were used. Intraspecific variation in [Si] among the 20 chickpea accessions was also quantified. Results Wheat grown together with chickpea showed higher leaf [Si] and Si content than wheat grown either alone or with another wheat plant in the same pot. Rhizosheath carboxylate concentrations were also greater in wheat-chickpea than in wheat-wheat combinations. However, wheat leaf [Si] was only marginally correlated with rhizosheath carboxylates and showed no correlation with chickpea leaf [Mn], used here as a proxy for root carboxylate release. In contrast, wheat leaf [Si] was positively correlated with wheat leaf [Mn]. Chickpea leaf [Si] also varied significantly among accessions. Conclusion Our study shows that chickpea promoted Si uptake in wheat. This effect may be partly related to chickpea-induced changes in rhizosphere processes, including carboxylate release, which could enhance the mobilization of poorly-available soil Si; however, further studies are needed to confirm this mechanism and to assess the contribution of other potential mechanisms. The significant variation in chickpea foliar [Si] among accessions also revealed previously overlooked diversity in silicification within this crop. These findings highlight the potential of crop interactions and agricultural management practices to enhance crop silicification, with possible benefits for stress resilience and yield.",
-      "relevance": 1.495225,
+      "relevance": 1.4955727,
       "hits": [
         "stress combination plant rhizosphere"
       ],
       "window_days": 60,
       "score": 7.51,
       "published": "2026-09-11",
-      "age_days": 14,
+      "age_days": 15,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.1007/s11104-026-09070-w"
     },
@@ -438,7 +438,7 @@
       "window_days": 60,
       "score": 6.57,
       "published": "2026-09-01",
-      "age_days": 24,
+      "age_days": 25,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.1016/j.scienta.2026.115146"
     },
@@ -461,7 +461,7 @@
       "window_days": 60,
       "score": 6.55,
       "published": "2026-09-18",
-      "age_days": 7,
+      "age_days": 8,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.3389/fmicb.2026.1942488"
     },
@@ -479,14 +479,14 @@
         "Maria Cristina Verdenelli"
       ],
       "abstract": "Acne vulgaris is a highly prevalent inflammatory skin condition involving the interaction between skin microbes and host immunity, which lead with the changes in composition and activities of the skin microbiota disturbing its homeostasis. Several probiotic strains have been tested for their anti-pathogenic activity against the main acne-responsible bacteria, their capacity to contrast pathogenic adhesion to HaCaT cells and the in vitro down-regulation of innate immunity. To investigate whether probiotics have direct effects on the growth of Cutibacterium acnes, Staphyloccoccus aureus, Streptococcus pyogenes and Streptococcus epidermidis, the antimicrobial activity of six probiotics was analyzed by two different methods (modified cross-streak and agar well diffusion). The in vitro blockage of pathogens’ adherence by the probiotic strains to HaCaT cells was also investigated, under three possible mechanisms: exclusion by adhered probiotics, displacement of adhered pathogens and competition for receptor sites. The inflammatory response was evaluated by the Luminex approach, targeting a selection of innate immune markers in the HaCaT cell culture media. All probiotic strains showed anti-pathogenic activity against the pathogens tested. The inhibition result on HaCaT cells highlights a significant (p &lt; 0.05) competition of all probiotics against all pathogens. Each pathogenic strain alone led to an up-regulation of innate immune markers, while restoration of the microbiome diversity by probiotics presence may suppress inflammation via down-regulation of innate immunity. The results suggest that the tested probiotics could prevent colonization of the skin by relevant pathogens through barrier and interference mechanisms (mainly exclusion), suggesting a potential use in the future conventional therapies of skin disorders.",
-      "relevance": 2.68335,
+      "relevance": 2.700405,
       "hits": [
         "host-mediated microbiome selection"
       ],
       "window_days": 60,
       "score": 6.53,
       "published": "2026-08-10",
-      "age_days": 46,
+      "age_days": 47,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.3390/microorganisms14081754"
     },
@@ -508,7 +508,7 @@
       "window_days": 60,
       "score": 6.53,
       "published": "2026-07-30",
-      "age_days": 57,
+      "age_days": 58,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.1134/s1021443725607372"
     },
@@ -520,14 +520,14 @@
         "Thi Phuong Nhung Tran"
       ],
       "abstract": "Abstract The root-knot nematode Meloidogyne incognita severely threatens banana production by impairing root function and overall plant vigor. In this study, a combined aqueous leaf extract of Millettia pachyloba and Melia azedarach (MPMA) at a 1 : 1 ratio (v/v) was evaluated for nematode suppression and oxidative stress alleviation under in vitro and greenhouse conditions. Using single extract comparators at equivalent total doses, the mixture consistently exceeded the highest single agent (HSA) benchmark for key endpoints, including in vitro J2 mortality, root galling, and plant nematode density. Interaction model analyses showed endpoint-dependent responses: in vitro Bliss independence and Loewe/Chou–Talalay analyses indicated mainly additive or near-additive effects, with ΔBliss values ≤ 0 and combination indices close to 1, whereas in-planta Bliss analysis showed a mild positive interaction signal at intermediate to high doses. Greenhouse experiments revealed that MPMA significantly reduced root galling, rhizosphere and root nematode populations, and improved host physiology by lowering ROS, O₂⁻, and •OH, while enhancing ascorbate peroxidase, glutathione reductase, and the reduced-to-oxidized glutathione ratio. These changes resulted in greater biomass accumulation and higher composite growth indices in infected plants. Correlation analyses demonstrated strong negative relationships between nematode burden and antioxidant defenses, and positive correlations between antioxidant status and growth performance. Overall, MPMA provided reproducible benefits beyond the best single extract under the HSA benchmark, with quantitative interaction metrics supporting an additive to near-additive interpretation in vitro and mild, endpoint-dependent synergy under greenhouse conditions. These findings underscore its potential as a practical botanical strategy for integrated nematode management in banana cultivation.",
-      "relevance": 6.754981,
+      "relevance": 6.7489085,
       "hits": [
         "stress combination plant rhizosphere"
       ],
       "window_days": 60,
       "score": 5.57,
       "published": "2026-08-18",
-      "age_days": 38,
+      "age_days": 39,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.2478/johr-2026-0011"
     },
@@ -551,7 +551,7 @@
       "window_days": 60,
       "score": 5.52,
       "published": "2026-08-28",
-      "age_days": 28,
+      "age_days": 29,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.3390/toxics14090770"
     },
@@ -575,7 +575,7 @@
       "window_days": 60,
       "score": 4.56,
       "published": "2026-09-01",
-      "age_days": 24,
+      "age_days": 25,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.33545/26174693.2026.v10.i9d.9939"
     }
