@@ -156,12 +156,12 @@ header nav a { border: 0; color: var(--ink-2); }
 <section class="wrap hero" id="hero">
   <span class="kicker">Reading list</span>
   <h1>Paper of the week</h1>
-  <p>One paper a week, picked because it bears directly on what I am doing in the lab right now, with a note on what it found and why it is worth my time. A new one lands every Monday.</p>
+  <p>One paper a week, published in the last couple of months and picked because it bears directly on what I am doing in the lab right now, with a note on what it found and why it is worth my time. A new one lands every Monday.</p>
 </section>
 
 <section class="wrap" id="current"><div class="empty">Loading this week's paper…</div></section>
 <section class="wrap archive" id="archive"></section>
-<div class="wrap note">Entries are selected from peer-reviewed literature and verified against their DOI before they are added. If you have a paper I should read, <a href="mailto:valentynakundas@gmail.com">email me</a>.</div>
+<div class="wrap note">Entries are recent peer-reviewed papers, verified against their DOI before they are added. If you have a paper I should read, <a href="mailto:valentynakundas@gmail.com">email me</a>.</div>
 </div>
 <script>
 
@@ -185,7 +185,7 @@ header nav a { border: 0; color: var(--ink-2); }
       '<span class="week">' + esc(weekLabel(w.week)) + '</span>' +
       '<h2><a href="' + esc(doiUrl) + '" target="_blank" rel="noopener" style="border:0;color:inherit">' + esc(w.title) + '</a></h2>' +
       '<div class="cite">' + esc(w.authors) + '</div>' +
-      '<div class="meta"><span>' + esc(w.journal) + ' · ' + esc(w.year) + '</span><a href="' + esc(doiUrl) + '" target="_blank" rel="noopener">doi:' + esc(w.doi) + '</a>' + (w.read_minutes ? '<span>About ' + esc(w.read_minutes) + ' min</span>' : '') + '</div>' +
+      '<div class="meta"><span>' + esc(w.journal) + ' · ' + (w.published ? 'published ' + esc(fmt(w.published)) : esc(w.year)) + '</span><a href="' + esc(doiUrl) + '" target="_blank" rel="noopener">doi:' + esc(w.doi) + '</a>' + (w.read_minutes ? '<span>About ' + esc(w.read_minutes) + ' min</span>' : '') + '</div>' +
       '<div class="cols"><div><h3>What it found</h3><p>' + esc(w.summary) + '</p></div><div class="why"><h3>Why it matters for my work</h3><p>' + esc(w.why) + '</p></div></div>' +
       (w.tags && w.tags.length ? '<div class="tags">' + w.tags.map(function (t) { return '<span class="tag">' + esc(t) + '</span>'; }).join('') + '</div>' : '') +
       '</article>';
