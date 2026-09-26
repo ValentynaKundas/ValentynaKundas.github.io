@@ -20,6 +20,27 @@
       "summary": "The authors grew Arabidopsis lyrata under drought and well-watered conditions, measured root exudates by gas chromatography, sequenced the rhizosphere bacteria and fungi, and recorded plant performance traits such as biomass and flowering. They then used network analysis to ask whether the links among traits, exudate compounds and microbes tighten under drought. Drought changed the exudate composition and the rhizosphere bacteria, but not the fungi. The drought networks were more connected than the well-watered ones, meaning more associations among performance traits, exudates and rhizosphere taxa, and several performance traits correlated positively with known plant-growth-promoting bacteria. The authors read this as stressed plants relying more on their rhizosphere microbiome.",
       "why": "This is your water treatment, measured from three sides at once: plant traits, what the roots release, and who is in the rhizosphere. Two things to take from it. First, the bacteria moved under drought while the fungi did not, which supports focusing your 16S work on bacteria and gives you a published comparison when you explain that choice. Second, the network approach is a way to show that drought changes relationships, not only abundances, and it would work with your biomass, tissue moisture, WinRHIZO and sequencing data on the same pots. Note that they had no light treatment, so your light-by-water design can ask whether the tighter connections they saw under drought survive when light is also limiting.",
       "added_by": "seed"
+    },
+    {
+      "week": "2026-09-28",
+      "title": "Sucrose and pipecolic acid-mediated enrichment of rhizosphere Rhizobiale Burkholderiale bacteria improve soybean growth under low light conditions",
+      "authors": "Dongmei Li, Chunting Zhang, Wenqian Wang, Luming Ma, Yaru Huang, Liang Liu, Jinshui Yang, Entao Wang, Feng Jiang, Hongli Yuan",
+      "journal": "Plant Communications",
+      "year": 2026,
+      "published": "2026-08-01",
+      "doi": "10.1016/j.xplc.2026.102083",
+      "tags": [
+        "low light",
+        "legume",
+        "root exudates",
+        "soil conditioning",
+        "nodulation",
+        "synthetic community"
+      ],
+      "read_minutes": 45,
+      "summary": "The authors asked how low light changes the soybean rhizosphere microbiome and whether the bacteria can buffer the damage. A meta-analysis of field studies showed that light intensity was the main driver of yield loss in intercropped and densely planted legumes. In pots, low light suppressed photosynthesis, biomass and nodulation, and the damage was worse in sterile soil. Soil conditioned by low-light plants reduced the growth of the next plants grown in it. Low light made rhizosphere assembly more deterministic, lowered bacterial diversity, simplified co-occurrence networks, and depleted Rhizobiales and Burkholderiales. Sucrose and pipecolic acid in the exudates tracked these taxa, and both attracted the bacteria in chemotaxis assays. Adding back isolates or a simplified synthetic community restored much of the growth lost under low light.",
+      "why": "This is the closest published match to your light cycles. It is a legume, the treatment is low light, the plants are also grown in sterile soil, and the soil-conditioning experiment is the same logic as your transfer design: does a microbiome shaped by a stressed plant change the next plant. Their result says yes, and in the harmful direction, which is a prediction you can test with your light-limited lines. The depletion of Rhizobiales under low light is directly relevant to nodulation by Sinorhizobium in your alfalfa, so worth checking in your 16S data. Their intercropping framing also maps onto your alfalfa-plus-timothy treatment, where shading by the grass is part of what the alfalfa experiences. Finally, the isolate and synthetic community add-back is a model for the functional validation you have asked about.",
+      "added_by": "seed"
     }
   ],
   "classics": [
