@@ -7,7 +7,7 @@ The cloud routine (which has no web access) reads candidates.json and writes the
 
 Standard library only.
 """
-import json, re, sys, time, datetime, urllib.request, urllib.parse
+import json, re, sys, time, datetime, html, urllib.request, urllib.parse
 
 MAILTO = "valentynakundas@gmail.com"
 UA = f"paper-of-the-week/1.0 (mailto:{MAILTO})"
@@ -75,7 +75,7 @@ def abstract_from_inverted(inv):
 
 
 def clean(s):
-    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", s or "")).strip()
+    return html.unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", s or "")).strip())
 
 
 def openalex(query, from_date):
