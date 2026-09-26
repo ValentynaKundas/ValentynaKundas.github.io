@@ -1,0 +1,31 @@
+name: Fetch paper candidates
+
+on:
+  schedule:
+    - cron: "0 9 * * 1"   # Mondays 09:00 UTC, two hours before the writing routine
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch and verify candidates
+        run: python scripts/fetch_candidates.py
+      - name: Commit candidates.json
+        run: |
+          git config user.name "paper-of-the-week bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add candidates.json
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Candidates: $(date -u +%F)"
+            git push
+          fi
