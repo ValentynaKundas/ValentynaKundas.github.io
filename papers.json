@@ -41,6 +41,26 @@
       "summary": "The authors asked how low light changes the soybean rhizosphere microbiome and whether the bacteria can buffer the damage. A meta-analysis of field studies showed that light intensity was the main driver of yield loss in intercropped and densely planted legumes. In pots, low light suppressed photosynthesis, biomass and nodulation, and the damage was worse in sterile soil. Soil conditioned by low-light plants reduced the growth of the next plants grown in it. Low light made rhizosphere assembly more deterministic, lowered bacterial diversity, simplified co-occurrence networks, and depleted Rhizobiales and Burkholderiales. Sucrose and pipecolic acid in the exudates tracked these taxa, and both attracted the bacteria in chemotaxis assays. Adding back isolates or a simplified synthetic community restored much of the growth lost under low light.",
       "why": "This is the closest published match to your light cycles. It is a legume, the treatment is low light, the plants are also grown in sterile soil, and the soil-conditioning experiment is the same logic as your transfer design: does a microbiome shaped by a stressed plant change the next plant. Their result says yes, and in the harmful direction, which is a prediction you can test with your light-limited lines. The depletion of Rhizobiales under low light is directly relevant to nodulation by Sinorhizobium in your alfalfa, so worth checking in your 16S data. Their intercropping framing also maps onto your alfalfa-plus-timothy treatment, where shading by the grass is part of what the alfalfa experiences. Finally, the isolate and synthetic community add-back is a model for the functional validation you have asked about.",
       "added_by": "seed"
+    },
+    {
+      "week": "2026-10-05",
+      "title": "Regulatory Mechanisms Underlying Flavonoid-Mediated Restructuring of the Rhizosphere Microbiome in Alfalfa (Medicago sativa L.) Under Salt Stress",
+      "authors": "Zuoliang Long, Fei Zhang, Shuhan Zhang, Shaowei Li, Xiaoli Wang, Xinqiang Zhu, Feifan Leng",
+      "journal": "Agronomy",
+      "year": 2026,
+      "published": "2026-09-22",
+      "doi": "10.3390/agronomy16191871",
+      "tags": [
+        "alfalfa",
+        "root exudates",
+        "salt stress",
+        "flavonoids",
+        "plant growth-promoting bacteria"
+      ],
+      "read_minutes": 40,
+      "summary": "The authors grew two alfalfa varieties, one salt-tolerant and one salt-sensitive, at 0, 100 and 200 mM NaCl and profiled root exudates by LC-MS alongside the rhizosphere microbiome. Under 200 mM salt the tolerant variety switched on flavonoid metabolism and released more naringin and apigenin, and these compounds correlated with enrichment of salt-tolerant bacteria such as Pseudarthrobacter and Adhaeribacter. The sensitive variety instead released more p-hydroxyphenylacetic acid, which tracked Limnobacter and Flavobacterium. Adding salt-tolerant plant growth-promoting bacteria from Gammaproteobacteria and Bacilli to either variety eased the growth inhibition at 200 mM, with longer roots and shoots, larger leaves, better photosynthesis and a high potassium to sodium ratio in roots, and qRT-PCR showed effects on flavonoid genes CHI1 and CYP75A1.",
+      "why": "Salt is not your stress, but the chain they test is the one you are relying on: stress changes what alfalfa roots release, the exudates change which bacteria are recruited, and the bacteria change the plant. It is also alfalfa, so the taxa and the exudate chemistry are a direct reference for your 16S and any future metabolomics on your pots. Two things to copy. First, they compare two genotypes, which shows how much of the response is the plant rather than the treatment, something to keep in mind when you compare alfalfa alone with alfalfa next to timothy. Second, their exudate to taxa links are correlations, and they only become causal when the bacteria are added back, which is the validation step your selection lines will also need.",
+      "added_by": "routine, pushed manually"
     }
   ],
   "classics": [

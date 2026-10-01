@@ -2,7 +2,7 @@ name: Fetch paper candidates
 
 on:
   schedule:
-    - cron: "0 9 * * 1"   # Mondays 09:00 UTC, two hours before the writing routine
+    - cron: "0 20 * * 0"   # Sundays 20:00 UTC; GitHub often runs schedules late, so leave slack before the Monday 11:00 UTC routine
   workflow_dispatch:
 
 permissions:
