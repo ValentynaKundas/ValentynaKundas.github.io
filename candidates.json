@@ -1,34 +1,9 @@
 {
-  "generated_at": "2026-09-28T17:12:35Z",
+  "generated_at": "2026-10-04T22:37:24Z",
   "window_days": 60,
   "fallback_days": 90,
   "note": "Candidates published recently, not already in papers.json, metadata from Crossref, abstracts from OpenAlex/Crossref. Ranked by a keyword score; the routine makes the final choice and writes the notes.",
   "candidates": [
-    {
-      "doi": "10.3390/agronomy16191871",
-      "title": "Regulatory Mechanisms Underlying Flavonoid-Mediated Restructuring of the Rhizosphere Microbiome in Alfalfa (Medicago sativa L.) Under Salt Stress",
-      "journal": "Agronomy",
-      "authors": [
-        "Zuoliang Long",
-        "Fei Zhang",
-        "Shuhan Zhang",
-        "Shaowei Li",
-        "Xiaoli Wang",
-        "Xinqiang Zhu",
-        "Feifan Leng"
-      ],
-      "abstract": "This study employed two Medicago sativa L. varieties with contrasting salt tolerance—Zangmu No.1 (ZM1, salt-tolerant) and Zangmu No.2 (ZM2, salt-sensitive)—to investigate root exudate composition, rhizosphere microbiome assembly, and their potential correlations under 0 mM, 100 mM, and 200 mM NaCl stresses. Under 200 mM NaCl, ZM1 exhibited specific activation of flavonoid-related metabolic pathways (including flavonoid degradation and tyrosine metabolism), resulting in significant upregulation of characteristic flavonoids such as naringin (a metabolite designated as NEG885 in our LC-MS library) and apigenin (POS148) in root exudates. Correlation analysis revealed that these metabolites were significantly and positively associated with the enrichment of salt-tolerant bacterial taxa, including Pseudarthrobacter and Adhaeribacter. In contrast, ZM2 under identical stress conditions showed significantly enhanced synthesis of p-hydroxyphenylacetic acid (NEG151, p < 0.05) which correlated with Limnobacter and Flavobacterium, indicating ZM2’s comparatively limited metabolic regulatory capacity. Notably, exogenous supplementation of salt-tolerant plant growth-promoting rhizobacteria (PGPR) from γ-Proteobacteria (Atlantibacter, Enterobacter) and Bacilli (Priestia) effectively alleviated growth inhibition in Medicago sativa (both ZM1 and ZM2) under 200 mM NaCl, primarily through promoting root/shoot elongation, leaf expansion, and photosynthetic efficiency while maintaining root “high K+/low Na+” ion homeostasis. These PGPR demonstrated multifunctional traits including indole-3-acetic acid biosynthesis, phosphate solubilization, and nitrogen fixation. qRT-PCR analysis confirmed their regulatory effects on salt-responsive genes such as CHI1 (chalcone isomerase 1) and CYP75A1 (flavonoid 3′,5′-hydroxylase), mediating root development and ion balance. This work elucidates the potential regulatory role of flavonoid metabolism in Medicago sativa’s recruitment of beneficial microbiota under salt stress, providing a theoretical foundation for developing salt-resistant cultivars through plant–microbe synergy strategies.",
-      "relevance": 21.131304,
-      "hits": [
-        "Medicago rhizosphere microbiome"
-      ],
-      "window_days": 60,
-      "score": 15.71,
-      "published": "2026-09-22",
-      "age_days": 6,
-      "crossref_type": "journal-article",
-      "doi_url": "https://doi.org/10.3390/agronomy16191871"
-    },
     {
       "doi": "10.1016/j.ecoenv.2026.120704",
       "title": "Rhizobia-mediated soybean rhizosphere and nodule endophytic microorganisms reduce bioavailability of Cd and Cu in soil",
@@ -50,41 +25,16 @@
         "Xiumei Yu"
       ],
       "abstract": "Low-level bioavailable cadmium (Cd) and copper (Cu) in agricultural soils poses a severe threat to soil health and food safety; however, the mechanisms by which indigenous Cu-Cd tolerant rhizobia modulate plant-microbe-soil interactions remain poorly understood. In this field trial, the effects of two Cu-Cd tolerant strains, Sinorhizobium xinjiangense YN5 (RB) and Rhizobium pusense GF4 (RD), when inoculated individually and in combination (RC), were assessed with respect to soybean growth, heavy‑metal partitioning, rhizosphere and nodule endophytic microbiomes, and soil functional genes under bioavailable Cu-Cd stress. RB treatment significantly promoted aboveground growth parameters (plant height, node number, and pod per plant) and biomass accumulation, whereas RC treatment favored root development and maximized the reduction in soybean Cd accumulation. Rhizobia elevated Cu concentrations in leaves, while enhanced root sequestration curtailed Cd translocation to stems and pods, thereby diminishing Cd accumulation across all organs. Soil available nutrients, soil organic matter, and nitrogenase activity were significantly increased, whereas bioavailable Cd and Cu declined. Rhizobia strengthened cooperative interactions within the rhizosphere community, with positive associations accounting for 86.56% of network links under RB. Nodule symbiotic networks exhibited greater modularity and integration, and source tracking analysis revealed that RB markedly increased microbial transfer from the rhizosphere to nodules, reaching 85.2%. Rhizobia activated function associated with carbon and sulfur cycling genes. Collectively, indigenous Cu-Cd tolerant rhizobia mitigate heavy metal stress and strengthen nutrient cycling microbial functions, presenting a promising eco-compatible strategy to enhance legume productivity in agricultural soils facing low-level bioavailable heavy metal exposure.",
-      "relevance": 5.525653,
+      "relevance": 11.165333,
       "hits": [
         "stress combination plant rhizosphere"
       ],
       "window_days": 60,
-      "score": 13.56,
+      "score": 13.61,
       "published": "2026-09-01",
-      "age_days": 27,
+      "age_days": 33,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.1016/j.ecoenv.2026.120704"
-    },
-    {
-      "doi": "10.1186/s40793-026-00921-8",
-      "title": "Pine root exudate terpenoids associate with Mycobacterium sp. under summer drought in a mixed Mediterranean forest",
-      "journal": "Environmental Microbiome",
-      "authors": [
-        "Sophie Obersteiner",
-        "Yaara Oppenheimer-Shaanan",
-        "David Yalin",
-        "Dagan Sade",
-        "Vered Zavaro",
-        "Ziv Reich",
-        "Tamir Klein"
-      ],
-      "abstract": "Abstract Background Interactions between tree root exudates and rhizosphere bacteria are a key pathway influencing tree health in the forest. However, how this interaction occurs at the chemical level belowground in forest soil still remains unclear. We conducted a 2-year field experiment in a mixed Mediterranean forest with mature trees of Pinus halepensis , Quercus calliprinos and Pistacia lentiscus to examine the interplay between tree roots and bacterial community dynamics under seasonal drought . Root exudate rate and metabolite composition were analyzed simultaneously with 16S rRNA sequencing to the species level of soil and root bacterial communities across four seasons. Results Root exudates increased, on average, 3.3-fold in the dry vs. wet season across the three species, reaching up to 41.7 μg C day −1 cm −2 . Eighty-nine metabolites were responsive to seasonal drought, consisting largely of amino acids (24), phenolics (21), carbohydrates (11) and terpenoids (9). Across all tree species, eight metabolites were drought-responsive. Metabolite composition varied with tree species and season. However, root bacterial communities changed with host tree species but not with season. Multiple bacterial taxa correlated either positively or negatively with drought-responsive metabolites; for example, 19 actinobacteria species were associated with compounds such as the terpenoid glaucocalyxin A and the carbohydrates deoxyribose and a C5 sugar alcohol, illustrating diverse bacterial responses to seasonal drought-induced exudation shifts. Conclusion Our results suggest that in a Mediterranean forest experiencing recurrent seasonal drought, drought-induced shifts in root exudate composition may act as metabolic cues that are associated with changes in the rhizosphere bacterial community, while preserving its overall taxonomic stability.",
-      "relevance": 29.213978,
-      "hits": [
-        "root exudation drought bacteria"
-      ],
-      "window_days": 60,
-      "score": 9.79,
-      "published": "2026-08-03",
-      "age_days": 56,
-      "crossref_type": "journal-article",
-      "doi_url": "https://doi.org/10.1186/s40793-026-00921-8"
     },
     {
       "doi": "10.3389/fmicb.2026.1874667",
@@ -97,43 +47,16 @@
         "Junjie Li"
       ],
       "abstract": "Research on crop disease has shifted from a single pathogen-host framework toward a multifactorial host-microbiota-environment framework. This transition, captured by the pathobiome concept, redirects attention from individual pathogens to the broader biological networks that condition disease establishment, progression, and outcome [1].In plants, disease can therefore be considered within a microbiota-aware framework in which pathogen success is shaped by host genotype, environment, and surrounding microbial consortia, including their ecological reassembly during infection.Within this broader context, host susceptibility factors are important because they can influence pathogen fitness as well as the infection-prone physiological state of the host.TaNSUN2 as a host factor co-opted by Chinese wheat mosaic virus (CWMV), and show that weakening this dependency enhances antiviral resistance while improving yieldrelated traits [2]. The study motivates two linked questions: how does CWMV redirect TaNSUN2 to control viral RNA fate, and can homoeolog-specific perturbation reduce this dependency without imposing a productivity penalty? The working hypothesis developed here is that a discrete TaeEF1A-TaNSUN2 recruitment module, rather than the entirety of TaNSUN2 function, constitutes a tractable susceptibility node. From a pathobiome-aware perspective, this is a virus-exploited epitranscriptomic hostdependency module; however, the study does not directly demonstrate restructuring of the wider pathobiome.CWMV is a soil-borne, bipartite positive-sense RNA furovirus that infects wheat and is transmitted to roots by the obligate plasmodiophorid Polymyxa graminis [3]. Infection produces chlorotic mosaic symptoms and stunting in winter wheat, while long-lived vector resting spores make eradication from infested soil difficult. Resistant cultivars therefore remain the most practical management option, which gives particular agricultural relevance to host susceptibility factors that can be modified without compromising yield.RNA modifications are central post-transcriptional regulators of RNA metabolism and gene expression in eukaryotes [4]. Among them, m5C influences RNA stability, export, translation, and stress adaptation [5; 6]. Chemically, m5C is installed by S-adenosyl-Lmethionine-dependent RNA cytosine-5 methyltransferases through a conserved catalytic cysteine and a covalent enzyme-RNA intermediate [5; 6]. In mammals, NSUN2 is a major mRNA m5C writer, whereas ALYREF and YBX1 recognize or bind m5C-modified transcripts to regulate export and stability [7; 8]. In plants, transcriptome-wide analyses have detected m5C in coding and noncoding RNAs and linked it to development and environmental responses. In Arabidopsis, TRM4B functions as an RNA m5C writer; trm4b mutants show reduced m5C, altered stability of target transcripts, and root-development defects [9]. In rice, OsNSUN2 maintains mRNA m5C methylation and supports growth under elevated temperature [10]. Plant m5C readers and erasers remain less completely defined, and it was unclear whether a virus could redirect a host m5C writer to viral RNA and whether such exploitation could be disrupted without an agronomic penalty.Plant-virus epitranscriptomics has so far been shaped largely by studies of N6methyladenosine (m6A), which can have opposing effects in different virus-host combinations. In Arabidopsis, the m6A demethylase ALKBH9B promotes alfalfa mosaic virus infection and vascular movement [11; 12], whereas YTH-domain ECT proteins recognize m6A-marked viral RNA and contribute to antiviral restriction [13].In wheat, TaHAKAI has context-dependent functions during wheat yellow mosaic virus infection: its m6A-writer activity can favor viral RNA accumulation, while its E3-ligase activity promotes degradation of a viral silencing suppressor and is linked to favorable spike traits [14]. Recent tomato profiling further showed that tomato spotted wilt virus reshapes the host m5C landscape and that SlTRM4B stabilizes defense-related host transcripts [15]. These comparisons underscore that the outcome of an RNA modification depends on the modified substrate, the reader or effector recruited, and the viral context. The TaNSUN2 study is distinctive because it directly links m5C deposition on viral RNA with homoeolog-specific functional differentiation and favorable agronomic consequences.Jiang et al. address this unresolved m5C question directly. CWMV does not appear to recruit TaNSUN2 on its own; instead, it co-opts the host translation elongation factor TaeEF1A, which recruits TaNSUN2 to viral replication complexes (VRCs). Within VRCs, TaNSUN2 deposits m5C on viral RNAs, increasing RNA stability and translational efficiency. m5C deposition in the viral 3′ untranslated region has two complementary effects: it strengthens the association of TaeEF1A with viral RNA to support replication and enhances coat-protein binding to promote virion assembly. Thus, CWMV repurposes host m5C machinery at multiple stages of infection, providing a direct example of viral exploitation of an epitranscriptomic regulator.A particularly important aspect of the study is that resistance arises by weakening a defined host-virus molecular interface rather than by eliminating all TaNSUN2 activity. Natural allelic variation in TaNSUN2 reduces its affinity for TaeEF1A, thereby limiting recruitment to viral replication complexes and attenuating proviral activity without broadly disrupting host RNA metabolism. This distinction matters because resistance may be achieved not only by knocking out susceptibility genes, but also by selectively disrupting the pathogen-dependent interaction while preserving endogenous functions. This principle aligns with a broader trend in plant disease biology: host dependency often resides in discrete molecular interfaces rather than in the entirety of a host protein's physiological role. The susceptibility-gene framework likewise emphasizes that loss or modification of host compatibility factors can provide resistance, while pleiotropic effects must be evaluated case by case [16; 17]. TaNSUN2 is therefore especially relevant to breeding because naturally occurring or engineered variants could preserve core endogenous functions while diminishing pathogen exploitation. A related principle is illustrated by the Rice grassy stunt virus (RGSV) P3-D14/SL pathway, in which infection depends on a specific interaction with a host hormone receptor to hijack strigolactone signaling and suppress antiviral RNA interference [18]. Precise modification of this interaction interface can confer robust resistance without substantial growth or yield penalties.Particularly noteworthy is the agronomic outcome of perturbing TaNSUN2. Jiang et al.report that knockout of TaNSUN2-5A markedly enhances CWMV resistance, increases thousand-grain weight by approximately 5.9 g, improves grain length and width, and raises yield per plant by more than 14%. Under the genetic background and conditions examined, enhanced antiviral resistance therefore did not require a detectable productivity trade-off. This result supports a cautious interpretation: TaNSUN2-5A is a promising route for combining resistance with favorable yield-related traits, although it does not yet establish a general mechanistic uncoupling of susceptibility from productivity.One plausible explanation for this favorable outcome is homoeolog specialization.Because the three TaNSUN2 copies are not functionally equivalent, selective perturbation of TaNSUN2-5A may strengthen antiviral defense while the other copies retain essential endogenous functions. Polyploid redundancy therefore becomes an opportunity for allele-specific or copy-specific intervention rather than only an obstacle to genotype-phenotype analysis. Such subfunctionalization could buffer developmental costs and permit finer adjustment than would be possible in a single-copy system.Nevertheless, the causal contribution of homoeolog specialization to the favorable yield phenotype remains to be resolved.Viewed in this way, the study does more than identify a susceptibility factor. It offers a potential route toward precision breeding in which resistance is combined with preserved or improved yield. This favorable combination makes TaNSUN2 relevant beyond the immediate wheat-CWMV system. Nevertheless, broader applicability will require direct testing across additional viruses, wheat backgrounds, and environmental conditions.Within a pathobiome-aware framework, host regulators that alter both pathogen fitness and host physiology can be considered candidate nodes of disease compatibility, although such network-level effects have not been demonstrated for TaNSUN2. This framing is relevant in wheat because the three TaNSUN2 homoeologs are not equivalent: TaNSUN2-5A is preferentially associated with the viral response, whereas TaNSUN2-5B appears more closely linked to root development. TaNSUN2 may therefore be viewed as a dosage-sensitive regulatory node at the intersection of epitranscriptomic control, polyploid genome organization, and disease compatibility. Targeting one homoeolog could potentially shift viral compatibility while other copies maintain the broader developmental program. This remains a hypothesis-generating interpretation and should not be taken as evidence that TaNSUN2 remodels rhizosphere or phyllosphere communities.Parallel evidence from tropical polyploid and clonally propagated crops supports the broader breeding logic. Cultivated banana germplasm arose through hybridization and polyploidization and is characterized by high heterozygosity, clonal propagation, and reduced fertility, all of which complicate conventional resistance breeding [19].Nevertheless, susceptibility-focused genome editing has proved effective: editing the banana DMR6 orthologue enhanced resistance to bacterial disease [20], and targeted knockout of MusaENODL3 increased resistance to Xanthomonas wilt [21]. These studies do not identify TaNSUN2-like epitranscriptomic regulators, but they show that host-encoded vulnerability nodes can be reconfigured in genetically complex crops.The comparison therefore concerns a shared breeding logic, not a shared TaNSUN2 pathway.A related pattern is emerging in sugarcane, another highly polyploid crop in which conventional breeding is constrained by genome complexity and redundancy [22].Recent studies identify actionable host-side targets, including the negative regulators ScWRKY2 and ScCAX4 [23; 24], and virus-exploited host factors such as ScHSP17.5 and ScHSP17.9A, which facilitate sugarcane mosaic virus replication [25]. Together, these findings suggest that crop improvement in complex genomes may benefit from identifying and weakening recurrent host dependencies. In this context, TaNSUN2 should be viewed as a candidate host-dependency node whose possible pathobiomelevel relevance remains a testable hypothesis.",
-      "relevance": 0.66196954,
+      "relevance": 1.2784878,
       "hits": [
         "stress combination plant rhizosphere"
       ],
       "window_days": 60,
       "score": 9.51,
       "published": "2026-08-31",
-      "age_days": 28,
+      "age_days": 34,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.3389/fmicb.2026.1874667"
-    },
-    {
-      "doi": "10.1016/j.apsoil.2026.107347",
-      "title": "Rhizosphere microbiome and plant growth-promoting bacteria isolates enhance salinity tolerance in Brassicaceae species",
-      "journal": "Applied Soil Ecology",
-      "authors": [
-        "Glòria Escolà",
-        "Anita Bollmann-Giolai",
-        "Ginevra Bellegrandi",
-        "Michael Giolai",
-        "Jacob Malone",
-        "Levi Yant",
-        "Charlotte Poschenrieder",
-        "Silvia Busoms",
-        "Eliana Bianucci"
-      ],
-      "abstract": "Soil salinity is a major abiotic stress limiting agricultural productivity worldwide. Plants from coastal environments often develop adaptive strategies, including beneficial interactions with microbial partners, to tolerate high salinity. We investigated this potential by studying inland and coastal populations of Brassica fruticulosa with contrasting salinity tolerance. We characterized the microbiomes of salt-tolerant (PST) and salt-sensitive (PSS) populations from the bulk soil, rhizosphere, roots, and leaves, revealing distinct microbial communities associated with salinity tolerance. Reciprocal transplant experiments using rhizospheric microbiomes from salt-tolerant (MST) and salt-sensitive (MSS) populations demonstrated that MST inoculation improved growth, nutritional status, and reduced oxidative stress in PSS plants under high salinity. More than 100 bacterial strains were isolated from MST, 26 of which thrived at 150 mM NaCl and exhibited traits such as phosphate solubilization and siderophore production. These strains were further screened for nitrogen fixation, auxin (IAA) production, and ACC deaminase activity under increasing salinity, revealing strain-dependent variation in plant growth-promoting activity. Three strains, T7 and R52 (both Pantoea sp.) and R60 (Pseudomonas sp.), maintained robust growth-promoting traits under salt stress and were further assessed for motility, biofilm formation, and root adhesion. Inoculation of Sinapis alba plants with these strains enhanced biomass and altered root morphology, although ionomic analyses revealed no major changes in nutrient accumulation. A fitness assay comparing T7, R60, and their consortium demonstrated that T7 conferred the greatest improvement in plant performance, highlighting its potential as a bioinoculant for enhancing crop resilience in saline environments.",
-      "relevance": 27.696194,
-      "hits": [
-        "soil microbiome transplant plant performance"
-      ],
-      "window_days": 60,
-      "score": 8.78,
-      "published": "2026-10-01",
-      "age_days": -3,
-      "crossref_type": "journal-article",
-      "doi_url": "https://doi.org/10.1016/j.apsoil.2026.107347"
     },
     {
       "doi": "10.1016/j.plaphy.2026.111626",
@@ -150,14 +73,14 @@
         "Ram Prasad"
       ],
       "abstract": "Climate change-induced stresses, including drought, heat, and salinity, are increasingly constraining wheat productivity globally and pose a significant threat to global food security. Although beneficial rhizosphere microorganisms are known to enhance wheat stress tolerance, the mechanisms underlying wheat-microbiome interactions under climate-stress conditions remain poorly understood. This review highlights that wheat actively recruits and reshapes stress-resilient microbial communities, particularly members of Bacillus and Pseudomonas, which promote stress adaptation by regulating reactive oxygen species (ROS), phytohormone homeostasis, nutrient acquisition, and stress-responsive signalling pathways. Furthermore, wheat domestication has altered plant-microbe interactions, resulting in substantial differences in microbiome composition and functional potential between modern cultivars and their wild relatives. The wheat rhizosphere is a dynamic ecological interface where roots interact with diverse microbial communities that influence plant growth, nutrient cycling, and resilience to environmental stresses. This review synthesizes current knowledge on the effects of climate change on wheat physiology, growth, and rhizosphere microbiome composition, while examining how soil physicochemical properties shape microbial assembly and function. Particular emphasis is placed on the mechanisms by which beneficial microorganisms alleviate abiotic stress, including modification of root system architecture, antioxidant regulation, indole-3-acetic acid (IAA) production, osmolyte accumulation, nutrient mobilization, and mitigation of stress-induced ethylene through ACC deaminase activity. We also discuss plant-microbe communication networks mediated by root exudates, microbial signalling molecules, and hormonal crosstalk that govern microbial recruitment, colonization, and establishment within the rhizosphere. Recent advances in genomics, transcriptomics, proteomics, metabolomics, and integrated multi-omics approaches have revealed that wheat dynamically restructures its microbiome in response to environmental stress, with host genotype serving as a key determinant of microbial community composition and function. By integrating evidence on soil properties, microbial functional traits, rhizosphere community dynamics, and wheat stress adaptation, this review provides a comprehensive framework for understanding microbiome-mediated stress resilience. Despite considerable progress, significant knowledge gaps remain regarding microbial community stability, functional redundancy, and the long-term field performance of microbial consortia across locations, seasons, and combined stress scenarios. Addressing these challenges through the integration of multi-omics technologies, microbiome-assisted breeding, synthetic microbial consortia, and climate-smart management strategies will be essential for developing resilient and sustainable wheat production systems under changing climatic conditions.",
-      "relevance": 6.281417,
+      "relevance": 12.813509,
       "hits": [
         "rhizosphere microbiome drought root exudate"
       ],
       "window_days": 60,
-      "score": 8.56,
+      "score": 8.63,
       "published": "2026-09-01",
-      "age_days": 27,
+      "age_days": 33,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.1016/j.plaphy.2026.111626"
     },
@@ -176,14 +99,14 @@
         "Waqar Ahmed"
       ],
       "abstract": "Agricultural sustainability increasingly depends on optimizing the rhizosphere nexus, where plants, soil, and microorganisms interact to regulate nutrient cycling, stress resilience, and soil health. Traditional approaches favour single-strain inoculants, which frequently fail under field conditions owing to poor persistence, strong context dependency, and limited functional scope. This review critiques the limitations of reductionist inoculation paradigms and advances a shift toward engineering the rhizosphere by integrating plant traits, soil physicochemical constraints, and microbial functional diversity. We examined the fundamental tripartite interaction, emphasizing root architecture and exudation as heritable chemical blueprints that filter microbial recruitment, while soil properties serve as environmental constraints that govern microbial persistence and functional expression. Particular emphasis was placed on molecular communication networks, including cross-kingdom signalling among plants, bacteria, and fungi, and on how conventional agricultural inputs may disrupt these coordination processes. Beyond nutrient availability, we examined how microbial communities regulate the timing of macronutrient (N, P) and essential micronutrient (Fe, Mn, Zn) availability, and critically assessed the context-dependent trade-offs of arbuscular mycorrhizal fungi (AMF) under intensive management. The review further evaluates the role of the rhizosphere microbiome in enhancing resilience to abiotic stresses, such as drought, salinity, and heat, and in suppressing biotic stresses through induced systemic resistance and the development of disease-suppressive soils. Furthermore, we have highlighted emerging strategies for rhizosphere engineering, including microbiome-enabled breeding, synthetic microbial consortia, agronomic steering, and precision microbiome management. By integrating mechanistic insights with digital agriculture, metagenomics, and data-driven decision frameworks, this review reframes the farm as a dynamically regulated ecological system rather than a site for substituting chemical inputs, offering a pathway toward a more predictable and sustainable agricultural ecosystem.",
-      "relevance": 1.913446,
+      "relevance": 3.7709727,
       "hits": [
         "root exudation drought bacteria"
       ],
       "window_days": 60,
-      "score": 8.52,
+      "score": 8.54,
       "published": "2026-09-01",
-      "age_days": 27,
+      "age_days": 33,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.1016/j.indcrop.2026.124090"
     },
@@ -196,15 +119,15 @@
         "F. Camelia Oroian"
       ],
       "abstract": "This mini-review examines the role of rhizosphere microbiomes associated with cereal crops as functional models for extraterrestrial agriculture within closed ecological systems. The rhizosphere microbiome, conceptualized as a plant’s “second genome,” plays a central role in nutrient acquisition, stress resilience, and disease suppression through complex plant–microbe interactions. The review synthesizes current knowledge on microbiome assembly, emphasizing the contributions of soil-derived, seed-borne, and host genotype-dependent microbial communities. Particular attention is given to biological nitrogen fixation and other nutrient-mobilizing processes mediated by plant growth-promoting microorganisms, which are critical in environments where synthetic inputs are limited. Furthermore, the paper explores microbiome-mediated mechanisms of abiotic stress tolerance, including hormonal regulation and metabolic adaptation under extreme conditions. Advances in microbiome engineering - such as synthetic microbial consortia, host-mediated selection, and microbiome transplantation - are discussed as strategies to enhance plant productivity in controlled and resource-constrained environments, including space-based greenhouses. Finally, key translational challenges are identified, including context-dependent inoculant performance, ecological compatibility, and the gap between laboratory findings and field application. The review highlights the necessity of integrating multi-omics approaches, precision breeding, and genome editing technologies to fully exploit microbiome-assisted agriculture for sustainable extraterrestrial food production.",
-      "relevance": 6.2155037,
+      "relevance": 12.843658,
       "hits": [
         "host-mediated microbiome selection",
         "soil microbiome transplant plant performance"
       ],
       "window_days": 60,
-      "score": 8.06,
+      "score": 8.13,
       "published": "2026-08-07",
-      "age_days": 52,
+      "age_days": 58,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.67784/0041"
     },
@@ -220,15 +143,15 @@
         "Choufei Wu"
       ],
       "abstract": "Declining soil health and soil-borne diseases threaten sustainable crop production, while single-strain inoculants often perform inconsistently in the field due to poor establishment, limited persistence, and narrow functional capacity within resident microbiomes. Synthetic microbial communities (SynComs), assembled from defined and functionally characterized microorganisms, offer a tractable strategy to improve plant growth and suppress disease through complementary and redundant functions. This review critically examines recent advances in plant-associated SynComs, emphasizing rational design over empirical strain mixing. We compare construction strategies based on core microbiome mining, trait-based screening, microbial interaction networks, host and niche adaptation, and multi-omics- or model-guided assembly. Available available evidence suggests that no single SynCom construction strategy is universally superior; rather, robust design requires an integrated, context-specific approach combining host- or core-microbiome-guided candidate selection, trait validation, interaction-informed assembly, and model-guided optimization. We synthesize direct and plant-mediated mechanisms, including nutrient mobilization, phytohormone modulation, stress alleviation, niche pre-emption, resource competition, antibiosis, rhizosphere restructuring, and immune priming. Evidence from representative crop-pathogen systems is evaluated based on mechanistic support, community stability, and validation under non-sterile greenhouse and field conditions. Major barriers to deployment include context-dependent efficacy, instability of community composition and function, formulation and delivery constraints, quality control, ecological safety, and regulatory uncertainty. We propose a design-to-deployment framework linking community assembly with ecological validation, formulation engineering, and multi-environment testing, providing a plant-centered roadmap for developing reliable SynCom-based biofertilizers as well as biocontrol products.",
-      "relevance": 2.0654583,
+      "relevance": 4.208303,
       "hits": [
         "host-mediated microbiome selection",
         "plant competition rhizosphere microbiome assembly"
       ],
       "window_days": 60,
-      "score": 8.02,
+      "score": 8.04,
       "published": "2026-09-18",
-      "age_days": 10,
+      "age_days": 16,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.3389/fmicb.2026.1942488"
     },
@@ -243,14 +166,14 @@
         "Zhibiao Nan"
       ],
       "abstract": "ABSTRACT Drought stress threatens the ecological functions and economic value of grasses, posing a major challenge to their sustainable production. Plants co‐evolve with rhizosphere microbial communities, sometimes described as the plant's second genome, that can contribute to drought adaptation. Drought alters root architecture, hormonal and redox regulation and belowground carbon allocation, thereby modifying the quantity and composition of root exudation and reshaping the rhizosphere environment. This review uses the rhizosphere dialogue as an integrative framework to link these plant responses with microbial recruitment and subsequent feedback to the host. We summarise three linked stages of this dialogue: drought‐induced changes in root exudation; microbial recruitment and colonisation through chemotaxis, attachment, biofilm formation, and root colonisation; and microbiome‐mediated feedback that improves plant water relations, hormonal and redox homoeostasis, nutrient acquisition, and root function. We highlight microbial extracellular polymeric substances, 1‐aminocyclopropane‐1‐carboxylate deaminase, and microbial volatile organic compounds as key mediators of drought alleviation. We then discuss how this framework may inform rational synthetic microbial community (SynCom) design, microbiome‐informed breeding, artificial intelligence and machine‐learning assisted strain prioritisation, rhizosphere legacy effects, and real‐time monitoring. Future work should distinguish active exudate‐mediated recruitment from drought‐driven environmental filtering and integrate multi‐omics, plant genetics, functional validation, and multi‐location field trials to determine whether rhizosphere dialogue can become a predictive framework for climate‐resilient grass production.",
-      "relevance": 17.027548,
+      "relevance": 34.530415,
       "hits": [
         "rhizosphere microbiome drought root exudate"
       ],
       "window_days": 60,
-      "score": 7.67,
+      "score": 7.85,
       "published": "2026-09-13",
-      "age_days": 15,
+      "age_days": 21,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.1111/pce.70876"
     },
@@ -269,40 +192,16 @@
         "Guangcun Li"
       ],
       "abstract": "Soil salinization is increasing globally, causing yield losses, especially in irrigated agriculture. Rhizosphere microorganisms can improve plant salt tolerance, but evidence in potato remains limited. In this study, rhizosphere microbial community diversity and structure differed markedly between salt-tolerant and salt-sensitive potato under saline and non-saline conditions. Under field salinity, salt-tolerant genotypes retained more network-associated rhizosphere taxa, particularly Pseudomonadota members, and showed enrichment of Pseudomonas . From tolerant rhizospheres, Pseudomonas aeruginosa BK43, a salt-tolerant, growth-promoting strain, was isolated. In sterilized saline field soil, the salt-tolerant phenotype was abolished in the absence of microbial inoculation, while introduction of BK43 significantly restored growth (plant height ~10.8 to ~16.3 cm; leaf area ~16 to ~80 cm 2 ), demonstrating a direct microbial contribution to salt tolerance. In non-sterilized saline soil, enrichment of this bacterium accelerated early post-emergence growth of tolerant plants without affecting seedling emergence. Salt tolerance was also conferred to an otherwise sensitive genotype following pre-colonization with BK43, with root lipid peroxidation reduced by ~43% and higher chlorophyll content under salt stress. Multi-omics analyses linked BK43-mediated protection to basal activation of host defense and metabolic pathways under non-stress conditions and salt-amplified phenylpropanoid, redox-related, and stress-signaling responses after salt exposure.",
-      "relevance": 6.9648266,
+      "relevance": 14.157104,
       "hits": [
         "sterilized soil microbiome inoculation plant growth"
       ],
       "window_days": 60,
-      "score": 7.57,
+      "score": 7.64,
       "published": "2026-09-22",
-      "age_days": 6,
+      "age_days": 12,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.1038/s41522-026-01150-0"
-    },
-    {
-      "doi": "10.1016/j.insi.2026.100646",
-      "title": "A comparative analysis of urinary microbiome identifies marker bacteria",
-      "journal": "In Silico Research in Biomedicine",
-      "authors": [
-        "Riya Anand",
-        "Rishav Sahil",
-        "Rakesh Pandey",
-        "Pradyot Prakash",
-        "Hari Sharan Misra",
-        "Ganesh Kumar Maurya"
-      ],
-      "abstract": "Urinary tract infections (UTIs) are the most prevalent bacterial infections globally, and their management increasingly challenged by antimicrobial resistance (AMR). Probiotics offer a promising approach to mitigate AMR by competitively excluding uropathogens and enhancing host immunity by producing immune modulators. Despite their therapeutic potential, key gaps persist between the discovery of uroprotective probiotic strains and optimization of formulations for urinary tract delivery. Here, we analyzed the urinary microbiome of UTI patients and healthy individuals to identify potential probiotic candidates for the prevention and management of UTIs. Publicly available 16S rRNA amplicon sequencing data of the urinary tract were processed using a standardized pipeline for sequence quality assessment, taxonomic assignment, and microbial function prediction. Comparative analysis showed a significant difference in microbial composition between UTI patients and healthy controls. The dominated phyla included Acidobacteriota, Actinomycetota, Bacteroidota, Campylobacterota, Cyanobacteria, Bacillota, Fusobacteriota, Patescibacteria, Proteobacteria, and Synergistota. Overall differential abundance analysis revealed Escherichia coli as the predominant UTI-associated species, while Lactobacillus crispatus was enriched in healthy samples. Additionally, the plant-associated taxa including Bradyrhizobium diazoefficiens, and Methylobacterium spp has been identified differentially abundant in healthy control, whereas Rhodanobacter glycinis identified differentially abundant in UTI condition. Furthermore, predictive functional analysis indicated that metabolic pathways associated with beneficial microbes were enriched in the healthy group. Overall, the association of distinct urinary microbiome signatures with infection status, supports the consistent association of L. crispatus with healthy urinary microbiomes and represents a candidate for future probiotic evaluation. Also, there is a need of investigation of plant-associated bacterial taxa detected in urinary microbiome are required.",
-      "relevance": 7.1861587,
-      "hits": [
-        "compositional data analysis microbiome amplicon"
-      ],
-      "window_days": 60,
-      "score": 7.57,
-      "published": "2026-09-01",
-      "age_days": 27,
-      "crossref_type": "journal-article",
-      "doi_url": "https://doi.org/10.1016/j.insi.2026.100646"
     },
     {
       "doi": "10.3389/fpls.2026.1839892",
@@ -313,14 +212,14 @@
         "İnanç Özgen"
       ],
       "abstract": "Abiotic stresses such as drought and salinity represent major constraints to global crop productivity, necessitating innovative strategies for enhancing plant resilience. As a critical regulator of root system architecture, auxin (specifically indole-3-acetic acid (IAA)) functions as a vital cross-kingdom signaling molecule that mediates dynamic interactions between plants and auxin-synthesizing rhizosphere microorganisms. This review explores the role of auxin as a cross-kingdom signaling molecule mediating interactions between plants and the rhizosphere microbiome. Auxin-producing plant growth-promoting rhizobacteria (PGPR) such as Pseudomonas , Bacillus , and Azospirillum can modify root system architecture by stimulating lateral root formation, root hair development, and root elongation. These structural changes enhance soil exploration, improving water and nutrient acquisition under stress conditions. In addition, root exudates released by plants recruit beneficial microbial communities, establishing a feedback loop that stabilizes plant–microbe interactions in the rhizosphere. While previous studies have largely treated plant hormonal signaling and rhizosphere ecology as separate domains, this review bridges these silos by proposing the Auxin–Rhizomicrobiome–Root Architecture (ARRA) model; an integrative framework demonstrating how microbial hormone production and plant signaling networks jointly program adaptive root traits under climate stress. Ultimately, the ARRA framework provides a conceptual and practical blueprint for deploying auxin-producing bioinoculants and engineered rhizomicrobiome consortia, offering a scalable strategy to enhance crop resilience and sustainable food security under accelerating climate scenarios.",
-      "relevance": 5.9589334,
+      "relevance": 12.001366,
       "hits": [
         "rhizosphere microbiome drought root exudate"
       ],
       "window_days": 60,
-      "score": 7.56,
+      "score": 7.62,
       "published": "2026-09-15",
-      "age_days": 13,
+      "age_days": 19,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.3389/fpls.2026.1839892"
     },
@@ -341,14 +240,14 @@
         "Xiaoshan Wang"
       ],
       "abstract": "Plants harbor complex microbial communities that play fundamental roles in nutrient acquisition, stress tolerance, and disease resistance. Current evidence indicates that plant immunity influences microbiome assembly through context-dependent microbial filtering rather than deterministic recruitment of beneficial taxa. Pattern-triggered immunity, phytohormone signaling, reactive oxygen species, and defense-associated metabolites alter microbial colonization and community structure, whereas direct evidence for effector-triggered immunity as a major regulator of microbiome assembly remains limited. Immune-driven changes in root exudation provide a key mechanistic link between host defense, nutrient status, and microbial selection, although resulting communities also depend strongly on the environmental species pool, microbial competition, priority effects, plant genotype, developmental stage, and abiotic stress. In the reciprocal direction, beneficial microorganisms enhance plant defense through induced systemic resistance, immune priming, bioactive metabolites, and community-level pathogen suppression. Evidence is strongest for root-associated systems and rhizobacteria-mediated resistance, while mechanisms operating in the phyllosphere, endosphere, and field-grown crops remain less resolved. Multi-omics, synthetic microbial communities, spatial imaging, and computational approaches are increasingly enabling causal and spatially resolved analyses; however, simplified experimental systems often incompletely represent the ecological complexity of agricultural soils. Collectively, available studies support an immunity–metabolism–microbiome framework in which host signaling and microbial ecological processes jointly determine community stability and plant adaptation. Translational application will require crop- and stress-specific validation, improved persistence of introduced microorganisms, and strategies that account for native microbiome competition and environmental variability.",
-      "relevance": 5.6192694,
+      "relevance": 11.543659,
       "hits": [
         "host-mediated microbiome selection"
       ],
       "window_days": 60,
-      "score": 7.56,
+      "score": 7.62,
       "published": "2026-09-01",
-      "age_days": 27,
+      "age_days": 33,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.1016/j.stress.2026.101531"
     },
@@ -372,14 +271,14 @@
         "Jarone Pinhassi"
       ],
       "abstract": "Abstract Marine microbiomes exhibit seasonal dynamics in many ocean regions. While we can characterize the biodiversity and composition of ocean microbiomes, we lack a systematic understanding of how environmental drivers shape the seasonal succession of marine microbes. To leverage the pronounced temporal changes in growth conditions in the temperate waters of the Baltic Sea, we here report on dynamics in the prokaryoplankton community over 13 years at the Linnaeus Microbial Observatory (LMO), focusing on both free-living (FL; 0.2–3 μm fraction) and particle-associated (PA; >3 μm fraction) prokaryotes. As expected, our analysis showed a higher diversity in the PA compared to the FL fraction and that the grand majority of 16S rRNA gene amplicon sequence variants (ASVs) were consistently rare. Yet, to an unexpected degree also a majority of the abundant ASVs transitioned into the rare biosphere over extended periods of the year. Prokaryotes in both the PA and FL fractions showed pronounced seasonal dynamics, with notable differences between the fractions from phylum down to the ASV level. Abundant ASVs were strongly correlated to several environmental drivers, including nutrient concentrations, salinity and temperature. Intriguingly, at comparable temperatures in spring and autumn (e.g. at 12 °C), the community composition was strikingly different. This highlighted that specific temperature values per se are informative, but that the trajectories of change in temperature and other environmental drivers (low to high, high to low) merit attention in ecological research. Our data suggest that the community composition of prokaryoplankton in temperate regions strongly depend on factors beyond temperature and photoperiod values, including the history of the community, the direction of environmental change, and qualitative and quantitative levels of (in)organic nutrients, as well as biotic interactions.",
-      "relevance": 4.8625627,
+      "relevance": 9.89039,
       "hits": [
         "compositional data analysis microbiome amplicon"
       ],
       "window_days": 60,
-      "score": 7.55,
+      "score": 7.6,
       "published": "2026-09-24",
-      "age_days": 4,
+      "age_days": 10,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.1186/s44375-026-00011-7"
     },
@@ -400,16 +299,39 @@
         "Jiayin Pang"
       ],
       "abstract": "Abstract Background and aims Low soil silicon (Si) availability may restrict crop silicification and its associated benefits for resistance to environmental stress. Cereal–legume intercropping offers a potential strategy to enhance soil Si mobility through the release of Si-mobilizing root exudates by legumes, particularly carboxylates. However, direct evidence supporting this mechanism remains limited. Methods In a glasshouse pot experiment, wheat ( Triticum aestivum ) was grown either as two individuals per pot or in combination with one chickpea ( Cicer arietinum ) individual. To test whether chickpea root exudates could mobilize soil Si and increase wheat Si concentrations ([Si]), 20 chickpea accessions with different patterns of carboxylate release were used. Intraspecific variation in [Si] among the 20 chickpea accessions was also quantified. Results Wheat grown together with chickpea showed higher leaf [Si] and Si content than wheat grown either alone or with another wheat plant in the same pot. Rhizosheath carboxylate concentrations were also greater in wheat-chickpea than in wheat-wheat combinations. However, wheat leaf [Si] was only marginally correlated with rhizosheath carboxylates and showed no correlation with chickpea leaf [Mn], used here as a proxy for root carboxylate release. In contrast, wheat leaf [Si] was positively correlated with wheat leaf [Mn]. Chickpea leaf [Si] also varied significantly among accessions. Conclusion Our study shows that chickpea promoted Si uptake in wheat. This effect may be partly related to chickpea-induced changes in rhizosphere processes, including carboxylate release, which could enhance the mobilization of poorly-available soil Si; however, further studies are needed to confirm this mechanism and to assess the contribution of other potential mechanisms. The significant variation in chickpea foliar [Si] among accessions also revealed previously overlooked diversity in silicification within this crop. These findings highlight the potential of crop interactions and agricultural management practices to enhance crop silicification, with possible benefits for stress resilience and yield.",
-      "relevance": 1.5143785,
+      "relevance": 2.9838502,
       "hits": [
         "stress combination plant rhizosphere"
       ],
       "window_days": 60,
-      "score": 7.52,
+      "score": 7.53,
       "published": "2026-09-11",
-      "age_days": 17,
+      "age_days": 23,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.1007/s11104-026-09070-w"
+    },
+    {
+      "doi": "10.1111/pce.70901",
+      "title": "Rhizosphere Microbiome‐Mediated Drought Resilience in Cereals: Implications for Grain Nutrition, Yield, and Tolerance",
+      "journal": "Plant, Cell & Environment",
+      "authors": [
+        "Muhammad Saeed",
+        "Xizhi Huang",
+        "Ghazala Mustafa",
+        "Ming Li",
+        "Pingfang Yang"
+      ],
+      "abstract": "ABSTRACT Drought‐mediated declines in grain nutritional quality and cereal yield put global food security at risk, yet the rhizosphere microbiome provides an alternative solution for improving crop tolerance. Our review synthesised existing knowledge on how soil microbiomes, particularly arbuscular mycorrhizal fungi (AMF) and plant‐growth‐promoting rhizobacteria (PGPR), simultaneously regulate three interlinked pillars of crop performance (stress tolerance, grain nutrient uptake, and yield) under drought. Our in‐depth analysis showed that such relationships were governed by synergies (improved root architecture improves all three traits) and trade‐offs (i.e., ABA‐induced stomatal closure improves water efficiency but restricts carbon assimilation). Furthermore, these relationships were governed at different biological layers through multi‐omics (metagenomics, transcriptomics, proteomics, and metabolomics) to identify biomarkers and pathways. With the application of an integrated framework through bioinformatics, it is now possible to reveal the hidden molecular layout between cereals and their underground partners, identify drought‐responsive pathways, and discover biomarkers (nutrient transporter gene, microbial abundance, osmolyte accumulation, and root exudates). Despite advancements, critical technical gaps hinder data integration and standardised pipelines to identify complex traits through heterogeneous databases of omics. Our review proposes an integrated framework linking multi‐omics tools, microbiome traits, and crop outcomes. Furthermore, we provide a research roadmap prioritising drought biofortification, synthetic communities (SynComs), microbial consortia, and spatial omics. Such research directly supports hidden hunger and food security agendas, while progressing climate‐resilient agriculture.",
+      "relevance": 26.57243,
+      "hits": [
+        "rhizosphere microbiome drought root exudate"
+      ],
+      "window_days": 60,
+      "score": 6.77,
+      "published": "2026-09-28",
+      "age_days": 6,
+      "crossref_type": "journal-article",
+      "doi_url": "https://doi.org/10.1111/pce.70901"
     },
     {
       "doi": "10.1016/j.scienta.2026.115146",
@@ -426,14 +348,14 @@
         "Lei Li"
       ],
       "abstract": "Climate change has increased drought frequency in Loess Plateau apple-producing regions. Vermicompost (Vc) and Piriformospora indica (Pi) have been reported to improve plant drought resistance. However, the effects of their combined application on apple growth, soil environment and soil microbial community under drought remains unexplored. Here, we investigated these effects through a 90 days pot experiment with four treatments (control, Vc, Pi, Pi+Vc) under well-watered (WW) and drought stress (DS). The results indicated DS inhibited plant growth and nutrient uptake, and also increased the levels of H 2 O 2 and MDA. However, Pi+Vc treatment significantly increased relative growth rate (RGR), and enhanced antioxidant enzyme activities and nutrient absorption under DS, but did not significantly affect biomass accumulation. Vc and Pi+Vc improved soil nutrients and enzyme activities under both WW and DS, whereas Pi alone showed no significant benefit. Although the treatments differentially affected bacterial and fungal diversity, the co-application of Pi and Vc enhanced microbial diversity under DS. Individual or combined Pi and Vc altered the structure and composition of microbial communities, and increased microbial co-occurrence network modularity. PLS-SEM analysis further demonstrated that the co-application of Pi and Vc promote the plant growth were closely related to bacterial community restructuring under DS. Collectively, this study suggests that combined Pi and Vc application hold potential for improving apple seedling drought tolerance, providing a foundation for future field-based validation on the Loess Plateau.",
-      "relevance": 6.7412224,
+      "relevance": 13.536924,
       "hits": [
         "soil water potential microbial drought pot experiment"
       ],
       "window_days": 60,
-      "score": 6.57,
+      "score": 6.64,
       "published": "2026-09-01",
-      "age_days": 27,
+      "age_days": 33,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.1016/j.scienta.2026.115146"
     },
@@ -451,38 +373,61 @@
         "Maria Cristina Verdenelli"
       ],
       "abstract": "Acne vulgaris is a highly prevalent inflammatory skin condition involving the interaction between skin microbes and host immunity, which lead with the changes in composition and activities of the skin microbiota disturbing its homeostasis. Several probiotic strains have been tested for their anti-pathogenic activity against the main acne-responsible bacteria, their capacity to contrast pathogenic adhesion to HaCaT cells and the in vitro down-regulation of innate immunity. To investigate whether probiotics have direct effects on the growth of Cutibacterium acnes, Staphyloccoccus aureus, Streptococcus pyogenes and Streptococcus epidermidis, the antimicrobial activity of six probiotics was analyzed by two different methods (modified cross-streak and agar well diffusion). The in vitro blockage of pathogens’ adherence by the probiotic strains to HaCaT cells was also investigated, under three possible mechanisms: exclusion by adhered probiotics, displacement of adhered pathogens and competition for receptor sites. The inflammatory response was evaluated by the Luminex approach, targeting a selection of innate immune markers in the HaCaT cell culture media. All probiotic strains showed anti-pathogenic activity against the pathogens tested. The inhibition result on HaCaT cells highlights a significant (p < 0.05) competition of all probiotics against all pathogens. Each pathogenic strain alone led to an up-regulation of innate immune markers, while restoration of the microbiome diversity by probiotics presence may suppress inflammation via down-regulation of innate immunity. The results suggest that the tested probiotics could prevent colonization of the skin by relevant pathogens through barrier and interference mechanisms (mainly exclusion), suggesting a potential use in the future conventional therapies of skin disorders.",
-      "relevance": 2.681009,
+      "relevance": 5.5125523,
       "hits": [
         "host-mediated microbiome selection"
       ],
       "window_days": 60,
-      "score": 6.53,
+      "score": 6.56,
       "published": "2026-08-10",
-      "age_days": 49,
+      "age_days": 55,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.3390/microorganisms14081754"
     },
     {
-      "doi": "10.1134/s1021443725607372",
-      "title": "Synergistic Effects of Triple Superphosphate, Mycorrhizal Fungi, and Phosphate-Solubilizing Bacteria on Cotton Yield, Fiber Quality, and Stress Tolerance under Variable Water Availability and Plant Density",
-      "journal": "Russian Journal of Plant Physiology",
+      "doi": "10.1002/oik.12312",
+      "title": "Breaking through the dark side: microbial help for invading shady forests",
+      "journal": "Oikos",
       "authors": [
-        "V. Vaziri",
-        "A. Madani",
-        "M. H. Dluie",
-        "M. Taherian"
+        "Víctor M. Escobedo",
+        "Cristian Torres‐Díaz",
+        "Marco A. Molina‐Montenegro"
       ],
-      "abstract": "Abstract A field experiment was conducted to evaluate the synergistic effects of triple superphosphate (TSP), arbuscular mycorrhizal fungi (AMF), and phosphate-solubilizing bacteria (PSB) on cotton growth, phosphorus acquisition, water relations, and yield under two irrigation regimes (full and deficit) and two plant densities (low: 5 plants/m2; high: 10 plants/m2). The triple combination (TSP + AMF + PSB) exhibited pronounced higher-order synergies, increasing lint yield by 26–56% over the control and 6–22% over the best dual treatments across environments. These benefits arose from complementary mechanisms: TSP provided immediate P supply, AMF extended P acquisition through extensive hyphal networks, and PSB mobilized fixed soil P via organic acid secretion and rhizosphere acidification. The triple treatment increased phosphorus uptake (accumulation in biomass) by up to 98% over the control under full irrigation and improved drought tolerance by elevating relative water content (8–11%), water use efficiency (34–42%), antioxidant enzyme activity (superoxide dismutase + 53–54%), and osmoprotectant accumulation (proline + 91–93%). Photosynthetic rate, chlorophyll content, and fiber quality (length + 14–17%, strength + 10–12%) were also significantly improved. Synergistic effects were strongest under full irrigation–low density (favorable conditions) and remained substantial under deficit irrigation–high density, confirming the robustness of integrated P management. Results demonstrate that combining mineral fertilizer with AMF and PSB offers a powerful, sustainable strategy to optimize cotton productivity and resilience in water-limited and high-density systems.",
-      "relevance": 3.1916895,
+      "abstract": "Plant–microbe interactions are increasingly recognised as drivers of plant invasion and adaptation, via their capacity to modulate phenotypic plasticity. Although soil biota and plant–soil feedbacks are well studied in open or disturbed systems, their role in naturally resistant habitats – such as closed‐canopy forest interiors – remains unclear. In such environments, microbial mediation of phenotypic plasticity could help overcome strong abiotic constraints on establishment. We hypothesise that the seed‐borne endomicrobiome would be associated with increased phenotypic plasticity, potentially influencing survival across heterogeneous environments. We tested this hypothesis using the invasive plant Taraxacum officinale across the forest mosaic (core, edge, matrix) of the Maulino Coastal Forest in central Chile, combining field and greenhouse experiments. We characterised the environmental gradient, revealing severe light limitation in forest cores, and transplanted plants with an intact endomicrobiome (E+) and a reduced endomicrobiome (E−) into core, edge, and matrix microsites to assess survival. Further, by growing plants under simulated core and matrix conditions, we quantified phenotypic plasticity for functional traits (height, specific leaf area, and BBX24 gene expression) and performance traits (net CO 2 assimilation rate, biomass and flower production). In the field experiment, E+ plants sustained higher survival in shaded forest cores, whereas E− plants declined sharply. E+ plants showed greater plasticity in functional traits while maintaining stable performance across environments in the greenhouse experiment. Functional‐trait plasticity co‐–varied with field survival across endomicrobiome treatments. Our results show that the endomicrobiome is associated with enhanced functional‐trait plasticity and improved establishment in invasion‐resistant habitats, a microbiome‐informed ‘jack–and–master' strategy. We advocate integrating plant–microbiome interactions into invasion ecology frameworks, particularly where microbial mediation may erode forest biotic resistance.",
+      "relevance": 5.3039985,
       "hits": [
-        "stress combination plant rhizosphere"
+        "soil microbiome transplant plant performance"
       ],
       "window_days": 60,
-      "score": 6.53,
-      "published": "2026-07-30",
-      "age_days": 60,
+      "score": 6.55,
+      "published": "2026-09-30",
+      "age_days": 4,
       "crossref_type": "journal-article",
-      "doi_url": "https://doi.org/10.1134/s1021443725607372"
+      "doi_url": "https://doi.org/10.1002/oik.12312"
+    },
+    {
+      "doi": "10.1016/j.crmicr.2026.100666",
+      "title": "Biases in High Throughput Sequencing Methods Affect Microbial Molecular Ecology Networks and Keystone Taxa Identification in the Cinnamomum migao Rhizosphere and Phyllosphere",
+      "journal": "Current Research in Microbial Sciences",
+      "authors": [
+        "Tao Fu",
+        "Shuang-yan Hu",
+        "Jing-zhong Chen",
+        "Qing-wen Sun",
+        "Xiao-feng Liao",
+        "Xiao-long Huang"
+      ],
+      "abstract": "The rhizosphere and phyllosphere microbial symbiotic interactions are crucial factors affecting plant health and productivity. How to authentically reflect the species interactions and assembly processes that shape shaping microbial communities has attracted extensive attention from ecologists. The construction of most microbial networks relies on amplicon sequencing data, neglecting both total microbial biomass and inter-domain interactions. The impacts of sequencing resolution ratio, microbial domain, and quantification methods on microbial interspecies interactions and network parameters still require further exploration. In this study, the rhizosphere and phyllosphere microbial communities of Cinnamomum migao —a rare medicinal plant in the Lauraceae family endemic to China, were annotated using amplicon, spike-in absolute amplicon, 2bRAD-M, and metagenomic sequencing. Concurrently, VOCs were extracted from the roots and leaves of C. migao through SPME and analyzed using GC-MS. Multivariate analysis was performed on the obtained dataset. Our results showed that all sequencing methods consistently revealed differences in community composition, diversity, and network structure between the rhizosphere and phyllosphere microbial communities. Furthermore, differences in community domain, sequencing resolution, and microbial quantification from sequencing technologies significantly the influenced network parameters of C. migao rhizosphere and phyllosphere microbiomes, subsequently influencing the topological identification of Zi-Pi (putative keystone taxa) within microbial co-occurrence networks. We emphasize that these identifications are based on network centrality metrics and should be considered as hypotheses for biological keystone potential, pending experimental validation. Remarkably, the VOCs in rhizosphere and phyllosphere environments showed correlations with microbial community composition and were potentially linked to microbial community assembly processes. Our findings highlight the critical importance of considering annotation resolution, quantification methods, microbial domain boundaries, and Zi-Pi (keystone taxa) identification when constructing microbial networks using different sequencing methods. This study raises higher standards for utilizing sequencing data to decipher interspecies relationships within microbial communities.",
+      "relevance": 4.70338,
+      "hits": [
+        "compositional data analysis microbiome amplicon"
+      ],
+      "window_days": 60,
+      "score": 6.55,
+      "published": "2026-10-01",
+      "age_days": 3,
+      "crossref_type": "journal-article",
+      "doi_url": "https://doi.org/10.1016/j.crmicr.2026.100666"
     },
     {
       "doi": "10.1093/aob/mcag311",
@@ -492,35 +437,16 @@
         "Eva Kastovska"
       ],
       "abstract": "Eva Kastovska; Drought tightens rhizosphere networks—but where does the carbon go? A commentary on ‘Increased dependencies among plant performance traits,",
-      "relevance": 32.123314,
+      "relevance": 64.434616,
       "hits": [
         "rhizosphere microbiome drought root exudate"
       ],
       "window_days": 60,
-      "score": 5.82,
+      "score": 6.14,
       "published": "2026-09-26",
-      "age_days": 2,
+      "age_days": 8,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.1093/aob/mcag311"
-    },
-    {
-      "doi": "10.2478/johr-2026-0011",
-      "title": "Synergistic Nematicidal and Physiological Effects of Combined Extracts of Millettia pachyloba and Melia azedarach in Banana Challenged by Meloidogyne incognita",
-      "journal": "Journal of Horticultural Research",
-      "authors": [
-        "Thi Phuong Nhung Tran"
-      ],
-      "abstract": "Abstract The root-knot nematode Meloidogyne incognita severely threatens banana production by impairing root function and overall plant vigor. In this study, a combined aqueous leaf extract of Millettia pachyloba and Melia azedarach (MPMA) at a 1 : 1 ratio (v/v) was evaluated for nematode suppression and oxidative stress alleviation under in vitro and greenhouse conditions. Using single extract comparators at equivalent total doses, the mixture consistently exceeded the highest single agent (HSA) benchmark for key endpoints, including in vitro J2 mortality, root galling, and plant nematode density. Interaction model analyses showed endpoint-dependent responses: in vitro Bliss independence and Loewe/Chou–Talalay analyses indicated mainly additive or near-additive effects, with ΔBliss values ≤ 0 and combination indices close to 1, whereas in-planta Bliss analysis showed a mild positive interaction signal at intermediate to high doses. Greenhouse experiments revealed that MPMA significantly reduced root galling, rhizosphere and root nematode populations, and improved host physiology by lowering ROS, O₂⁻, and •OH, while enhancing ascorbate peroxidase, glutathione reductase, and the reduced-to-oxidized glutathione ratio. These changes resulted in greater biomass accumulation and higher composite growth indices in infected plants. Correlation analyses demonstrated strong negative relationships between nematode burden and antioxidant defenses, and positive correlations between antioxidant status and growth performance. Overall, MPMA provided reproducible benefits beyond the best single extract under the HSA benchmark, with quantitative interaction metrics supporting an additive to near-additive interpretation in vitro and mild, endpoint-dependent synergy under greenhouse conditions. These findings underscore its potential as a practical botanical strategy for integrated nematode management in banana cultivation.",
-      "relevance": 6.8224635,
-      "hits": [
-        "stress combination plant rhizosphere"
-      ],
-      "window_days": 60,
-      "score": 5.57,
-      "published": "2026-08-18",
-      "age_days": 41,
-      "crossref_type": "journal-article",
-      "doi_url": "https://doi.org/10.2478/johr-2026-0011"
     },
     {
       "doi": "10.3390/toxics14090770",
@@ -535,16 +461,59 @@
         "Bo Song"
       ],
       "abstract": "Citric acid (CA) and nitrogen (N) fertilizers have been widely applied to enhance phytoremediation of various contaminated soils, yet their combined effects and underlying mechanisms in cadmium (Cd)–polycyclic aromatic hydrocarbon (PAH) co-contaminated systems remain poorly understood. Here, we investigated the combined effects of CA and ammonium nitrate on the phytoremediation of Cd–phenanthrene (Phe) co-contaminated soil using marigold (Tagetes patula L.), with random forest, mantel tests, and structural equation modeling employed to explore hypothesized pathways and associations. The results demonstrated that combined CA and N application significantly promoted plant growth, Cd uptake, and Phe dissipation. Among the tested treatments, the low-dose combination (1 g CA + 0.1 g N pot−1) increased plant biomass by 88%, enhanced shoot Cd uptake by 121%, and achieved a Phe dissipation rate of 76.56%, representing the optimal remediation strategy. Mechanistically, the synergy between CA and N extends beyond simple growth promotion—N drives biomass production and, independently, facilitates Cd mobilization through rhizosphere acidification, while CA enhances contaminant bioavailability and buffers N-induced salt stress, together maintaining rhizosphere ionic homeostasis for efficient Cd translocation and Phe dissipation. This study provides a mechanistic framework for designing combined amendment strategies to enhance phytoremediation of co-contaminated soils.",
-      "relevance": 2.1638198,
+      "relevance": 4.2940187,
       "hits": [
         "stress combination plant rhizosphere"
       ],
       "window_days": 60,
-      "score": 5.52,
+      "score": 5.54,
       "published": "2026-08-28",
-      "age_days": 31,
+      "age_days": 37,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.3390/toxics14090770"
+    },
+    {
+      "doi": "10.2478/johr-2026-0011",
+      "title": "Synergistic Nematicidal and Physiological Effects of Combined Extracts of Millettia pachyloba and Melia azedarach in Banana Challenged by Meloidogyne incognita",
+      "journal": "Journal of Horticultural Research",
+      "authors": [
+        "Thi Phuong Nhung Tran"
+      ],
+      "abstract": "Abstract The root-knot nematode Meloidogyne incognita severely threatens banana production by impairing root function and overall plant vigor. In this study, a combined aqueous leaf extract of Millettia pachyloba and Melia azedarach (MPMA) at a 1 : 1 ratio (v/v) was evaluated for nematode suppression and oxidative stress alleviation under in vitro and greenhouse conditions. Using single extract comparators at equivalent total doses, the mixture consistently exceeded the highest single agent (HSA) benchmark for key endpoints, including in vitro J2 mortality, root galling, and plant nematode density. Interaction model analyses showed endpoint-dependent responses: in vitro Bliss independence and Loewe/Chou–Talalay analyses indicated mainly additive or near-additive effects, with ΔBliss values ≤ 0 and combination indices close to 1, whereas in-planta Bliss analysis showed a mild positive interaction signal at intermediate to high doses. Greenhouse experiments revealed that MPMA significantly reduced root galling, rhizosphere and root nematode populations, and improved host physiology by lowering ROS, O₂⁻, and •OH, while enhancing ascorbate peroxidase, glutathione reductase, and the reduced-to-oxidized glutathione ratio. These changes resulted in greater biomass accumulation and higher composite growth indices in infected plants. Correlation analyses demonstrated strong negative relationships between nematode burden and antioxidant defenses, and positive correlations between antioxidant status and growth performance. Overall, MPMA provided reproducible benefits beyond the best single extract under the HSA benchmark, with quantitative interaction metrics supporting an additive to near-additive interpretation in vitro and mild, endpoint-dependent synergy under greenhouse conditions. These findings underscore its potential as a practical botanical strategy for integrated nematode management in banana cultivation.",
+      "relevance": 3.3955657,
+      "hits": [
+        "stress combination plant rhizosphere"
+      ],
+      "window_days": 60,
+      "score": 5.53,
+      "published": "2026-08-18",
+      "age_days": 47,
+      "crossref_type": "journal-article",
+      "doi_url": "https://doi.org/10.2478/johr-2026-0011"
+    },
+    {
+      "doi": "10.33545/26174693.2026.v10.i9d.9939",
+      "title": "Seasonal variation in the goat rumen microbiome: A comparative 16S RRNA gene sequencing analysis of cold and warm seasons",
+      "journal": "International Journal of Advanced Biochemistry Research",
+      "authors": [
+        "Saalom King J",
+        "Vinothraj S",
+        "Jeyakumar M",
+        "Senthilkumar S",
+        "Siva M",
+        "Shahista Sarin Lodhi"
+      ],
+      "abstract": "The rumen microbiome plays a fundamental role in feed digestion, nutrient utilization, host health and environmental adaptation in ruminants. Seasonal variation in climatic conditions and feed resources may influence the diversity and composition of rumen microbial communities. The present study investigated seasonal variation in the goat rumen microbiome using publicly available 16S rRNA gene sequencing data. Six rumen microbiome samples were retrieved from the National Center for Biotechnology Information Sequence Read Archive under BioProject PRJNA1050866, comprising three cold-season samples (SRR27169185–SRR27169187) and three warm-season samples (SRR27169218–SRR27169220). Raw paired-end sequence data were processed using the QIIME 2 bioinformatics pipeline, including quality filtering, denoising, chimera removal and amplicon sequence variant inference. Phylogenetic relationships among representative sequences were reconstructed for phylogeny-based diversity analyses. Alpha diversity was assessed using the Shannon index and Faith's phylogenetic diversity, whereas beta diversity was evaluated using Bray–Curtis dissimilarity and unweighted UniFrac distances. Seasonal differences in alpha diversity were assessed using the Kruskal–Wallis test, while differences in overall microbial community structure were evaluated using permutational multivariate analysis of variance. Significant seasonal differences were observed in alpha-diversity measures (P 0.05). Krona-based taxonomic visualization nevertheless indicated descriptive differences in the relative representation of microbial taxa between seasons. Overall, the findings suggest that seasonal conditions may influence within-sample microbial diversity while the broader rumen microbial community remains relatively stable. This apparent stability may reflect resilience of the core goat rumen microbiome to seasonal environmental variation and could provide useful insights for microbiome-informed nutritional, management and breeding strategies aimed at improving goat adaptation and productivity.",
+      "relevance": 11.937779,
+      "hits": [
+        "compositional data analysis microbiome amplicon"
+      ],
+      "window_days": 60,
+      "score": 4.62,
+      "published": "2026-09-01",
+      "age_days": 33,
+      "crossref_type": "journal-article",
+      "doi_url": "https://doi.org/10.33545/26174693.2026.v10.i9d.9939"
     },
     {
       "doi": "10.1016/j.jece.2026.125160",
@@ -561,14 +530,14 @@
         "Guo Yu"
       ],
       "abstract": "",
-      "relevance": 5.535733,
+      "relevance": 11.165249,
       "hits": [
         "Medicago rhizosphere microbiome"
       ],
       "window_days": 60,
-      "score": 4.56,
+      "score": 4.61,
       "published": "2026-10-01",
-      "age_days": -3,
+      "age_days": 3,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.1016/j.jece.2026.125160"
     }
