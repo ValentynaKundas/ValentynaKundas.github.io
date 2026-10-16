@@ -1,6 +1,6 @@
 # License
 
-(c) 2026 Valentyna Kundas and Arvin Shojaei-Fard.
+(c) 2026 Valentyna Kundas.
 
 This work is licensed under CC BY-NC-ND 4.0.
 
