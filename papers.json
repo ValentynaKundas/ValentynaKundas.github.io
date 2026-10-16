@@ -61,6 +61,26 @@
       "summary": "The authors grew two alfalfa varieties, one salt-tolerant and one salt-sensitive, at 0, 100 and 200 mM NaCl and profiled root exudates by LC-MS alongside the rhizosphere microbiome. Under 200 mM salt the tolerant variety switched on flavonoid metabolism and released more naringin and apigenin, and these compounds correlated with enrichment of salt-tolerant bacteria such as Pseudarthrobacter and Adhaeribacter. The sensitive variety instead released more p-hydroxyphenylacetic acid, which tracked Limnobacter and Flavobacterium. Adding salt-tolerant plant growth-promoting bacteria from Gammaproteobacteria and Bacilli to either variety eased the growth inhibition at 200 mM, with longer roots and shoots, larger leaves, better photosynthesis and a high potassium to sodium ratio in roots, and qRT-PCR showed effects on flavonoid genes CHI1 and CYP75A1.",
       "why": "Salt is not your stress, but the chain they test is the one you are relying on: stress changes what alfalfa roots release, the exudates change which bacteria are recruited, and the bacteria change the plant. It is also alfalfa, so the taxa and the exudate chemistry are a direct reference for your 16S and any future metabolomics on your pots. Two things to copy. First, they compare two genotypes, which shows how much of the response is the plant rather than the treatment, something to keep in mind when you compare alfalfa alone with alfalfa next to timothy. Second, their exudate to taxa links are correlations, and they only become causal when the bacteria are added back, which is the validation step your selection lines will also need.",
       "added_by": "routine, pushed manually"
+    },
+    {
+      "week": "2026-10-12",
+      "title": "Rhizosphere microbiome-dependent metabolic reprogramming enhances potato salt tolerance in saline soils",
+      "authors": "Hanxiang Wang, Yadi Li, Yangyang Shang, Yuting Yang, Yang-Dong Guo, Xingyao Xiong, Wanxing Wang, Guangcun Li",
+      "journal": "npj Biofilms and Microbiomes",
+      "year": 2026,
+      "published": "2026-09-22",
+      "doi": "10.1038/s41522-026-01150-0",
+      "tags": [
+        "sterilized soil",
+        "functional validation",
+        "salt stress",
+        "Pseudomonas",
+        "host genotype"
+      ],
+      "read_minutes": 45,
+      "summary": "The authors compared the rhizosphere microbiome of salt-tolerant and salt-sensitive potato genotypes in saline and non-saline field soil. Tolerant genotypes kept more network-associated taxa under salinity, with Pseudomonas enriched, and from their rhizosphere the authors isolated a salt-tolerant, growth-promoting strain, Pseudomonas aeruginosa BK43. In sterilized saline soil the tolerant phenotype disappeared, and adding BK43 back restored growth, with plant height rising from about 11 to 16 cm and leaf area from about 16 to 80 square centimetres. In non-sterilized saline soil, enriching BK43 sped up early growth of tolerant plants. Pre-colonising a sensitive genotype with BK43 made it tolerant, cutting root lipid peroxidation by about 43 percent. Multi-omics tied the protection to primed defence and metabolic pathways and to stronger phenylpropanoid and redox responses after salt.",
+      "why": "This is a worked example of your question four. The plant's tolerance only existed with its bacteria, vanished in sterilized soil, came back when one isolate was added, and still held in non-sterilized soil. That is the full chain from a sequencing pattern to a functional claim, and it is what a reviewer will ask of your selected lines after four transfer cycles. Note how they separated genotype from microbiome by moving the isolate onto a sensitive genotype, which is a cleaner test than comparing genotypes alone. Note also the order of experiments: field pattern, isolate, sterilized soil, then non-sterilized soil. The salt stress is not yours, but this design, and the fact that the effect depended on sterilization, is directly transferable to your sterilized-soil transfers and to the discussion of whether a selected microbiome keeps working in real soil.",
+      "added_by": "routine, pushed manually"
     }
   ],
   "classics": [
