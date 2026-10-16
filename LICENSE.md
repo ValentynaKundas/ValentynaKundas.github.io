@@ -1,6 +1,6 @@
 # License
 
-(c) Valentyna Kundas 2026.
+(c) 2026 Valentyna Kundas.
 
 This work is licensed under CC BY-NC-ND 4.0.
 
