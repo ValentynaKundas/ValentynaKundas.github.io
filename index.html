@@ -91,13 +91,13 @@
   --bg: #faf8f4; --surface: #ffffff; --surface-2: #f2eee6; --ink: #1b2431; --ink-2: #33404f;
   --muted: #5f6a78; --rule: #dcd6ca; --rule-2: #ece7dd; --maroon: #a02a45; --maroon-lt: #c1476a; --maroon-bg: #faeef1;
   --navy: #1c3a58; --green: #3f7a3a; --green-bg: #eef5ea;
-  --font-heading: "Archivo", system-ui, sans-serif; --font-body: "Archivo", system-ui, sans-serif;
+  --font-heading: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, "Times New Roman", serif; --font-body: "Archivo", system-ui, sans-serif;
   --shadow: 0 10px 30px rgba(27,36,49,0.08), 0 1px 2px rgba(27,36,49,0.06);
 }
 *, *::before, *::after { box-sizing: border-box; }
 html { color-scheme: light; }
 body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 16px; line-height: 1.6; -webkit-font-smoothing: antialiased; }
-h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 700; line-height: 1.1; letter-spacing: -0.02em; margin: 0; color: var(--ink); }
+h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 600; line-height: 1.15; letter-spacing: -0.005em; margin: 0; color: var(--ink); }
 p { margin: 0 0 16px; text-wrap: pretty; }
 a { color: var(--maroon); text-decoration: none; border-bottom: 1px solid rgba(160,42,69,0.35); }
 a:hover { color: var(--maroon-lt); border-bottom-color: var(--maroon-lt); }
@@ -106,7 +106,7 @@ a:focus-visible { outline: 2px solid var(--maroon); outline-offset: 3px; }
 img { display: block; max-width: 100%; }
 em { font-style: italic; }
 .wrap { max-width: 1160px; margin: 0 auto; padding: 0 32px; }
-.kicker { font-size: 12px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: var(--maroon); }
+.kicker { font-family: var(--font-heading); font-style: italic; font-size: 17px; font-weight: 400; letter-spacing: 0; text-transform: none; color: var(--maroon); }
 .label { font-size: 11px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); }
 .muted { color: var(--muted); }
 section { border-bottom: 1px solid var(--rule); }
@@ -115,8 +115,8 @@ section { border-bottom: 1px solid var(--rule); }
 .sec-head h2 { font-size: 34px; letter-spacing: -0.025em; }
 .sec-head .kicker { margin-bottom: 12px; display: block; }
 .alt { background: var(--surface-2); }
-.btn { display: inline-flex; align-items: center; gap: 8px; border: 0; padding: 14px 22px; font-family: var(--font-heading); font-weight: 700; font-size: 14px; letter-spacing: 0.04em; border-radius: 3px; }
-.btn-primary { background: var(--maroon); color: #fff; box-shadow: 0 8px 22px rgba(160,42,69,0.25); }
+.btn { display: inline-flex; align-items: center; gap: 8px; border: 0; padding: 14px 22px; font-family: var(--font-body); font-weight: 600; font-size: 14px; letter-spacing: 0.04em; border-radius: 3px; }
+.btn-primary { background: var(--maroon); color: #fff; }
 .btn-primary:hover { background: var(--maroon-lt); color: #fff; }
 .btn-secondary { background: var(--surface); color: var(--ink); border: 1.5px solid var(--rule); }
 .btn-secondary:hover { border-color: var(--ink); color: var(--ink); }
@@ -124,33 +124,35 @@ section { border-bottom: 1px solid var(--rule); }
 /* header */
 header { position: sticky; top: 0; z-index: 40; background: rgba(250,248,244,0.9); backdrop-filter: blur(10px); border-bottom: 1px solid var(--rule); }
 header .wrap { padding-top: 14px; padding-bottom: 14px; display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap; }
-.brand { font-family: var(--font-heading); font-weight: 800; font-size: 14px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink); border: 0; }
-header nav { display: flex; gap: 20px; font-size: 12px; letter-spacing: 0.09em; text-transform: uppercase; font-weight: 700; flex-wrap: wrap; }
+.brand { font-family: var(--font-heading); font-weight: 600; font-size: 19px; letter-spacing: 0; text-transform: none; color: var(--ink); border: 0; }
+header nav { display: flex; gap: 18px; font-size: 14px; letter-spacing: 0; text-transform: none; font-weight: 500; flex-wrap: wrap; }
 header nav a { border: 0; color: var(--ink-2); }
 header nav a:hover { color: var(--maroon); }
 
 /* hero */
-#hero { position: relative; overflow: hidden; background: linear-gradient(180deg, #fbf9f5 0%, #f3efe6 100%); }
-#hero::before { content: ""; position: absolute; right: -10%; top: -30%; width: 55%; height: 140%; background: radial-gradient(closest-side, rgba(160,42,69,0.08), transparent 70%); pointer-events: none; }
+#hero { position: relative; overflow: hidden; background: var(--bg); }
+#hero::before { content: none; }
 #hero-grid { position: relative; display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); gap: 56px; align-items: center; padding-top: 88px; padding-bottom: 64px; }
-#hero h1 { font-size: clamp(44px, 6.4vw, 88px); line-height: 0.96; letter-spacing: -0.035em; margin: 18px 0 26px; max-width: 12ch; }
+#hero h1 { font-size: clamp(40px, 5.2vw, 68px); line-height: 1.04; letter-spacing: -0.015em; margin: 14px 0 24px; max-width: 14ch; }
 #hero .lede { font-size: 20px; line-height: 1.5; max-width: 52ch; margin-bottom: 34px; color: var(--ink-2); }
 #hero .actions { display: flex; gap: 12px; flex-wrap: wrap; }
-#hero-portrait { transform: rotateY(-6deg) rotateX(2deg); transform-style: preserve-3d; will-change: transform; }
-.portrait-card { background: var(--surface); border: 1px solid var(--rule); box-shadow: 0 30px 60px rgba(27,36,49,0.16); border-radius: 4px; overflow: hidden; }
+#hero-portrait { transform: none; will-change: transform; }
+.portrait-card { background: var(--surface); border: 1px solid var(--rule); box-shadow: none; border-radius: 2px; padding: 8px 8px 0; overflow: hidden; }
 .portrait-card img { width: 100%; height: 440px; object-fit: cover; object-position: 50% 18%; }
-.portrait-card .cap { padding: 12px 16px; border-top: 1px solid var(--rule); font-size: 11.5px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); display: flex; justify-content: space-between; }
+.portrait-card .cap { padding: 10px 4px 10px; font-family: var(--font-heading); font-style: italic; font-size: 14px; color: var(--muted); display: flex; justify-content: space-between; }
 .facts { position: relative; padding-bottom: 64px; }
 .deck { perspective: 1400px; }
-.facts .deck { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; }
+.facts .deck { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 0 32px; }
+.facts .tile { background: transparent; border: 0; border-top: 1px solid var(--rule); border-radius: 0; padding: 14px 0 0; }
 .tile { background: var(--surface); border: 1px solid var(--rule); border-radius: 4px; padding: 20px 22px; transform-style: preserve-3d; transition: transform 340ms cubic-bezier(.2,.7,.3,1), box-shadow 340ms ease, border-color 340ms ease; }
-.tile:hover { transform: translateY(-4px); box-shadow: var(--shadow); border-color: var(--maroon-lt); }
+.tile:hover { border-color: var(--maroon-lt); }
 .tile .label { margin-bottom: 6px; }
 .tile .val { font-size: 15.5px; line-height: 1.4; }
 
 /* research */
 .research-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 12px; margin-top: 36px; }
-.research-cards .tile h3 { font-size: 17px; margin-bottom: 8px; }
+.research-cards .tile { background: transparent; border: 0; border-top: 2px solid var(--rule); border-radius: 0; padding: 14px 0 0; }
+.research-cards .tile h3 { font-size: 19px; margin-bottom: 8px; }
 .research-cards .tile p { font-size: 14.5px; margin: 0; color: var(--ink-2); }
 .prose p { font-size: 18px; line-height: 1.6; max-width: 66ch; color: var(--ink-2); }
 .prose p:first-child { color: var(--ink); }
@@ -158,7 +160,6 @@ header nav a:hover { color: var(--maroon); }
 /* experience */
 .slab { display: grid; grid-template-columns: 160px minmax(0, 1fr); gap: 32px; padding: 30px 0; border-top: 1px solid var(--rule); transition: transform 300ms cubic-bezier(.2,.7,.3,1), box-shadow 300ms ease; }
 .slab:last-child { border-bottom: 1px solid var(--rule); }
-.slab:hover { transform: translateX(8px); box-shadow: -12px 0 0 0 var(--maroon); }
 .slab .when { font-size: 13.5px; font-weight: 700; letter-spacing: 0.05em; color: var(--maroon); padding-top: 3px; }
 .slab h3 { font-size: 20px; margin-bottom: 4px; }
 .slab .where { font-size: 14px; color: var(--muted); margin-bottom: 12px; }
@@ -214,9 +215,16 @@ header nav a:hover { color: var(--maroon); }
 .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin-top: 24px; }
 .stats .tile > div:first-child { font-family: var(--font-heading); font-weight: 700; font-size: 34px; line-height: 1; letter-spacing: -0.03em; margin-bottom: 8px; }
 
+/* news */
+.news { margin: 0; }
+.news > div { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 24px; padding: 14px 0; border-top: 1px solid var(--rule); }
+.news > div:last-child { border-bottom: 1px solid var(--rule); }
+.news dt { font-size: 14px; font-weight: 700; color: var(--maroon); padding-top: 2px; }
+.news dd { margin: 0; font-size: 16px; line-height: 1.55; color: var(--ink-2); max-width: 70ch; }
+
 /* contact */
 #contact { border: 0; }
-.contact-card { background: var(--navy); color: #fff; padding: 56px 48px; border-radius: 6px; box-shadow: 0 24px 60px rgba(28,58,88,0.28); }
+.contact-card { background: var(--navy); color: #fff; padding: 56px 48px; border-radius: 4px; }
 .contact-card .kicker { color: #f0b7c6; }
 .contact-card h2 { color: #fff; font-size: clamp(28px, 4.2vw, 46px); line-height: 1.05; letter-spacing: -0.03em; margin: 18px 0 36px; max-width: 26ch; }
 .contact-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 28px; padding-top: 28px; border-top: 1px solid rgba(255,255,255,0.28); }
@@ -232,6 +240,7 @@ footer { display: flex; justify-content: space-between; gap: 24px; padding: 28px
   #hero-portrait { transform: none; max-width: 420px; }
   .portrait-card img { height: 380px; }
   .slab { grid-template-columns: 1fr; gap: 6px; padding: 22px 0; }
+  .news > div { grid-template-columns: 1fr; gap: 4px; }
   .contact-card { padding: 36px 24px; }
   #phytobiome iframe { height: 420px; }
 }
@@ -368,12 +377,28 @@ header nav a.active { color: var(--maroon, #a02a45); }
   </div>
 </section>
 
+<section id="news" class="sec" style="padding: 56px 0">
+  <div class="wrap sec-head">
+    <div><span class="kicker">What I have been up to</span><h2>News</h2></div>
+    <dl class="news">
+      <div><dt>November 2026</dt><dd>Poster at the International Phytobiomes Conference 2026 in Niagara-on-the-Lake, on environmental and host-mediated selection of alfalfa rhizosphere microbiomes across successive microbial generations under drought.</dd></div>
+      <div><dt>September 2026</dt><dd>Finished supervising an undergraduate researcher who developed an <em>in vitro</em> sterilisation protocol for alfalfa seedlings.</dd></div>
+      <div><dt>May 2026</dt><dd>Started building Phytobiome, a browser simulation of alfalfa and its microbiome, and began mentoring an undergraduate's project on passaging microbiomes in liquid culture.</dd></div>
+      <div><dt>April 2026</dt><dd>Organised an online conference for 40 graduate students in the Environmental Pollution course.</dd></div>
+      <div><dt>2026</dt><dd>Co-reviewed a manuscript for <em>New Phytologist</em>, and gave a talk on how environmental stress shapes plant-associated soil microbiomes at the graduate cohort presentations at UTSC.</dd></div>
+      <div><dt>September 2025</dt><dd>Joined Terrence Bell's Microbiome Manipulation Lab and started the drought selection experiment.</dd></div>
+      <div><dt>June and July 2025</dt><dd>Yorkshire Valley Farms Canadian Eco-Scholar Award, then a poster on the microalgae calcite coating at the Workshop on Biominerals in Tübingen.</dd></div>
+    </dl>
+  </div>
+</section>
+
 <section id="research" class="sec">
   <div class="wrap sec-head">
     <div><span class="kicker">Research</span><h2>Soil bacteria under combined plant stress</h2></div>
     <div class="prose">
       <p>My PhD project looks at how environmental conditions, on their own and in combination, change which bacteria live around plant roots and what those bacteria do. I work with alfalfa (<em>Medicago sativa</em>), and the two factors I spend most of my time on are light and water.</p>
       <p>Most microbiome studies change one condition at a time. In a field, a plant is often short of water and light in the same week. I want to know whether the bacteria respond to both together in a way you could have predicted from the single-factor experiments, or not. That is the question my experiments are set up to answer.</p>
+      <p>Since September 2025 I have been running a four-generation selection experiment under repeated drought, passing the soil microbiome from one set of alfalfa plants to the next, and I am now reading the 16S rRNA sequencing and phenotyping data from it. Alongside it I set up home-home and home-away swap experiments to test whether a drought-selected microbiome keeps its response when the water conditions change, and I am matching the sequencing data against biomass, root traits and leaf greenness to find bacteria that track how the plant is doing.</p>
       <div class="research-cards deck">
         <div class="tile"><h3>Combined stressors</h3><p>Light and water treatments applied at the same time, with the soil microbiome sampled across all the combinations.</p></div>
         <div class="tile"><h3>Plant to bacteria</h3><p>What a stressed plant releases from its roots, and how the bacteria around them respond to it.</p></div>
@@ -428,6 +453,15 @@ header nav a.active { color: var(--maroon, #a02a45); }
     <span class="kicker" style="display:block; margin-bottom: 12px">Work experience</span>
     <h2 style="font-size: 34px; margin-bottom: 36px">Research positions</h2>
     <div>
+      <div class="slab">
+        <div class="when">09/2025 – present</div>
+        <div>
+          <h3>PhD research, alfalfa rhizosphere microbiome</h3>
+          <div class="where">Department of Physical and Environmental Sciences, University of Toronto Scarborough, Canada</div>
+          <p>Four-generation iterative selection of a soil microbiome under repeated drought, with 16S rRNA gene sequencing and plant phenotyping at each generation. Home-home and home-away swap experiments to test whether drought-selected microbiome responses persist when the water conditions change.</p>
+          <p>Matching microbiome data against biomass, root traits and leaf greenness to find bacteria associated with how the plant performs.</p>
+        </div>
+      </div>
       <div class="slab">
         <div class="when">03/2024 – 08/2024</div>
         <div>
@@ -486,7 +520,7 @@ header nav a.active { color: var(--maroon, #a02a45); }
 
 <section id="education" class="sec alt">
   <div class="wrap sec-head">
-    <div><span class="kicker">Education</span><h2>Three degrees, three countries</h2></div>
+    <div><span class="kicker">Education</span><h2>Degrees</h2></div>
     <div class="edu deck">
       <div class="tile">
         <div class="when">11/2024 – present</div>
@@ -517,8 +551,8 @@ header nav a.active { color: var(--maroon, #a02a45); }
   <div class="wrap sec-head">
     <div>
       <span class="kicker">Teaching and mentorship</span>
-      <h2>Thirteen teaching assistantships</h2>
-      <p style="margin-top: 16px; font-size: 16px; color: var(--ink-2)">All at the University of Toronto Scarborough, in biology, chemistry and environmental science. I have been asked back for several of them.</p>
+      <h2>Teaching assistantships</h2>
+      <p style="margin-top: 16px; font-size: 16px; color: var(--ink-2)">Fourteen so far, all at the University of Toronto Scarborough, in biology, chemistry and environmental science. I have been asked back for several of them.</p>
       <p style="font-size: 16px; color: var(--ink-2)">In most of these I lead a lab section of 24 students, run tutorials for up to 40, grade assignments and give written feedback.</p>
     </div>
     <div>
@@ -539,11 +573,16 @@ header nav a.active { color: var(--maroon, #a02a45); }
           <div>EESA11H3 Environmental Pollution<span class="ret">returning</span></div>
           <div>Summer School: Solar Panels</div>
           <div>Summer School: Chemistry</div>
+          <div>CHMA10H3 Introductory Chemistry I: Structure and Bonding<span class="ret">returning</span></div>
         </div>
       </div>
       <div class="callout">
         <div class="label">Mentorship · 05/2026 – present</div>
         <p>I supervise an undergraduate's independent project on passaging microbiomes in liquid culture, from designing the experiment and training them in the lab through to analysing the data with them.</p>
+      </div>
+      <div class="callout" style="margin-top: 12px">
+        <div class="label">Mentorship · 07/2026 – 09/2026</div>
+        <p>I supervised an undergraduate researcher who developed an <em>in vitro</em> sterilisation protocol for alfalfa seedlings: the experimental design, the lab techniques, troubleshooting, and analysing and interpreting the data.</p>
       </div>
     </div>
   </div>
@@ -553,6 +592,14 @@ header nav a.active { color: var(--maroon, #a02a45); }
   <div class="wrap sec-head">
     <div><span class="kicker">Research presentations</span><h2>Talks</h2></div>
     <div class="pres">
+      <div class="item">
+        <div class="yr">2026</div>
+        <div>
+          <div class="title">Environmental and Host-Mediated Selection of Alfalfa Rhizosphere Microbiomes Across Successive Microbial Generations Under Drought</div>
+          <div class="auth">Kundas, V., and Bell, T. H.</div>
+          <div class="venue">International Phytobiomes Conference 2026, Niagara-on-the-Lake, Canada. Poster.</div>
+        </div>
+      </div>
       <div class="item">
         <div class="yr">2026</div>
         <div>
@@ -566,7 +613,7 @@ header nav a.active { color: var(--maroon, #a02a45); }
         <div>
           <div class="title">Creation of a Protective Coating for Structures in a Marine Environment: Precipitation of Calcite Through Microalgae on the Surface of Cementitious Materials</div>
           <div class="auth">Kundas, V., Renaudie, M., and Hilloulin, B.</div>
-          <div class="venue">Oral presentations at the University of Toronto Scarborough (2025), GEPEA, Nantes, France (2024), and Technische Universität Dresden, Germany (2024).</div>
+          <div class="venue">Oral presentations at the University of Toronto Scarborough (2025), GEPEA, Nantes, France (2024), and Technische Universität Dresden, Germany (2024). Poster at the Workshop on Biominerals, University of Tübingen, Germany (2025).</div>
         </div>
       </div>
       <div class="item">
@@ -632,7 +679,7 @@ header nav a.active { color: var(--maroon, #a02a45); }
     <div class="list">
       <div>
         <h3>Scarborough Campus Director, University of Toronto Graduate Student Union</h3>
-        <div class="meta">05/2025 – present · also Physical and Environmental Sciences Representative, Graduate Student Association at Scarborough</div>
+        <div class="meta">05/2025 – 10/2026 · also Physical and Environmental Sciences Representative, Graduate Student Association at Scarborough, 09/2025 – 08/2026</div>
       </div>
       <div>
         <h3>Organised an online conference for 40 graduate students</h3>
@@ -692,12 +739,7 @@ header nav a.active { color: var(--maroon, #a02a45); }
         <div class="card-head"><span>av-bio.github.io/phytobiome</span><span class="muted">Interactive · scroll and drag inside the frame</span></div>
         <iframe src="https://av-bio.github.io/phytobiome/" title="Phytobiome, a plant and microbiome stress simulation" loading="lazy"></iframe>
       </div>
-      <div class="stats deck">
-        <div class="tile"><div>1,391</div><div class="label">Lines of source</div></div>
-        <div class="tile"><div>116<span style="font-size: 16px"> KB</span></div><div class="label">Payload</div></div>
-        <div class="tile"><div style="color: var(--maroon)">0</div><div class="label">Dependencies</div></div>
-        <div class="tile"><div>27</div><div class="label">Citations</div></div>
-      </div>
+      <p class="muted" style="margin-top: 16px; font-size: 14.5px">1,391 lines of source, 116 KB, no dependencies, 27 cited papers.</p>
     </div>
   </div>
 </section>
@@ -716,6 +758,7 @@ header nav a.active { color: var(--maroon, #a02a45); }
     </div>
     <footer>
       <span>Valentyna Kundas · PhD Student, Environmental Science · University of Toronto Scarborough</span>
+      <span>Last updated 21 October 2026.</span>
       <span style="flex-basis: 100%">&copy; 2026 Kundas Valentyna. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license noopener" target="_blank">CC BY-NC-ND 4.0</a>.</span>
     </footer>
   </div>
@@ -785,7 +828,7 @@ header nav a.active { color: var(--maroon, #a02a45); }
     });
   }
 
-  var baseRot = { y: -8, x: 2 };
+  var baseRot = { y: 0, x: 0 };
   var tilt = { x: 0, y: 0 }, tiltTarget = { x: 0, y: 0 };
   var scrollY = 0, ticking = false;
 
@@ -820,7 +863,7 @@ header nav a.active { color: var(--maroon, #a02a45); }
   }
   window.addEventListener('scroll', onScroll, { passive: true });
 
-  if (hero && portrait && !reduce) {
+  if (false && hero && portrait && !reduce) {
     hero.addEventListener('mousemove', function (e) {
       var r = hero.getBoundingClientRect();
       var nx = (e.clientX - r.left) / r.width - 0.5;
