@@ -81,6 +81,26 @@
       "summary": "The authors compared the rhizosphere microbiome of salt-tolerant and salt-sensitive potato genotypes in saline and non-saline field soil. Tolerant genotypes kept more network-associated taxa under salinity, with Pseudomonas enriched, and from their rhizosphere the authors isolated a salt-tolerant, growth-promoting strain, Pseudomonas aeruginosa BK43. In sterilized saline soil the tolerant phenotype disappeared, and adding BK43 back restored growth, with plant height rising from about 11 to 16 cm and leaf area from about 16 to 80 square centimetres. In non-sterilized saline soil, enriching BK43 sped up early growth of tolerant plants. Pre-colonising a sensitive genotype with BK43 made it tolerant, cutting root lipid peroxidation by about 43 percent. Multi-omics tied the protection to primed defence and metabolic pathways and to stronger phenylpropanoid and redox responses after salt.",
       "why": "This is a worked example of your question four. The plant's tolerance only existed with its bacteria, vanished in sterilized soil, came back when one isolate was added, and still held in non-sterilized soil. That is the full chain from a sequencing pattern to a functional claim, and it is what a reviewer will ask of your selected lines after four transfer cycles. Note how they separated genotype from microbiome by moving the isolate onto a sensitive genotype, which is a cleaner test than comparing genotypes alone. Note also the order of experiments: field pattern, isolate, sterilized soil, then non-sterilized soil. The salt stress is not yours, but this design, and the fact that the effect depended on sterilization, is directly transferable to your sterilized-soil transfers and to the discussion of whether a selected microbiome keeps working in real soil.",
       "added_by": "routine, pushed manually"
+    },
+    {
+      "week": "2026-10-19",
+      "title": "How agricultural legacy shapes the drought response of the wheat rhizobiome",
+      "authors": "Elena Kost, Dominika Kundel, Ralf C. Mueller, Rafaela Feola Conz, Claude Raoul Müller, Sarah Symanczik, Paul Mäder, Hans-Martin Krause, Johan Six, Jochen Mayer, Martin Hartmann",
+      "journal": "Environmental Microbiome",
+      "year": 2026,
+      "published": "2026-10-17",
+      "doi": "10.1186/s40793-026-00976-7",
+      "tags": [
+        "drought",
+        "legacy effects",
+        "shotgun metagenomics",
+        "functional potential",
+        "variance partitioning"
+      ],
+      "read_minutes": 50,
+      "summary": "The authors imposed a field-scale drought in a 44-year trial that compares organic and conventional farming systems, and used shotgun metagenomics to ask how the functional potential of the wheat rhizosphere microbiome responds. Management legacy was the main driver of functional gene composition, explaining 24 to 32 percent of the variation depending on the ontology, while drought explained 3 to 6 percent. The size of the drought shift was similar in every system, yet drought-stressed microbiomes stayed distinct from controls. All systems enriched genes for membrane modification, endospore formation, osmolyte accumulation, antioxidant production and DNA repair, and depleted genes for ribosomal hibernation and exopolysaccharide synthesis, which the authors read as reliance on root exudates. Phosphorus and iron scavenging genes rose while complex organic matter degradation fell. System differences were subtle: more sporulation genes under synthetic inputs, more programmed cell death pathways under manure.",
+      "why": "Your transfer experiment is a short version of what this trial does over 44 years: a history imposed on a soil microbiome, then a stress applied on top of it. Their finding that legacy explained far more variation than drought, while drought still moved every microbiome in the same direction, is the pattern to look for in your own PERMANOVA when you partition variance between selection regime and the water treatment within a cycle. It also gives you a function-level reading of 16S results: if the bacteria that persist under your drought regimes are known spore formers or osmolyte producers, this paper supplies the mechanism to cite. Metagenomes show potential rather than activity, the same limit as 16S, so your biomass and tissue moisture data are what turn a gene pattern into a plant effect. Useful for question one on predictability.",
+      "added_by": "routine, pushed manually"
     }
   ],
   "classics": [
