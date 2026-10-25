@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T22:03:18Z",
+  "generated_at": "2026-10-25T22:10:31Z",
   "window_days": 60,
   "fallback_days": 90,
   "note": "Candidates published recently, not already in papers.json, metadata from Crossref, abstracts from OpenAlex/Crossref. Ranked by a keyword score; the routine makes the final choice and writes the notes.",
@@ -17,7 +17,7 @@
         "Md. Mahadi Hasan"
       ],
       "abstract": "the wider landscape of rhizosphere ecology, chemical signaling, and stress-adaptive sustainable agricultural solutions.In this paper, we provide opinions relevant to the topic and new dimension of research. First, microbial diversity should be treated as an upstream constraint on host chemical signaling rather than as a correlate of plant performance. Second, 2-NA is the best read as a proof of principle for multifunctional exudates, not as a candidate agricultural input. Third, the distance between the mechanism and field deployment is considerably greater than current enthusiasm for microbiome engineering suggests.The novel insights from Chen et al. (2026) demonstrate that drought stressed plants grown with highestdiversity community (D1) accumulated 2-NA at approximately 16.5 μg•mL⁻¹, while intermediate diversity (D2) yielded around 0.27 μg•mL⁻¹, and the lowest diversity soil (D3) yielded none. Because 2-NA was undetectable in well-watered treatment, drought appears to act as the trigger and diversity as the gain control. Integrated transcriptomic and metabolomic profiling linked 2-NA accumulation to phenylpropanoid-related metabolism consistent with broader evidence that community context reshapes plant secondary metabolism under abiotic stress (Li et al.,2025;Kazarina et al., 2025;Yang et al., 2025).Our reading inverts the conventional framing. The \"cry-for-help\" narrative casts the plant as the agent and microbiome as the respondent, suggest the resident community sets the boundaries of what plant can do. Especially, low-diversity rhizospheres showed far broader transcriptional reprogramming than high diversity ones. We interpret this as a metabolic economy, where a diversity community supplies functional insurance, the host can invest narrowly and precisely; where it does not, the plant is pushed towards costly, diffuse and less targeted responses (Yang et al., 2021;Domeignoz-Horta et al., 2024).On this view, diversity is chemical signaling capital.This carries an uncomfortable agronomic implication. Intensive tillage, monoculture and heavy agrochemical loading erode rhizosphere diversity (Xiang et al., 2025). If precise, drought adaptive signaling depends on a diverse resident community, then diversity erosion may progressively disable the very recruitment mechanism that microbiome-based agriculture hopes to exploit. An important caveat should temper this interpretation. Dilution-to-extinction alters richness but does not hold composition constant, because rare taxa and their functional genes are lost together. \"Diversity\" is therefore an operational rather than a clean variable here, and the design cannot separate the effect of species richness itself from the loss of specific keystone lineages. Resolving this will require synthetic communities of matched composition but varied richness, assembled across contrasting soils. In this study, author elegantly used effective dilutions (10 -1 , 10 -4, 10 -7 ), which allow the quantitative separation of diversity function correlation without confusing community composition effects (CCE)Figure 1) (Chen et al. 2026). In response to drought stress, high-density rhizosphere community (D1), triggers the accumulation of 2-naphtholic acid (2-NA) at 16.54 μg•mL⁻¹, while moderate diversity (D2)and low diversity (D3) soils yielded significantly reduced (0.27 g.mL⁻¹) and undetectable concentration, respectively. However, the 2-NA was totally absent in all well water saturated condition regardless the diversity level, indicating that drought is the triggering signal and indicator of microbial diversity as it confirmed by quantitative amplifier of the specific chemical response (Chen et al. 2026).This overall scenario represents a \"cry-for-help\" model, refers to an adaptive defense mechanism where drought stressed-soybean plant induces root exudates to recruit beneficial microbes (Tharp et al.2026).Li et al. ( 2025) have revealed that drought induces microbiome and metabolic enrichment that help to enhance drought resistance in soybean (Li et al. 2025). In this current study, the microbial variations play crucial role in regulation of root exudates.However, the mechanistic insights into diversity dependence misinterprets in phenylpropanoid biosynthesis. Combined analysis of transcriptome and metabolomic revealed that the pathways related to phenylpropanoid metabolism were particularly high-diversity of microbes, drought-stressed rhizosphere, connecting 2-NA accumulation to this recognized secondary metabolite production route (Chen et al. 2026). This study outputs connect the broader evidence that microbiome variation reshapes secondary metabolism in response to abiotic stress, supporting the production of benzenoids and several lipid-derivative compounds that facilitate to recruit beneficial microbes (Li et al. 2025;Yang et al.2025;Kazarina et al.2025).A conceptual opinion is that microbial diversity acts as an upstream ecological fitter that restricts the breadth of host drought-response rewiring. Low density of rhizosphere showed wider range of transcriptional reprogramming where 3530 genes expressed differentially in D7, while 550 genes expressed in D1. These findings suggest that high diversity communities (HDCs) regulate plant stress responses by providing functional support to plants at molecular level known as molecular self-help (Chen et al. 2026). This connects with the insurance strategy of biodiversity; wherein diverse communities provide redundant functional power that alleviates ecosystem processes in unrest condition (Yang et al.2021;Domeignoz-Horta et al.2024). However, in case of holobiont wherein the microbial diversity modulates the plants stress investment strategy that exchange metabolic breadth for chemical care. These findings explore a cautionary aspect of agricultural intensification. Moreover, Lack of proper strategies on tillage, monoculture and uncontrolled use of agrochemicals significantly damage rhizosphere microbial diversity (Xiang et al. 2025). If microbial diversity (MD) is a requirement for precision chemical signaling that facilitates effective drought-adaptive microbiome recruitment. In contrast, diversity erosion (DE) may steadily impair the plants' ability to organized rhizosphere assembly (RA) under environmental stress, indicating vulnerability that warrants prompt attention for designing climate-smart future crops.Exudate-mediated recruitment is not itself novel: malic acid attacts Bacillus subtilis, strigolactones recruit arbuscular mycorrhizal fungi, flavonoids initiate rhizobial nodulation through NodD (Ruan et al. 2026;Qiao et al. 2024). What distinguishes 2-NA is that a single benzoid appears to three roles at a once (Chen et al. 2026;Niu et al., 2025). It acts as chemoattractant sensed by three methyl-accepting chemotaxis protein (ΔmcpU, ΔmcpY, ΔmcpZ), with a deletion mutant showing substantially reduced chemotaxis and root colonization. It serves as a nutritional reward taken up through an ATP-binding cassette (ABC) transporter system encoded upgBAEI, it functions as a regulatory ligand that binds Ncycling protein NirK, NapA, and FixI, confirmed by molecular docking and microscale thermophoresis, with napA expression strongly induced in co-culture. Comparable metabolite-driven shaping of rhizosphere bacteria has been reported during drought and rehydration in other systems (Lei et al., 2025;Zhao et al.,2025).2-NA identified as diversity-induced root exudate that accumulates in response to drought stress and help to microbiome assembly (Chen et al. 2026). Root exudate-mediated Ku recruitment has previously emphasized on how malic acid attracts Bacillus subtilis, strigolactons recruit arbuscular mycorrizal fungi, and flavonoids initiate rhizobial nodulation (Ruan et al. 2026;Qiao et al. 2024). The emerging role of a specific benzenoid acts as drought-responsive chemoattractant exhibits this functional level that reveals that metabolite variability in root exudates drought-specific information (Niu et al. 2025).Chen et al. ( 2026) explore three different functions of 2-NA that combinedly generate a cascading plant-microbe interaction. First, 2-NA acts as a chemoattractant. Chen et al. (2026) found that Sinorhizobium CS204 induces 87% higher chemotaxis regarding 2-NA compared to control, where the colonization efficiency increased by 361.86% after 2-NA application (Chen et al. 2026). The deletion mutants (ΔmcpU, ΔmcpY, ΔmcpZ) produced three MCPs are the primary sensors mediating this chemotactic response (Figure 1), with binding free energies of -5.9 to -7.0 kcal.mol -1 (Chen et al.). However, loss of function mutants exhibited 54-61% decline in chemotaxis and 17-69% reduction in root colonization, ensuring the genetic proof of the MCP-2-NA sensory axis (Chen et al. strains, so the specificity of 2-NA for beneficial taxa as opposed to the many soil bacteria that metabolize aromatic compound remains open. Until these gaps are closed, 2-Na is a compelling mechanistic exemplar rather than an established lever.The functional payoff reported by Chen et al. ( 2026) is nutritional. Under drought, restricted mass flow limits N delivery, impairing protein synthesis, photosynthesis and reactive-oxygen scavengers (de Vries et al., 2020). Co-application of 2-NA with Sinorhizobium CS204, increased plant biomass roughly 38%, improved photosynthesis and stomatal performance, altered expression of antioxidant and drought-responsive genes and raised tissue concentration of several mineral nutrients (Figure 1). This is consistent with growing evidence that rhizobia influence soil N cycling well beyond classical nodule symbiosis, and with field demonstration that improved rhizobial inoculants can raise nodulation, N-fixation and legume yield (Ling et al.,2022;Shah et al., 2024).One consequence deserves more scrutiny than it has received. The treatment reportedly upregulates denitrification (NirK, NapA, NorB, NosZ) alongside N-fixation. Denitrification is not a uniformly benign process: incomplete denitrification is a major source of nitrous-oxide, a greenhouse gas with high radiative forcing, and drying-rewetting cycles are known hotspots for such emissions. A drought mitigation strategy stimulates denitrification could therefore trade water-stress resilience against climate burden. No N2O flax data accompany the current work, and in our view no scald application should be contemplated until the NosZ-to-NirK balance and the resulting N2O:N2 product ratio are measured directly in soil.The gap between these results and agricultural practice is substantial, and we think it should be started plainly rather than bridged rhetorically. Persistence is the first obstacle: naphthalene-derived acids are readily biodegraded from common soil bacteria and sorb strongly to organic matter and clays, so the effective rhizosphere concentration of an applied dose is unlikely to resemble that achieved in controlled systems. Soil type, pH, temperature and moisture regime will all modulate this, and more has been varied systematically.Second, ecological selectivity is unproven at community scale. Applying an aromatic acid to soil may preferentially favor aromatic-degrading taxa, some of which are opportunists, and could shift community structure in ways that are unhelpful or difficult to reverse. Third, the biosafety and regulatory position of applying a naphthalene derivative to agricultural soil is not trivial and has not been addressed. Fourth, the economics of synthesizing and delivering a defined metabolite at field scale, alongside a live inoculant with its own formulation and shelf-life constrains, remain unexplored.These considerations argue for two parallel and non-exclusive strategies. The more immediately actionable is restoration of soil microbial diversity through reduced tillages, cover cropping, diversified rotation and organic amendment, supporting the endogenous capacity for 2-NA-mediated recruitment.The more speculative is targeted co-application of a metabolite with a compatible keystone strain as a biostimulant, which should be treated as research program rather than a near-term product. Progress of both will depend on standardized multi-omics frameworks capable of linking microbial community composition to function across sites and seasons, an area where methodological harmonization remains a recognized bottleneck (Kumar et al., 2023).Chen et al. ( 2026) provide the latest mechanistic framework to date of how resident microbial diversity conditions a plant's chemical recruitments of beneficial partners under drought. We found it as evidence that diversity is a functional prerequisite for practice host signaling, and that individual exudates can be multifunctional in ways that classical signal-versus-substrate distinctions do not capture.. The priorities we would set are correspondingly modest and testable, identification and genetic validation of the 2-NA biosynthesis pathway; measurement of exudation kinetics under realistic, fluctuating drought rather than imposed step changes; determination of the fate, half-life and sorption behavior of 2-NA across contrasting soils; assessment of community-level and N2O consequences; and examination of whether diversity-conditioned signaling operates in cereals and other legumes (Gahlot, 2026). Multi-side field evaluation should follow, not precede, these steps. Framed this way, the contribution of this work is conceptual rather than immediately applied. It does not yet deliver droughtsmart agriculture but clarifies what such a strategy would need to be built upon and it suggest that protecting the diversity already present in agricultural soils may be a more reliable investment than engineering it. However, this study further opens new dimension of research on diversity-dependent chemical ecology of drought adaptation in soybean that incorporated plant metabolomics, bacterial sensor biology and N biogeochemistry, which merely resolves a long-standing gap in our understanding of diversity function relationship in the rhizosphere but also microbiome-assisted climate-smart crop improvement.",
-      "relevance": 21.172743,
+      "relevance": 21.240192,
       "hits": [
         "rhizosphere microbiome drought root exudate",
         "root exudation drought bacteria"
@@ -25,7 +25,7 @@
       "window_days": 60,
       "score": 22.21,
       "published": "2026-10-16",
-      "age_days": 2,
+      "age_days": 9,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.3389/fpls.2026.1938013"
     },
@@ -40,77 +40,16 @@
         "Qianbing Zhang"
       ],
       "abstract": "Alfalfa (Medicago sativa L.) is a widely cultivated forage legume, but its productivity is severely constrained under saline–alkali conditions due to impaired nutrient uptake, ionic imbalance, and disruption of its symbiosis with Ensifer meliloti. Conventional reclamation methods rely on chemical inputs, which are often costly and environmentally unsustainable. This review synthesizes sustainable strategies for improving alfalfa performance in salt-affected soils, with particular emphasis on microbial bioinoculants, including plant growth-promoting rhizobacteria, arbuscular mycorrhizal fungi, rhizobia, and endophytes. These microorganisms can alleviate stress by improving ion homeostasis, osmotic adjustment, antioxidant defense, phytohormone regulation, and nutrient solubilization. Recent findings indicate that saline–alkali stress and plant genotype are associated with shifts in alfalfa rhizosphere and endophytic communities, including changes in potentially beneficial taxa. The review also integrates physiological, molecular, and multi-omics insights underlying stress tolerance, along with advances in breeding resilient cultivars. It also highlights microbiome dynamics, inoculant delivery systems, and agronomic practices that influence field performance. Overall, combining stress-tolerant alfalfa genotypes with tailored microbial consortia and improved soil management offers a promising strategy to improve alfalfa productivity and support saline–alkali soil management, although long-term field validation remains limited.",
-      "relevance": 4.0101733,
+      "relevance": 4.019375,
       "hits": [
         "Medicago rhizosphere microbiome"
       ],
       "window_days": 60,
       "score": 15.54,
       "published": "2026-10-09",
-      "age_days": 9,
+      "age_days": 16,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.3390/soilsystems10100118"
-    },
-    {
-      "doi": "10.1186/s40793-026-00976-7",
-      "title": "How agricultural legacy shapes the drought response of the wheat rhizobiome",
-      "journal": "Environmental Microbiome",
-      "authors": [
-        "Elena Kost",
-        "Dominika Kundel",
-        "Ralf C. Mueller",
-        "Rafaela Feola Conz",
-        "Claude Raoul Müller",
-        "Sarah Symanczik",
-        "Paul Mäder",
-        "Hans-Martin Krause",
-        "Johan Six",
-        "Jochen Mayer",
-        "Martin Hartmann"
-      ],
-      "abstract": "Abstract Background Drought is an increasing threat to soil microbiomes, which underpin critical soil functions and crop production. While drought-induced shifts in soil microbial diversity are well documented, the impact on the functional potential of microbiomes remains poorly understood. It is particularly unclear whether alternative cropping systems, such as organic farming, enhance the ability of microbes to maintain their functionality under drought compared to conventional systems. To fill this gap, we imposed a field-scale drought in a 44-year long-term trial comparing organic and conventional systems, and assessed the functional potential of the wheat rhizosphere microbiome using shotgun metagenomics. Results Agricultural management legacy was the primary driver of the rhizosphere functional gene composition, accounting for 24–32% of total variation across ontologies and persisting under drought (which explained 3–6% of variation). While the magnitude of the drought-induced shift in the functional potential was similar across all systems, drought-stressed communities remained distinct. All systems enriched metagenomic toolkits for core drought endurance, including cell membrane modification, endospore formation, osmolyte accumulation, antioxidant production, and DNA repair. Conversely, we observed a relative depletion of genes associated with ribosomal hibernation (dormancy) and exopolysaccharide synthesis under drought, suggesting a reliance on plant root exudates over endogenous genomic investment. In terms of the metabolic potential, communities exhibited an enriched capacity for inorganic phosphorus and iron scavenging alongside a relative depletion of genes involved in complex organic matter degradation. Although communities across all systems shared a common set of functional genes associated with stress survival and metabolic adaptation, they exhibited nuanced system-specific metagenomic strategies, marked by an enrichment of sporulation-related genes in conventional systems receiving synthetic inputs and programmed-cell-death pathways in manure-fertilized systems. Conclusion Our findings reveal that agricultural management plays a dual role: profoundly shaping the functional potential of the soil microbiome while exerting limited influence on the core metagenomic toolkit for drought adaptation, with only subtle nuances between systems. Rather than driving broad system-specific shifts, drought stress consistently enriched metagenomic toolkits associated with osmotic stress tolerance, cellular maintenance, and nutrient scavenging across all management regimes. Ultimately, no cropping system conferred superior metagenomic resistance to drought, yet each system preserved its distinct metagenomic identity under severe water deficit, highlighting the enduring legacy of agricultural management.",
-      "relevance": 13.597982,
-      "hits": [
-        "rhizosphere microbiome drought root exudate"
-      ],
-      "window_days": 60,
-      "score": 13.64,
-      "published": "2026-10-17",
-      "age_days": 1,
-      "crossref_type": "journal-article",
-      "doi_url": "https://doi.org/10.1186/s40793-026-00976-7"
-    },
-    {
-      "doi": "10.1016/j.ecoenv.2026.120704",
-      "title": "Rhizobia-mediated soybean rhizosphere and nodule endophytic microorganisms reduce bioavailability of Cd and Cu in soil",
-      "journal": "Ecotoxicology and Environmental Safety",
-      "authors": [
-        "Xinyi Li",
-        "Han Liu",
-        "Tianbo Jia",
-        "Xiang Liu",
-        "Yueyi Li",
-        "Yunfu Gu",
-        "Quanju Xiang",
-        "Ke Zhao",
-        "Likou Zou",
-        "Menggen Ma",
-        "Lingzi Zhang",
-        "Haiying Yu",
-        "Qiang Chen",
-        "Xiumei Yu"
-      ],
-      "abstract": "Low-level bioavailable cadmium (Cd) and copper (Cu) in agricultural soils poses a severe threat to soil health and food safety; however, the mechanisms by which indigenous Cu-Cd tolerant rhizobia modulate plant-microbe-soil interactions remain poorly understood. In this field trial, the effects of two Cu-Cd tolerant strains, Sinorhizobium xinjiangense YN5 (RB) and Rhizobium pusense GF4 (RD), when inoculated individually and in combination (RC), were assessed with respect to soybean growth, heavy‑metal partitioning, rhizosphere and nodule endophytic microbiomes, and soil functional genes under bioavailable Cu-Cd stress. RB treatment significantly promoted aboveground growth parameters (plant height, node number, and pod per plant) and biomass accumulation, whereas RC treatment favored root development and maximized the reduction in soybean Cd accumulation. Rhizobia elevated Cu concentrations in leaves, while enhanced root sequestration curtailed Cd translocation to stems and pods, thereby diminishing Cd accumulation across all organs. Soil available nutrients, soil organic matter, and nitrogenase activity were significantly increased, whereas bioavailable Cd and Cu declined. Rhizobia strengthened cooperative interactions within the rhizosphere community, with positive associations accounting for 86.56% of network links under RB. Nodule symbiotic networks exhibited greater modularity and integration, and source tracking analysis revealed that RB markedly increased microbial transfer from the rhizosphere to nodules, reaching 85.2%. Rhizobia activated function associated with carbon and sulfur cycling genes. Collectively, indigenous Cu-Cd tolerant rhizobia mitigate heavy metal stress and strengthen nutrient cycling microbial functions, presenting a promising eco-compatible strategy to enhance legume productivity in agricultural soils facing low-level bioavailable heavy metal exposure.",
-      "relevance": 11.037217,
-      "hits": [
-        "stress combination plant rhizosphere"
-      ],
-      "window_days": 60,
-      "score": 13.61,
-      "published": "2026-09-01",
-      "age_days": 47,
-      "crossref_type": "journal-article",
-      "doi_url": "https://doi.org/10.1016/j.ecoenv.2026.120704"
     },
     {
       "doi": "10.1186/s12859-026-06705-8",
@@ -121,14 +60,14 @@
         "Tzu-Hao Chang"
       ],
       "abstract": "Abstract Background Metabarcoding data generated from 16S rRNA and internal transcribed spacer (ITS) amplicon sequencing are inherently compositional, with observed abundances representing relative rather than absolute information. Ignoring this compositional structure can lead to spurious results in downstream analyses. In addition, multi-cohort studies frequently suffer from batch effects arising from differences in sample processing or sequencing platforms, which may confound true biological signals if not properly addressed. Despite the availability of multiple microbiome analysis platforms, these analytical considerations are not always incorporated together as central components of user-accessible workflows. Results We developed CoMeDA, an integrated web-based platform that treats the compositional structure of metabarcoding data and batch effects as coordinated components of a single analytical workflow. The platform supports both raw FASTQ files and pre-classified taxa tables, making it compatible with both short-read and long-read sequencing technologies. CoMeDA performs zero handling through probabilistic estimation and applies centered log-ratio (CLR) transformation as the default normalization strategy, followed by automated batch effect correction that removes technical variation while preserving biological signals. Downstream analyses, comprising diversity assessment using compositionally appropriate metrics, differential abundance analysis with effect size estimation, co-occurrence network inference, and functional prediction for both bacterial and fungal communities, are performed within the same compositional framework. CoMeDA also implements split-CLR transformation for cross-dataset analyses, enabling cross-kingdom and paired-condition correlation analyses while reducing spurious correlations introduced by directly combining datasets with different compositional structures. Using simulated datasets and a mock community with known ground truth, we evaluated the contribution of individual analytical components, the behavior of the automated batch-correction strategy, and taxonomic classification accuracy. We further reanalyzed a published multi-cohort gout dataset, a pediatric Crohn’s disease bacterial-fungal dataset, and a PacBio long-read periodontitis dataset. Using these datasets, CoMeDA recovered biologically coherent patterns while also highlighting additional literature-supported findings across different study designs. Conclusions CoMeDA provides a compositionally coherent workflow in which normalization, batch correction, and downstream analysis follow a consistent analytical logic. The platform features an interactive web interface and requires no programming expertise. CoMeDA is freely available online without registration, and a standalone Docker image is provided for local deployment.",
-      "relevance": 12.141653,
+      "relevance": 12.186042,
       "hits": [
         "compositional data analysis microbiome amplicon"
       ],
       "window_days": 60,
       "score": 8.62,
       "published": "2026-10-14",
-      "age_days": 4,
+      "age_days": 11,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.1186/s12859-026-06705-8"
     },
@@ -143,16 +82,50 @@
         "Zhibiao Nan"
       ],
       "abstract": "ABSTRACT Drought stress threatens the ecological functions and economic value of grasses, posing a major challenge to their sustainable production. Plants co‐evolve with rhizosphere microbial communities, sometimes described as the plant's second genome, that can contribute to drought adaptation. Drought alters root architecture, hormonal and redox regulation and belowground carbon allocation, thereby modifying the quantity and composition of root exudation and reshaping the rhizosphere environment. This review uses the rhizosphere dialogue as an integrative framework to link these plant responses with microbial recruitment and subsequent feedback to the host. We summarise three linked stages of this dialogue: drought‐induced changes in root exudation; microbial recruitment and colonisation through chemotaxis, attachment, biofilm formation, and root colonisation; and microbiome‐mediated feedback that improves plant water relations, hormonal and redox homoeostasis, nutrient acquisition, and root function. We highlight microbial extracellular polymeric substances, 1‐aminocyclopropane‐1‐carboxylate deaminase, and microbial volatile organic compounds as key mediators of drought alleviation. We then discuss how this framework may inform rational synthetic microbial community (SynCom) design, microbiome‐informed breeding, artificial intelligence and machine‐learning assisted strain prioritisation, rhizosphere legacy effects, and real‐time monitoring. Future work should distinguish active exudate‐mediated recruitment from drought‐driven environmental filtering and integrate multi‐omics, plant genetics, functional validation, and multi‐location field trials to determine whether rhizosphere dialogue can become a predictive framework for climate‐resilient grass production.",
-      "relevance": 34.298748,
+      "relevance": 34.428307,
       "hits": [
         "rhizosphere microbiome drought root exudate"
       ],
       "window_days": 60,
       "score": 7.84,
       "published": "2026-09-13",
-      "age_days": 35,
+      "age_days": 42,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.1111/pce.70876"
+    },
+    {
+      "doi": "10.1111/nph.71683",
+      "title": "Leaf‐to‐root ROS signaling recruits rhizosphere Bacillus : a synbiotic mechanism for rice adaptability under foliar Cd stress",
+      "journal": "New Phytologist",
+      "authors": [
+        "Jiahui Liu",
+        "Xin Yang",
+        "Yan Gao",
+        "Wei Chen",
+        "Yuting Chen",
+        "Eduardo Moreno‐Jiménez",
+        "Paul N. Williams",
+        "Mingzhe Yan",
+        "Siyu Ren",
+        "Xiaoyang Zhao",
+        "Qiuyue Bi",
+        "Changquan Wang",
+        "Bing Li",
+        "Tingqiang Li",
+        "Qi Tao",
+        "Zhongmin Dai"
+      ],
+      "abstract": "Summary In paddy fields near mining sites or transport corridors, elevated foliar cadmium (Cd) exposure is an emerging threat to rice ( Oryza sativa ) production. While rice recruits beneficial rhizosphere microbes against environmental stress, how this recruitment is coordinated under foliar Cd stress remains elusive. We assessed physiological responses to foliar Cd exposure in 26 rice cultivars and characterized rhizosphere bacterial communities and root exudates in six representative cultivars. Foliar Cd reduced leaf biomass by 6–29% and induced pronounced oxidative stress. In parallel, this foliar stress reshaped the rhizosphere microbiota, with consistent enrichment of Bacillus . This microbial shift was accompanied by increased root exudation of L‐valine and L‐leucine, which was associated with reactive oxygen species (ROS) signaling and increased root membrane permeability. Crucially, these amino acids promoted chemotaxis and root colonization by the representative Bacillus strains SRS50 and SRS107, selected from 11 candidates among 241 rhizosphere isolates, whereas colonization was reduced in ROS‐deficient mutants. Functionally, application of a ‘synbiotic’ (amino acid‐ Bacillus combination) reduced grain Cd concentrations by 40.5–43.3%, associated with Bacillus ‐induced leaf lignification. These findings highlight a plant–microbe feedback loop that contributes to rice adaptation to foliar Cd stress.",
+      "relevance": 13.321656,
+      "hits": [
+        "stress combination plant rhizosphere"
+      ],
+      "window_days": 60,
+      "score": 7.63,
+      "published": "2026-10-23",
+      "age_days": 2,
+      "crossref_type": "journal-article",
+      "doi_url": "https://doi.org/10.1111/nph.71683"
     },
     {
       "doi": "10.3389/fpls.2026.1839892",
@@ -163,44 +136,16 @@
         "İnanç Özgen"
       ],
       "abstract": "Abiotic stresses such as drought and salinity represent major constraints to global crop productivity, necessitating innovative strategies for enhancing plant resilience. As a critical regulator of root system architecture, auxin (specifically indole-3-acetic acid (IAA)) functions as a vital cross-kingdom signaling molecule that mediates dynamic interactions between plants and auxin-synthesizing rhizosphere microorganisms. This review explores the role of auxin as a cross-kingdom signaling molecule mediating interactions between plants and the rhizosphere microbiome. Auxin-producing plant growth-promoting rhizobacteria (PGPR) such as Pseudomonas , Bacillus , and Azospirillum can modify root system architecture by stimulating lateral root formation, root hair development, and root elongation. These structural changes enhance soil exploration, improving water and nutrient acquisition under stress conditions. In addition, root exudates released by plants recruit beneficial microbial communities, establishing a feedback loop that stabilizes plant–microbe interactions in the rhizosphere. While previous studies have largely treated plant hormonal signaling and rhizosphere ecology as separate domains, this review bridges these silos by proposing the Auxin–Rhizomicrobiome–Root Architecture (ARRA) model; an integrative framework demonstrating how microbial hormone production and plant signaling networks jointly program adaptive root traits under climate stress. Ultimately, the ARRA framework provides a conceptual and practical blueprint for deploying auxin-producing bioinoculants and engineered rhizomicrobiome consortia, offering a scalable strategy to enhance crop resilience and sustainable food security under accelerating climate scenarios.",
-      "relevance": 11.901062,
+      "relevance": 11.922993,
       "hits": [
         "rhizosphere microbiome drought root exudate"
       ],
       "window_days": 60,
       "score": 7.62,
       "published": "2026-09-15",
-      "age_days": 33,
+      "age_days": 40,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.3389/fpls.2026.1839892"
-    },
-    {
-      "doi": "10.1016/j.stress.2026.101531",
-      "title": "Plant immunity-microbiome interactions: Assembly, stress adaptation, and translation",
-      "journal": "Plant Stress",
-      "authors": [
-        "Shahrukh Khan",
-        "Shakal Khan Korai",
-        "Liting Yang",
-        "Shengnan Li",
-        "Usman Zulfiqar",
-        "Mohammed S. Alotaibi",
-        "Sokhibjon Abdusamatov",
-        "Nigora Abdikayumova",
-        "Mayank Anand Gururani",
-        "Xiaoshan Wang"
-      ],
-      "abstract": "Plants harbor complex microbial communities that play fundamental roles in nutrient acquisition, stress tolerance, and disease resistance. Current evidence indicates that plant immunity influences microbiome assembly through context-dependent microbial filtering rather than deterministic recruitment of beneficial taxa. Pattern-triggered immunity, phytohormone signaling, reactive oxygen species, and defense-associated metabolites alter microbial colonization and community structure, whereas direct evidence for effector-triggered immunity as a major regulator of microbiome assembly remains limited. Immune-driven changes in root exudation provide a key mechanistic link between host defense, nutrient status, and microbial selection, although resulting communities also depend strongly on the environmental species pool, microbial competition, priority effects, plant genotype, developmental stage, and abiotic stress. In the reciprocal direction, beneficial microorganisms enhance plant defense through induced systemic resistance, immune priming, bioactive metabolites, and community-level pathogen suppression. Evidence is strongest for root-associated systems and rhizobacteria-mediated resistance, while mechanisms operating in the phyllosphere, endosphere, and field-grown crops remain less resolved. Multi-omics, synthetic microbial communities, spatial imaging, and computational approaches are increasingly enabling causal and spatially resolved analyses; however, simplified experimental systems often incompletely represent the ecological complexity of agricultural soils. Collectively, available studies support an immunity–metabolism–microbiome framework in which host signaling and microbial ecological processes jointly determine community stability and plant adaptation. Translational application will require crop- and stress-specific validation, improved persistence of introduced microorganisms, and strategies that account for native microbiome competition and environmental variability.",
-      "relevance": 11.358226,
-      "hits": [
-        "host-mediated microbiome selection"
-      ],
-      "window_days": 60,
-      "score": 7.61,
-      "published": "2026-09-01",
-      "age_days": 47,
-      "crossref_type": "journal-article",
-      "doi_url": "https://doi.org/10.1016/j.stress.2026.101531"
     },
     {
       "doi": "10.1186/s44375-026-00011-7",
@@ -222,14 +167,14 @@
         "Jarone Pinhassi"
       ],
       "abstract": "Abstract Marine microbiomes exhibit seasonal dynamics in many ocean regions. While we can characterize the biodiversity and composition of ocean microbiomes, we lack a systematic understanding of how environmental drivers shape the seasonal succession of marine microbes. To leverage the pronounced temporal changes in growth conditions in the temperate waters of the Baltic Sea, we here report on dynamics in the prokaryoplankton community over 13 years at the Linnaeus Microbial Observatory (LMO), focusing on both free-living (FL; 0.2–3 μm fraction) and particle-associated (PA; >3 μm fraction) prokaryotes. As expected, our analysis showed a higher diversity in the PA compared to the FL fraction and that the grand majority of 16S rRNA gene amplicon sequence variants (ASVs) were consistently rare. Yet, to an unexpected degree also a majority of the abundant ASVs transitioned into the rare biosphere over extended periods of the year. Prokaryotes in both the PA and FL fractions showed pronounced seasonal dynamics, with notable differences between the fractions from phylum down to the ASV level. Abundant ASVs were strongly correlated to several environmental drivers, including nutrient concentrations, salinity and temperature. Intriguingly, at comparable temperatures in spring and autumn (e.g. at 12 °C), the community composition was strikingly different. This highlighted that specific temperature values per se are informative, but that the trajectories of change in temperature and other environmental drivers (low to high, high to low) merit attention in ecological research. Our data suggest that the community composition of prokaryoplankton in temperate regions strongly depend on factors beyond temperature and photoperiod values, including the history of the community, the direction of environmental change, and qualitative and quantitative levels of (in)organic nutrients, as well as biotic interactions.",
-      "relevance": 9.715912,
+      "relevance": 9.732956,
       "hits": [
         "compositional data analysis microbiome amplicon"
       ],
       "window_days": 60,
       "score": 7.6,
       "published": "2026-09-24",
-      "age_days": 24,
+      "age_days": 31,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.1186/s44375-026-00011-7"
     },
@@ -245,14 +190,14 @@
         "Pingfang Yang"
       ],
       "abstract": "ABSTRACT Drought‐mediated declines in grain nutritional quality and cereal yield put global food security at risk, yet the rhizosphere microbiome provides an alternative solution for improving crop tolerance. Our review synthesised existing knowledge on how soil microbiomes, particularly arbuscular mycorrhizal fungi (AMF) and plant‐growth‐promoting rhizobacteria (PGPR), simultaneously regulate three interlinked pillars of crop performance (stress tolerance, grain nutrient uptake, and yield) under drought. Our in‐depth analysis showed that such relationships were governed by synergies (improved root architecture improves all three traits) and trade‐offs (i.e., ABA‐induced stomatal closure improves water efficiency but restricts carbon assimilation). Furthermore, these relationships were governed at different biological layers through multi‐omics (metagenomics, transcriptomics, proteomics, and metabolomics) to identify biomarkers and pathways. With the application of an integrated framework through bioinformatics, it is now possible to reveal the hidden molecular layout between cereals and their underground partners, identify drought‐responsive pathways, and discover biomarkers (nutrient transporter gene, microbial abundance, osmolyte accumulation, and root exudates). Despite advancements, critical technical gaps hinder data integration and standardised pipelines to identify complex traits through heterogeneous databases of omics. Our review proposes an integrated framework linking multi‐omics tools, microbiome traits, and crop outcomes. Furthermore, we provide a research roadmap prioritising drought biofortification, synthetic communities (SynComs), microbial consortia, and spatial omics. Such research directly supports hidden hunger and food security agendas, while progressing climate‐resilient agriculture.",
-      "relevance": 26.146189,
+      "relevance": 26.205128,
       "hits": [
         "rhizosphere microbiome drought root exudate"
       ],
       "window_days": 60,
       "score": 6.76,
       "published": "2026-09-28",
-      "age_days": 20,
+      "age_days": 27,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.1111/pce.70901"
     },
@@ -271,14 +216,14 @@
         "Lei Li"
       ],
       "abstract": "Climate change has increased drought frequency in Loess Plateau apple-producing regions. Vermicompost (Vc) and Piriformospora indica (Pi) have been reported to improve plant drought resistance. However, the effects of their combined application on apple growth, soil environment and soil microbial community under drought remains unexplored. Here, we investigated these effects through a 90 days pot experiment with four treatments (control, Vc, Pi, Pi+Vc) under well-watered (WW) and drought stress (DS). The results indicated DS inhibited plant growth and nutrient uptake, and also increased the levels of H 2 O 2 and MDA. However, Pi+Vc treatment significantly increased relative growth rate (RGR), and enhanced antioxidant enzyme activities and nutrient absorption under DS, but did not significantly affect biomass accumulation. Vc and Pi+Vc improved soil nutrients and enzyme activities under both WW and DS, whereas Pi alone showed no significant benefit. Although the treatments differentially affected bacterial and fungal diversity, the co-application of Pi and Vc enhanced microbial diversity under DS. Individual or combined Pi and Vc altered the structure and composition of microbial communities, and increased microbial co-occurrence network modularity. PLS-SEM analysis further demonstrated that the co-application of Pi and Vc promote the plant growth were closely related to bacterial community restructuring under DS. Collectively, this study suggests that combined Pi and Vc application hold potential for improving apple seedling drought tolerance, providing a foundation for future field-based validation on the Loess Plateau.",
-      "relevance": 13.417802,
+      "relevance": 13.439415,
       "hits": [
         "soil water potential microbial drought pot experiment"
       ],
       "window_days": 60,
       "score": 6.63,
       "published": "2026-09-01",
-      "age_days": 47,
+      "age_days": 54,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.1016/j.scienta.2026.115146"
     },
@@ -294,14 +239,14 @@
         "Choufei Wu"
       ],
       "abstract": "Declining soil health and soil-borne diseases threaten sustainable crop production, while single-strain inoculants often perform inconsistently in the field due to poor establishment, limited persistence, and narrow functional capacity within resident microbiomes. Synthetic microbial communities (SynComs), assembled from defined and functionally characterized microorganisms, offer a tractable strategy to improve plant growth and suppress disease through complementary and redundant functions. This review critically examines recent advances in plant-associated SynComs, emphasizing rational design over empirical strain mixing. We compare construction strategies based on core microbiome mining, trait-based screening, microbial interaction networks, host and niche adaptation, and multi-omics- or model-guided assembly. Available available evidence suggests that no single SynCom construction strategy is universally superior; rather, robust design requires an integrated, context-specific approach combining host- or core-microbiome-guided candidate selection, trait validation, interaction-informed assembly, and model-guided optimization. We synthesize direct and plant-mediated mechanisms, including nutrient mobilization, phytohormone modulation, stress alleviation, niche pre-emption, resource competition, antibiosis, rhizosphere restructuring, and immune priming. Evidence from representative crop-pathogen systems is evaluated based on mechanistic support, community stability, and validation under non-sterile greenhouse and field conditions. Major barriers to deployment include context-dependent efficacy, instability of community composition and function, formulation and delivery constraints, quality control, ecological safety, and regulatory uncertainty. We propose a design-to-deployment framework linking community assembly with ecological validation, formulation engineering, and multi-environment testing, providing a plant-centered roadmap for developing reliable SynCom-based biofertilizers as well as biocontrol products.",
-      "relevance": 9.094164,
+      "relevance": 9.125902,
       "hits": [
         "plant competition rhizosphere microbiome assembly"
       ],
       "window_days": 60,
       "score": 6.59,
       "published": "2026-09-18",
-      "age_days": 30,
+      "age_days": 37,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.3389/fmicb.2026.1942488"
     },
@@ -315,33 +260,33 @@
         "Marco A. Molina‐Montenegro"
       ],
       "abstract": "Plant–microbe interactions are increasingly recognised as drivers of plant invasion and adaptation, via their capacity to modulate phenotypic plasticity. Although soil biota and plant–soil feedbacks are well studied in open or disturbed systems, their role in naturally resistant habitats – such as closed‐canopy forest interiors – remains unclear. In such environments, microbial mediation of phenotypic plasticity could help overcome strong abiotic constraints on establishment. We hypothesise that the seed‐borne endomicrobiome would be associated with increased phenotypic plasticity, potentially influencing survival across heterogeneous environments. We tested this hypothesis using the invasive plant Taraxacum officinale across the forest mosaic (core, edge, matrix) of the Maulino Coastal Forest in central Chile, combining field and greenhouse experiments. We characterised the environmental gradient, revealing severe light limitation in forest cores, and transplanted plants with an intact endomicrobiome (E+) and a reduced endomicrobiome (E−) into core, edge, and matrix microsites to assess survival. Further, by growing plants under simulated core and matrix conditions, we quantified phenotypic plasticity for functional traits (height, specific leaf area, and BBX24 gene expression) and performance traits (net CO 2 assimilation rate, biomass and flower production). In the field experiment, E+ plants sustained higher survival in shaded forest cores, whereas E− plants declined sharply. E+ plants showed greater plasticity in functional traits while maintaining stable performance across environments in the greenhouse experiment. Functional‐trait plasticity co‐–varied with field survival across endomicrobiome treatments. Our results show that the endomicrobiome is associated with enhanced functional‐trait plasticity and improved establishment in invasion‐resistant habitats, a microbiome‐informed ‘jack–and–master' strategy. We advocate integrating plant–microbiome interactions into invasion ecology frameworks, particularly where microbial mediation may erode forest biotic resistance.",
-      "relevance": 5.1166935,
+      "relevance": 5.121696,
       "hits": [
         "soil microbiome transplant plant performance"
       ],
       "window_days": 60,
       "score": 6.55,
       "published": "2026-09-30",
-      "age_days": 18,
+      "age_days": 25,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.1002/oik.12312"
     },
     {
       "doi": "10.1093/aob/mcag311",
-      "title": "Drought tightens rhizosphere networks—but where does the carbon go? A commentary on ‘Increased dependencies among plant performance traits, root exudates and the rhizosphere microbiome under drought’",
+      "title": "Drought tightens rhizosphere networks – but where does the carbon go? A commentary on ‘Increased dependencies among plant performance traits, root exudates and the rhizosphere microbiome under drought’",
       "journal": "Annals of Botany",
       "authors": [
-        "Eva Kastovska"
+        "Eva Kaštovská"
       ],
       "abstract": "Eva Kastovska; Drought tightens rhizosphere networks—but where does the carbon go? A commentary on ‘Increased dependencies among plant performance traits,",
-      "relevance": 63.740013,
+      "relevance": 64.04588,
       "hits": [
         "rhizosphere microbiome drought root exudate"
       ],
       "window_days": 60,
       "score": 6.14,
       "published": "2026-09-26",
-      "age_days": 22,
+      "age_days": 29,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.1093/aob/mcag311"
     },
@@ -355,14 +300,14 @@
         "Carla Vázquez-González"
       ],
       "abstract": "Abstract Background and Aims The soil microbiome is known to modulate plant resistance to insect herbivores. Research on this topic has traditionally focused on bottom-up effects of plants on insects (direct resistance). However, how soil microbiomes affect plant resistance via top-down control of insects by natural enemies (indirect resistance) remains understudied. We conducted a greenhouse experiment using Baccharis salicifolia as a model to test the effects of native soil microbiomes on (i) direct resistance against the generalist aphid Aphis gossypii and (ii) indirect resistance by natural enemies. Methods We grew B. salicifolia plants in a common sterilized substrate that was either inoculated with 10% native field soil or left uninoculated as a sterile control and performed a bioassay with A. gossypii to assess direct resistance by measuring aphid performance (age at first reproduction and reproductive rate). Then, we assessed indirect resistance by excluding natural enemies and estimating effects on aphid colony size in plants growing in inoculated vs. uninoculated soil. Key Results Plants in inoculated soil exhibited a 15% increase in growth, while aphid reproduction was reduced by 18% compared to uninoculated soil. Moreover, soil inoculation significantly altered the strength of top-down control by natural enemies. Access to natural enemies reduced aphid colony size by 23% in uninoculated soils but only by 11% in inoculated soils, indicating weaker indirect resistance under soil inoculation. Conclusions We show that native microbial communities regulate plant-insect-natural enemy interactions via contrasting effects on direct and indirect resistance, underscoring the need to consider both pathways to understand microbial impacts on plant resistance.",
-      "relevance": 18.171947,
+      "relevance": 18.210728,
       "hits": [
         "sterilized soil microbiome inoculation plant growth"
       ],
       "window_days": 60,
       "score": 5.68,
       "published": "2026-10-15",
-      "age_days": 3,
+      "age_days": 10,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.1093/aob/mcag334"
     },
@@ -383,14 +328,14 @@
         "Lijing Chen"
       ],
       "abstract": "Continuous cropping obstacles and soil-borne diseases have long constrained the development of the cut lily industry, and microbial inoculants have become an important tool for achieving green production. To screen for efficient inoculants suitable for cut lily and to reveal the mechanisms of action, this study used the dominant cultivar ‘Siberia’ ( Lilium ‘Siberia’) as material and conducted a field experiment under solar greenhouse conditions in Lingyuan, Liaoning Province, using three commercial microbial inoculants: Treatment A (Shentai Trichoderma combination, containing Trichoderma harzianum and its metabolites), Treatment B (Moon composite inoculant, containing Trichoderma , Purpureocillium lilacinum , Bacillus subtilis , etc.), and Treatment C (Fengde composite inoculant, mainly Bacillus subtilis ). The study systematically measured lily growth and commercial traits, soil physicochemical properties, and rhizosphere microbial community structure, and analyzed the linkage mechanism of “inoculant—soil physicochemical properties—rhizosphere microbial community—comprehensive lily quality.” The results showed that Treatment A (Shentai Trichoderma combination) had the best comprehensive effect, significantly increasing plant height, stem diameter, and green leaf rate, and reducing leaf yellowing and abscission index. At the same time, it significantly increased soil total nitrogen, total phosphorus, available nitrogen, and organic matter content, and optimized the rhizosphere microecological environment. Further microbial community analysis indicated that Treatment A specifically enriched putatively beneficial taxa such as Pseudomonas and Streptomyces , and functional fungi such as Trichoderma and Mucor , while reducing the relative abundance of potentially pathogenic taxa such as Fusarium and Rhizoctonia . It also increased the modularity and proportion of positive correlations in the bacterial-fungal co-occurrence network, forming a stable growth-promoting and disease-resistant functional module. This study clarifies the core effects of the Trichoderma -based inoculant on lily growth, soil improvement, and rhizosphere microecological regulation, suggests a mechanism by which it synergistically improves cut lily quality and stress resistance through optimizing soil nutrients and reshaping microbial community structure, identifies a promising inoculant formulation with potential for green lily production, and provides a theoretical basis and technical support for the sustainable development of the cut lily industry.",
-      "relevance": 11.151526,
+      "relevance": 11.171443,
       "hits": [
         "stress combination plant rhizosphere"
       ],
       "window_days": 60,
       "score": 5.61,
       "published": "2026-10-06",
-      "age_days": 12,
+      "age_days": 19,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.3389/fmicb.2026.1962117"
     },
@@ -407,14 +352,14 @@
         "Bo Song"
       ],
       "abstract": "Citric acid (CA) and nitrogen (N) fertilizers have been widely applied to enhance phytoremediation of various contaminated soils, yet their combined effects and underlying mechanisms in cadmium (Cd)–polycyclic aromatic hydrocarbon (PAH) co-contaminated systems remain poorly understood. Here, we investigated the combined effects of CA and ammonium nitrate on the phytoremediation of Cd–phenanthrene (Phe) co-contaminated soil using marigold (Tagetes patula L.), with random forest, mantel tests, and structural equation modeling employed to explore hypothesized pathways and associations. The results demonstrated that combined CA and N application significantly promoted plant growth, Cd uptake, and Phe dissipation. Among the tested treatments, the low-dose combination (1 g CA + 0.1 g N pot−1) increased plant biomass by 88%, enhanced shoot Cd uptake by 121%, and achieved a Phe dissipation rate of 76.56%, representing the optimal remediation strategy. Mechanistically, the synergy between CA and N extends beyond simple growth promotion—N drives biomass production and, independently, facilitates Cd mobilization through rhizosphere acidification, while CA enhances contaminant bioavailability and buffers N-induced salt stress, together maintaining rhizosphere ionic homeostasis for efficient Cd translocation and Phe dissipation. This study provides a mechanistic framework for designing combined amendment strategies to enhance phytoremediation of co-contaminated soils.",
-      "relevance": 4.250971,
+      "relevance": 4.2578726,
       "hits": [
         "stress combination plant rhizosphere"
       ],
       "window_days": 60,
       "score": 5.54,
       "published": "2026-08-28",
-      "age_days": 51,
+      "age_days": 58,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.3390/toxics14090770"
     },
@@ -428,14 +373,14 @@
         "Woncheoul Park"
       ],
       "abstract": "Introduction: In ruminants, the rumen and abomasum differ in physicochemical conditions and harbor distinct microbial communities that affect digestion and host metabolism. 16S rRNA amplicon sequencing is a standard culture-independent method for profiling these communities, but the raw reads must undergo several bioinformatic steps before taxonomic composition and diversity can be compared between samples. This technical protocol describes a reproducible QIIME 2 and R workflow for comparing the rumen (RUM) and abomasum (ABO) microbial communities of Hanwoo steers using 16S rRNA amplicon sequencing data while accounting for the pairing between samples from the same animal. Practice: The workflow is demonstrated on paired RUM and ABO samples from 62 Hanwoo steers. It comprises primer and adapter trimming, DADA2 denoising and ASV inference, SILVA taxonomic classification, and rarefaction-based diversity estimation in QIIME 2. This is followed by paired alpha and beta diversity testing, relative abundance profiling, and differential abundance analysis in R. Summary: The protocol offers a reproducible framework for comparing microbial communities between paired sample sites. The same steps can be adapted to other paired or compartment-based microbiome comparisons and can be extended to other animal species. This is relevant to animal breeding and genomics studies in which microbiome measures are analyzed alongside traits such as feed efficiency and carcass traits.",
-      "relevance": 12.585958,
+      "relevance": 12.640001,
       "hits": [
         "compositional data analysis microbiome amplicon"
       ],
       "window_days": 60,
       "score": 4.63,
       "published": "2026-09-30",
-      "age_days": 18,
+      "age_days": 25,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.12972/jabng.2026.10.3.4"
     },
@@ -466,14 +411,14 @@
         "Eric Kemen"
       ],
       "abstract": "Abstract Microbiome homeostasis is crucial for host health and ecosystem function, yet the molecular and ecological mechanisms underlying community assembly and stability remain elusive. Here we uncover a conserved yeast–oomycete association that promotes their coexistence in the leaf microbiome. Using a continental-scale microbiome survey, we identified an asymmetric mutualistic interaction between two eukaryotic hub microbes: the yeast Dioszegia hungarica and the obligate oomycete Albugo laibachii . We show that Dioszegia facilitates Albugo colonization by supplying thiamine via a dedicated membrane permease, alleviating Albugo ’s auxotrophy. Genomic and transcriptomic analyses indicate that natural selection has acted on thiamine production in Dioszegia , shaping this metabolic complementation. In planta assays further suggest that Albugo presence supports Dioszegia persistence under glasshouse conditions. Our study illustrates how the evolution of nutrient cross-feeding mediates microbial coexistence and microbiome stability. Targeting microbial nutrient flows offers new strategies for engineering microbiomes and enhancing plant resilience in natural and agricultural systems.",
-      "relevance": 11.745678,
+      "relevance": 11.76408,
       "hits": [
         "host-mediated microbiome selection"
       ],
       "window_days": 60,
       "score": 4.62,
       "published": "2026-10-05",
-      "age_days": 13,
+      "age_days": 20,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.1038/s41564-026-02499-w"
     },
@@ -490,14 +435,14 @@
         "Shahista Sarin Lodhi"
       ],
       "abstract": "The rumen microbiome plays a fundamental role in feed digestion, nutrient utilization, host health and environmental adaptation in ruminants. Seasonal variation in climatic conditions and feed resources may influence the diversity and composition of rumen microbial communities. The present study investigated seasonal variation in the goat rumen microbiome using publicly available 16S rRNA gene sequencing data. Six rumen microbiome samples were retrieved from the National Center for Biotechnology Information Sequence Read Archive under BioProject PRJNA1050866, comprising three cold-season samples (SRR27169185–SRR27169187) and three warm-season samples (SRR27169218–SRR27169220). Raw paired-end sequence data were processed using the QIIME 2 bioinformatics pipeline, including quality filtering, denoising, chimera removal and amplicon sequence variant inference. Phylogenetic relationships among representative sequences were reconstructed for phylogeny-based diversity analyses. Alpha diversity was assessed using the Shannon index and Faith's phylogenetic diversity, whereas beta diversity was evaluated using Bray–Curtis dissimilarity and unweighted UniFrac distances. Seasonal differences in alpha diversity were assessed using the Kruskal–Wallis test, while differences in overall microbial community structure were evaluated using permutational multivariate analysis of variance. Significant seasonal differences were observed in alpha-diversity measures (P 0.05). Krona-based taxonomic visualization nevertheless indicated descriptive differences in the relative representation of microbial taxa between seasons. Overall, the findings suggest that seasonal conditions may influence within-sample microbial diversity while the broader rumen microbial community remains relatively stable. This apparent stability may reflect resilience of the core goat rumen microbiome to seasonal environmental variation and could provide useful insights for microbiome-informed nutritional, management and breeding strategies aimed at improving goat adaptation and productivity.",
-      "relevance": 11.732748,
+      "relevance": 11.773086,
       "hits": [
         "compositional data analysis microbiome amplicon"
       ],
       "window_days": 60,
       "score": 4.62,
       "published": "2026-09-01",
-      "age_days": 47,
+      "age_days": 54,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.33545/26174693.2026.v10.i9d.9939"
     },
@@ -516,16 +461,89 @@
         "Guo Yu"
       ],
       "abstract": "",
-      "relevance": 11.032389,
+      "relevance": 11.06749,
       "hits": [
         "Medicago rhizosphere microbiome"
       ],
       "window_days": 60,
       "score": 4.61,
       "published": "2026-10-01",
-      "age_days": 17,
+      "age_days": 24,
       "crossref_type": "journal-article",
       "doi_url": "https://doi.org/10.1016/j.jece.2026.125160"
+    },
+    {
+      "doi": "10.1093/jxb/erag499",
+      "title": "The Wheat Seed Microbiome as a Model for Understanding the Transmission of Beneficial Plant-Associated Bacteria",
+      "journal": "Journal of Experimental Botany",
+      "authors": [
+        "Irene Sanz-Puente",
+        "Ahmed Abdelfattah",
+        "Marta Robledo"
+      ],
+      "abstract": "Abstract Beneficial plant-microbe interactions are fundamental to plant nutrition, growth, stress tolerance and disease resistance. However, because microorganisms are not encoded by the plant genome, the mechanisms by which microbial associations persist across generations remain unresolved. In this review, we examine the emerging evidence that seeds function not only as reproductive structures but also as reservoirs of microorganisms that may facilitate the maintenance and transmission of selected microbial partners. We synthesize current knowledge of seed microbiome diversity, ecological functions and assembly processes, highlighting the roles of maternal, floral, pollen-mediated and environmental transmission, together with host selection and microbial interactions. We then evaluate evidence that seed-borne microorganisms contribute to plant microbiome assembly and may support the multigenerational persistence of beneficial taxa. Using wheat as a model system, we explore how domestication and host genetic control have shaped microbial communities, assess evidence for recurrent the seed-borne presence of specific bacterial taxa, propose a candidate wheat seed bacterial meta-core based on taxa repeatedly detected across independent studies, and highlight Pantoea as a candidate lineage showing evidence of within-generation persistence and multigenerational transmission across generations. Finally, we discuss the conceptual and methodological challenges that currently limit our understanding of microbiome inheritance as a general biological principle and explore how this knowledge may guide future microbiome-assisted crop improvement. Together, these findings position seeds as key ecological and evolutionary hubs through which beneficial plant-microbe interactions may persist and potentially be inherited across generations.",
+      "relevance": 10.830787,
+      "hits": [
+        "host-mediated microbiome selection"
+      ],
+      "window_days": 60,
+      "score": 4.61,
+      "published": "2026-10-08",
+      "age_days": 17,
+      "crossref_type": "journal-article",
+      "doi_url": "https://doi.org/10.1093/jxb/erag499"
+    },
+    {
+      "doi": "10.3390/plants15182884",
+      "title": "Beyond Nitrogen Fixation: Multifunctional Roles of Common Bean in Organic Agroecosystems and Ecosystem-Oriented Breeding Strategies",
+      "journal": "Plants",
+      "authors": [
+        "Dan Ioan Avasiloaiei",
+        "Mariana Calara",
+        "Petre Marian Brezeanu",
+        "Barbara Pipan",
+        "Lovro Sinkovič",
+        "Creola Brezeanu"
+      ],
+      "abstract": "Common bean (Phaseolus vulgaris L.) is among the world’s most widely consumed grain legumes and a foundational species for organic and low-input agriculture, yet its agroecological value extends far beyond nitrogen fixation and nutritional provisioning. This review reframes P. vulgaris as a breeding target defined by ecosystem function rather than by yield alone, synthesizing evidence on functional biology, biological nitrogen fixation, rhizosphere microbiome assembly and soil ecosystem engineering to identify the trait complexes that ecosystem-oriented breeding programs must select for. We examine the constraints limiting expression of these traits under organic management, including weed competition, biotic and abiotic stress, nutrient limitation, and the scarcity of cultivars and certified seed adapted to low-input environments, and evaluate the agroecological management practices, resource-use efficiency metrics and emerging technologies—spanning precision agriculture, phenomics, molecular breeding, genome editing and microbiome engineering—that can accelerate their genetic improvement. Central to this synthesis is a paradigm shift in breeding objectives: common bean is conceptualized as a holobiont whose performance emerges from coordinated plant–microbiome interaction, requiring breeding programs to select explicitly for nitrogen-fixation efficiency, root system architecture, rhizosphere recruitment capacity, nutrient-use efficiency and multi-stress resilience as heritable, ecosystem-oriented traits. We conclude by outlining priority breeding research directions integrating genomics, phenomics, envirotyping and rhizosphere ecology, positioning common bean breeding as a strategic lever for the transition toward regenerative, climate-smart organic agriculture.",
+      "relevance": 6.9971867,
+      "hits": [
+        "plant competition rhizosphere microbiome assembly"
+      ],
+      "window_days": 60,
+      "score": 4.57,
+      "published": "2026-09-21",
+      "age_days": 34,
+      "crossref_type": "journal-article",
+      "doi_url": "https://doi.org/10.3390/plants15182884"
+    },
+    {
+      "doi": "10.1007/s11306-026-02540-3",
+      "title": "Exploratory integrative analysis of infant gut microbiome and metabolome suggests diet- and microbiome-derived metabolites associated with childhood asthma",
+      "journal": "Metabolomics",
+      "authors": [
+        "Kedir N. Turi",
+        "Xiliu Wu",
+        "Yajing Li",
+        "Christian Rosas-Salazar",
+        "Tebeb Gebretsadik",
+        "Meghan H. Shilts",
+        "Suman R. Das",
+        "James Gern",
+        "Yaomin Xu",
+        "Tina V. Hartert"
+      ],
+      "abstract": "Abstract Background Early-life gut microbiome composition has been linked to childhood asthma risk, but the metabolic pathways underlying this association remain unclear. Objective To integrate infant gut microbiome and metabolome data to identify pathways associated with asthma risk. Methods Participants were from the INSPIRE birth cohort with early infancy 16S rRNA microbiome data (n=402), urinary metabolomics (n=199), and stool metabolomics (n=58). Overlapping datasets included 89 (urine) and 58 (stool) infants. Current asthma at age 6 was assessed by validated questionnaires. Nested sparse partial least squares discriminant analysis prioritized metabolites and amplicon sequence variants (ASVs) feature selection, followed by Spearman rank correlations to evaluate metabolite-microbiome associations with Bonferroni correction. Results Several significant correlations were identified in associations between the stool microbiome and metabolites, primarily involving lipid-related metabolites and microbiome taxa such as Staphylococcus sp. (unclassified) , Enterobacteriaceae sp. (unclassified) , Veillonella sp. (unclassified) , Thomasclavelia ramosa , Bacteroides sp.(unclassified), and Clostridium innocuum group. The correlations between stool microbiome and urine metabolites were weak. Many associated metabolites are likely diet-derived, with microbiome co-metabolising. Conclusion Exploratory microbiome-metabolite correlations suggest diet-related metabolites may link the infant gut environment to later asthma risk.",
+      "relevance": 14.7871895,
+      "hits": [
+        "compositional data analysis microbiome amplicon"
+      ],
+      "window_days": 60,
+      "score": 3.65,
+      "published": "2026-09-27",
+      "age_days": 28,
+      "crossref_type": "journal-article",
+      "doi_url": "https://doi.org/10.1007/s11306-026-02540-3"
     }
   ]
 }
