@@ -101,6 +101,26 @@
       "summary": "The authors imposed a field-scale drought in a 44-year trial that compares organic and conventional farming systems, and used shotgun metagenomics to ask how the functional potential of the wheat rhizosphere microbiome responds. Management legacy was the main driver of functional gene composition, explaining 24 to 32 percent of the variation depending on the ontology, while drought explained 3 to 6 percent. The size of the drought shift was similar in every system, yet drought-stressed microbiomes stayed distinct from controls. All systems enriched genes for membrane modification, endospore formation, osmolyte accumulation, antioxidant production and DNA repair, and depleted genes for ribosomal hibernation and exopolysaccharide synthesis, which the authors read as reliance on root exudates. Phosphorus and iron scavenging genes rose while complex organic matter degradation fell. System differences were subtle: more sporulation genes under synthetic inputs, more programmed cell death pathways under manure.",
       "why": "Your transfer experiment is a short version of what this trial does over 44 years: a history imposed on a soil microbiome, then a stress applied on top of it. Their finding that legacy explained far more variation than drought, while drought still moved every microbiome in the same direction, is the pattern to look for in your own PERMANOVA when you partition variance between selection regime and the water treatment within a cycle. It also gives you a function-level reading of 16S results: if the bacteria that persist under your drought regimes are known spore formers or osmolyte producers, this paper supplies the mechanism to cite. Metagenomes show potential rather than activity, the same limit as 16S, so your biomass and tissue moisture data are what turn a gene pattern into a plant effect. Useful for question one on predictability.",
       "added_by": "routine, pushed manually"
+    },
+    {
+      "week": "2026-10-26",
+      "title": "Leaf‐to‐root ROS signaling recruits rhizosphere Bacillus : a synbiotic mechanism for rice adaptability under foliar Cd stress",
+      "authors": "Jiahui Liu, Xin Yang, Yan Gao, Wei Chen, Yuting Chen, Eduardo Moreno-Jiménez, Paul N. Williams, Mingzhe Yan, et al.",
+      "journal": "New Phytologist",
+      "year": 2026,
+      "published": "2026-10-23",
+      "doi": "10.1111/nph.71683",
+      "tags": [
+        "root exudates",
+        "chemotaxis",
+        "functional validation",
+        "bacillus",
+        "causality"
+      ],
+      "read_minutes": 20,
+      "summary": "The authors worked with foliar cadmium stress in rice rather than a water or light stress. They exposed 26 rice cultivars to foliar cadmium and then characterized rhizosphere bacteria and root exudates in six of those cultivars. Foliar cadmium cut leaf biomass by 6 to 29 percent and caused oxidative stress, and in parallel it reshaped the rhizosphere microbiome, consistently enriching Bacillus. This shift tracked with higher root exudation of two amino acids, L-valine and L-leucine, linked to reactive oxygen species signaling and increased root membrane permeability. Those amino acids promoted chemotaxis and root colonization by two Bacillus strains chosen from 241 rhizosphere isolates, and colonization dropped sharply in reactive oxygen species deficient mutants. Applying the amino acids together with Bacillus as a combined treatment lowered grain cadmium by 40 to 43 percent, linked to Bacillus induced leaf lignification.",
+      "why": "This paper is a template for the causal step you still need beyond describing a shift. It traces leaf stress to a root exudate change, to chemotaxis and colonization by named bacteria, to a measurable plant outcome, using reactive oxygen species deficient mutants and a reapplication test as the causal evidence. For your transfer design, the matching chain is water or light stress to root exudate change to the bacteria that persist across cycles to a biomass or nodulation effect, which is your question two and three. Their isolate screening, chemotaxis assays and mutant colonization work are a concrete toolkit for functional validation chapters, even though their stressor is foliar cadmium, not water or light. It also reminds you that shoot stress can rewrite belowground chemistry, worth keeping in mind when you read your light treatment effects on root exudates.",
+      "added_by": "routine"
     }
   ],
   "classics": [
