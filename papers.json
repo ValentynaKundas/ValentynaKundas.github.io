@@ -121,6 +121,26 @@
       "summary": "The authors worked with foliar cadmium stress in rice rather than a water or light stress. They exposed 26 rice cultivars to foliar cadmium and then characterized rhizosphere bacteria and root exudates in six of those cultivars. Foliar cadmium cut leaf biomass by 6 to 29 percent and caused oxidative stress, and in parallel it reshaped the rhizosphere microbiome, consistently enriching Bacillus. This shift tracked with higher root exudation of two amino acids, L-valine and L-leucine, linked to reactive oxygen species signaling and increased root membrane permeability. Those amino acids promoted chemotaxis and root colonization by two Bacillus strains chosen from 241 rhizosphere isolates, and colonization dropped sharply in reactive oxygen species deficient mutants. Applying the amino acids together with Bacillus as a combined treatment lowered grain cadmium by 40 to 43 percent, linked to Bacillus induced leaf lignification.",
       "why": "This paper is a template for the causal step you still need beyond describing a shift. It traces leaf stress to a root exudate change, to chemotaxis and colonization by named bacteria, to a measurable plant outcome, using reactive oxygen species deficient mutants and a reapplication test as the causal evidence. For your transfer design, the matching chain is water or light stress to root exudate change to the bacteria that persist across cycles to a biomass or nodulation effect, which is your question two and three. Their isolate screening, chemotaxis assays and mutant colonization work are a concrete toolkit for functional validation chapters, even though their stressor is foliar cadmium, not water or light. It also reminds you that shoot stress can rewrite belowground chemistry, worth keeping in mind when you read your light treatment effects on root exudates.",
       "added_by": "routine"
+    },
+    {
+      "week": "2026-11-02",
+      "title": "Rarefaction is better than robust Aitchison PCA and other compositional data analysis methods at controlling for uneven sequencing effort",
+      "authors": "Patrick D. Schloss",
+      "journal": "mSystems",
+      "year": 2026,
+      "published": "2026-10-20",
+      "doi": "10.1128/msystems.00930-26",
+      "tags": [
+        "compositional data analysis",
+        "amplicon sequencing",
+        "rarefaction",
+        "normalization",
+        "16S statistics"
+      ],
+      "read_minutes": 25,
+      "summary": "The author reassessed the benchmarking data behind robust Aitchison PCA (RPCA), a compositional data analysis method proposed as an alternative to rarefaction for handling uneven sequencing depth in amplicon studies. He found numerous problems in the Python code used to support RPCA, affecting the simulated data sets, the machine learning implementation, and the choice of analysis parameters. After correcting the code, adding data sets with smaller effect sizes, and expanding the set of methods compared, he found that RPCA was not insensitive to uneven sequencing effort as originally claimed, and that it performed worse than rarefaction. Even using the original benchmarking framework, rarefaction outperformed RPCA, other compositional data analysis methods, and other normalization methods at controlling for uneven sequencing effort.",
+      "why": "This bears directly on how you normalize your 16S data before Bray-Curtis, PCoA and PERMANOVA. Compositional methods built on the Aitchison framework have been pushed as a replacement for rarefaction, and if you had planned to normalize your amplicon counts with a CLR or RPCA-type transform before comparing your selection lines, this paper is a reason to reconsider. It argues that rarefying to an even depth still controls for uneven sequencing effort better than those alternatives, which matters because your samples come from different cycles and treatments and will not sequence to identical depth. Before you lock in a normalization step for your compositional and longitudinal microbiome chapter, read this alongside whatever rarefaction-versus-CLR comparison you were planning to cite, since it directly disputes the benchmarking that newer methods have relied on.",
+      "added_by": "routine"
     }
   ],
   "classics": [
