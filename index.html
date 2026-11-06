@@ -295,6 +295,21 @@ header nav a.active { color: var(--maroon, #a02a45); }
 .alf-legend span { display: inline-flex; align-items: center; gap: 7px; }
 .alf-legend i { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
 .alf-fallback { position: absolute; inset: 0; display: none; align-items: center; justify-content: center; color: var(--muted, #5f6a78); font-size: 14px; }
+.nav-toggle { display: none; }
+@media (max-width: 860px) {
+  header .wrap { flex-wrap: nowrap; padding-top: 9px; padding-bottom: 9px; }
+  .brand { font-size: 17px; }
+  .nav-toggle { display: inline-flex; flex-direction: column; justify-content: center; gap: 5px; width: 40px; height: 38px; padding: 0 9px; background: transparent; border: 1px solid var(--rule); border-radius: 4px; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+  .nav-toggle span { display: block; height: 2px; background: var(--ink); border-radius: 1px; transition: transform 200ms ease, opacity 200ms ease; }
+  header.open .nav-toggle span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+  header.open .nav-toggle span:nth-child(2) { opacity: 0; }
+  header.open .nav-toggle span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+  header nav { display: none; position: absolute; top: 100%; left: 0; right: 0; flex-direction: column; flex-wrap: nowrap; gap: 0; padding: 4px 20px 10px; font-size: 16px; background: var(--bg); border-bottom: 1px solid var(--rule); box-shadow: 0 14px 24px rgba(27,36,48,0.10); max-height: calc(100vh - 60px); overflow-y: auto; }
+  header.open nav { display: flex; }
+  header nav a { padding: 12px 0; border-top: 1px solid var(--rule-2); }
+  header nav a:first-child { border-top: 0; }
+  header nav a::after { display: none; }
+}
 @media (max-width: 800px) {
   #model { height: 360vh; }
   .alf-copy { justify-content: flex-end; padding: 0 20px 96px; }
@@ -334,7 +349,8 @@ header nav a.active { color: var(--maroon, #a02a45); }
 <header>
   <div class="wrap">
     <a class="brand" href="#top">Valentyna Kundas</a>
-    <nav>
+    <button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span></button>
+    <nav id="site-nav">
       <a href="#research">Research</a>
       <a href="#experience">Experience</a>
       <a href="#education">Education</a>
@@ -368,27 +384,13 @@ header nav a.active { color: var(--maroon, #a02a45); }
       </div>
     </div>
   </div>
-  <div class="wrap facts">
-    <div class="deck">
-      <div class="tile"><div class="label">Institution</div><div class="val">University of Toronto Scarborough</div></div>
-      <div class="tile"><div class="label">Lab</div><div class="val">Microbiome Manipulation Lab (Terrence Bell)</div></div>
-      <div class="tile"><div class="label">Model plant</div><div class="val"><em>Medicago sativa</em>, alfalfa</div></div>
-      <div class="tile"><div class="label">Trained in</div><div class="val">Ukraine · Germany · France · Canada</div></div>
-    </div>
-  </div>
 </section>
 
 <section id="research" class="sec">
   <div class="wrap sec-head">
     <div><span class="kicker">Research</span><h2>Shaping the alfalfa rhizosphere microbiome under (a)biotic conditions, including drought</h2></div>
     <div class="prose">
-      <p>I study how abiotic and biotic conditions shape the bacteria living around alfalfa (<em>Medicago sativa</em>) roots, and whether that microbiome can be steered to help the plant through drought.</p>
-      <p>Since September 2025 I have been running a four-generation selection experiment under repeated drought, passaging the soil microbiome from one set of alfalfa plants to the next, with 16S rRNA gene sequencing and plant phenotyping at each generation. Home-home and home-away swap experiments test whether a drought-selected microbiome keeps its response when the water conditions change.</p>
-      <div class="research-cards deck">
-        <div class="tile"><h3>Microbiome selection</h3><p>Passaging soil microbiomes over repeated plant generations to select for a function, then testing whether it holds.</p></div>
-        <div class="tile"><h3>Abiotic conditions</h3><p>Water and light treatments, alone and combined, with the microbiome sampled across them.</p></div>
-        <div class="tile"><h3>Plant to bacteria</h3><p>What a stressed plant releases from its roots, and how the bacteria around them respond.</p></div>
-      </div>
+      <p>Since September 2025 I have been running a four-generation selection experiment under repeated drought, passaging the soil microbiome from one set of alfalfa (<em>Medicago sativa</em>) plants to the next, with 16S rRNA gene sequencing. The next step is a swap experiment to functionally validate plant performance.</p>
     </div>
   </div>
 </section>
@@ -403,7 +405,7 @@ header nav a.active { color: var(--maroon, #a02a45); }
           <div class="alf-stage active" data-stage="0">
             <span class="alf-num">01 / 04 · Canopy</span>
             <h2>Alfalfa, above ground.</h2>
-            <p>This is the plant in all of my experiments. The light treatment is applied up here, at the leaves. The water treatment goes into the soil.</p>
+            <p>This is the plant in all of my experiments. The light treatment is applied up here, at the leaves.</p>
           </div>
           <div class="alf-stage" data-stage="1">
             <span class="alf-num">02 / 04 · Soil line</span>
@@ -443,7 +445,7 @@ header nav a.active { color: var(--maroon, #a02a45); }
         <div>
           <h3>PhD research, alfalfa rhizosphere microbiome</h3>
           <div class="where">Department of Physical and Environmental Sciences, University of Toronto Scarborough, Canada</div>
-          <p>Four-generation iterative selection of a soil microbiome under repeated drought, with home-home and home-away swap experiments. Microbiome data matched against biomass, root traits and leaf greenness to find bacteria associated with plant performance.</p>
+          <p>Microbiome data matched against biomass, root traits and leaf greenness to find bacteria associated with plant performance.</p>
         </div>
       </div>
       <div class="slab">
@@ -451,7 +453,7 @@ header nav a.active { color: var(--maroon, #a02a45); }
         <div>
           <h3>Algae Biotechnology, Master's thesis</h3>
           <div class="where">GEPEA lab and AlgoSolis platform, Nantes University, Saint-Nazaire, France</div>
-          <p>Scaled up the growth of a calcite-based protective coating on concrete using microalgae, meant to protect wind turbines in a marine environment. Tested regimes to increase biofilm formation and biomineralisation, and compared microalgal calcite deposition against abiotic precipitation.</p>
+          <p>Scaled up the growth of a calcite-based protective coating on concrete using microalgae, meant to protect wind turbines in a marine environment, and compared it against abiotic precipitation.</p>
         </div>
       </div>
       <div class="slab">
@@ -459,7 +461,7 @@ header nav a.active { color: var(--maroon, #a02a45); }
         <div>
           <h3>Algae Biorefinery project</h3>
           <div class="where">Institute of Natural Materials Technology, TU Dresden, Germany</div>
-          <p>Found the most favourable conditions for pigment production, including astaxanthin, under green, white, blue and red light. Continuous microalgae cultivation in a CellDeg photobioreactor, lipid and pigment extraction, dry biomass and spectrophotometry.</p>
+          <p>Found the most favourable light conditions for pigment production, including astaxanthin, in continuous microalgae cultivation.</p>
         </div>
       </div>
       <div class="slab">
@@ -467,7 +469,7 @@ header nav a.active { color: var(--maroon, #a02a45); }
         <div>
           <h3>Plant genetics internship</h3>
           <div class="where">Chair of Plant Cell and Molecular Biology, TU Dresden, Germany</div>
-          <p>Plant genomics and cytogenetics with a focus on repetitive DNA. Genomic DNA extraction and purification, PCR, gel electrophoresis, linear DNA digestion and rolling circle amplification.</p>
+          <p>Plant genomics and cytogenetics with a focus on repetitive DNA.</p>
         </div>
       </div>
       <div class="slab">
@@ -476,7 +478,6 @@ header nav a.active { color: var(--maroon, #a02a45); }
           <h3>Plant biotechnologist</h3>
           <div class="where">Institute of Cell Biology and Genetic Engineering, National Academy of Sciences of Ukraine</div>
           <p>Worked out the <em>in vitro</em> sterilisation, cultivation and <em>Agrobacterium</em>-mediated transformation of <em>Lemna</em> species.</p>
-          <p class="muted">Thesis: "The use of Lemnaceae representatives in biotechnology and environmental protection."</p>
         </div>
       </div>
       <div class="slab">
@@ -485,7 +486,6 @@ header nav a.active { color: var(--maroon, #a02a45); }
           <h3>Microbial biochemistry internship</h3>
           <div class="where">Zabolotny Institute of Microbiology and Virology, National Academy of Sciences of Ukraine</div>
           <p>β-glucan and lipopolysaccharide extraction, and identification of carbohydrates, proteins and nucleic acids.</p>
-          <p class="muted">Term paper: "<em>Azospirillum brasilense</em> β-glucans role in the diazotroph-plant associative system."</p>
         </div>
       </div>
       <div class="slab">
@@ -493,7 +493,7 @@ header nav a.active { color: var(--maroon, #a02a45); }
         <div>
           <h3>Molecular biology internship</h3>
           <div class="where">Diagen Genetic Laboratory, Kyiv, Ukraine</div>
-          <p>DNA isolation, gel electrophoresis, PCR, and statistical and data analysis for the project "Substance abuse genetics: in search for shared and substance-specific variants."</p>
+          <p>DNA isolation, PCR and data analysis for a project on the genetics of substance abuse.</p>
         </div>
       </div>
     </div>
@@ -509,21 +509,18 @@ header nav a.active { color: var(--maroon, #a02a45); }
         <h3>PhD, Environmental Science</h3>
         <div class="where">University of Toronto Scarborough, Canada</div>
         <div class="grade">Current GPA 3.96</div>
-        <div class="courses">Microorganisms and the Environment; Applied Biogeochemistry and Geomicrobiology. In the Microbiome Manipulation Lab since September 2025.</div>
       </div>
       <div class="tile">
         <div class="when">10/2022 – 09/2024</div>
         <h3>MSc, Molecular Bioengineering</h3>
         <div class="where">Technische Universität Dresden, Germany</div>
         <div class="grade">Final grade 2.1 (3.8 GPA)</div>
-        <div class="courses">Biostatistics, Biophysics, Genomes and Evolution, Proteomics, Bioimage analysis, Biomedicine. Additional: Algae Biotechnology.</div>
       </div>
       <div class="tile">
         <div class="when">09/2018 – 06/2022</div>
         <h3>BSc, Biotechnology</h3>
         <div class="where">Taras Shevchenko National University of Kyiv, Ukraine</div>
         <div class="grade">Final grade 4.65/5 (3.7 GPA)</div>
-        <div class="courses">Basics of Biotechnology, Biochemistry, Microbial synthesis, Plant Biotechnology, Molecular biology. Additional: Antimicrobial resistance, Python programming.</div>
       </div>
     </div>
   </div>
@@ -534,7 +531,7 @@ header nav a.active { color: var(--maroon, #a02a45); }
     <div>
       <span class="kicker">Teaching and mentorship</span>
       <h2>Teaching assistantships</h2>
-      <p style="margin-top: 16px; font-size: 16px; color: var(--ink-2)">Fourteen so far at the University of Toronto Scarborough, in biology, chemistry and environmental science. In most I lead a lab section of 24 students, run tutorials for up to 40, grade assignments and give written feedback.</p>
+      <p style="margin-top: 16px; font-size: 16px; color: var(--ink-2)">Fourteen so far at the University of Toronto Scarborough. In most I lead a lab section of 24 students and run tutorials for up to 40.</p>
     </div>
     <div>
       <div class="ta-cols">
@@ -634,12 +631,12 @@ header nav a.active { color: var(--maroon, #a02a45); }
         <div>
           <h3>Workshop on Biominerals</h3>
           <div class="meta">University of Tübingen, Germany · 07/2025</div>
-          <p>Synthesis of biogenic and abiotic minerals; Mössbauer spectroscopy, XRD, SEM, quantification of Fe species, magnetic susceptibility, surface charge and particle size analysis, thin section microscopy, microscopy of bacteria with mineral inclusions.</p>
+          <p>Synthesis and characterisation of biogenic and abiotic minerals.</p>
         </div>
         <div>
           <h3>Biomarkers for Lakes Ecological Monitoring</h3>
           <div class="meta">UMR CARRTEL (INRAE-USMB), Thonon-les-Bains, France · 06/2025</div>
-          <p>Diagnosis of the ecological status of lakes and rivers, species diversity (eDNA, ZooScan), ecosystem functioning and biotic interactions using stable isotopes as biomarkers.</p>
+          <p>Ecological status of lakes and rivers using eDNA, ZooScan and stable isotopes.</p>
         </div>
       </div>
     </div>
@@ -712,7 +709,7 @@ header nav a.active { color: var(--maroon, #a02a45); }
       </div>
     </div>
     <div>
-      <p style="font-size: 17px; color: var(--ink-2); max-width: 66ch">You set sixteen environmental variables and pick from thirteen organisms, and the plant grows, wilts, flowers or dies depending on what you gave it. Every symptom it shows is linked to the paper it was taken from.</p>
+      <p style="font-size: 17px; color: var(--ink-2); max-width: 66ch">You set sixteen environmental variables and pick from thirteen organisms, and the plant grows, wilts, flowers or dies depending on what you gave it.</p>
       <div class="card">
         <div class="card-head"><span>av-bio.github.io/phytobiome</span><span class="muted">Interactive · scroll and drag inside the frame</span></div>
         <iframe src="https://av-bio.github.io/phytobiome/" title="Phytobiome, a plant and microbiome stress simulation" loading="lazy"></iframe>
@@ -727,10 +724,8 @@ header nav a.active { color: var(--maroon, #a02a45); }
     <dl class="news">
       <div><dt>November 2026</dt><dd>Poster at the International Phytobiomes Conference 2026 in Niagara-on-the-Lake. It won Best Poster Award #1.</dd></div>
       <div><dt>September 2026</dt><dd>Finished supervising an undergraduate researcher who developed an <em>in vitro</em> sterilisation protocol for alfalfa seedlings.</dd></div>
-      <div><dt>May 2026</dt><dd>Started building Phytobiome, a browser simulation of alfalfa and its microbiome, and began mentoring an undergraduate's project on passaging microbiomes in liquid culture.</dd></div>
+      <div><dt>May 2026</dt><dd>Started building Phytobiome and began mentoring an undergraduate's project on passaging microbiomes in liquid culture.</dd></div>
       <div><dt>April 2026</dt><dd>Organised an online conference for 40 graduate students in the Environmental Pollution course.</dd></div>
-      <div><dt>September 2025</dt><dd>Joined Terrence Bell's Microbiome Manipulation Lab and started the drought selection experiment.</dd></div>
-      <div><dt>June and July 2025</dt><dd>Yorkshire Valley Farms Canadian Eco-Scholar Award, then a poster on the microalgae calcite coating at the Workshop on Biominerals in Tübingen.</dd></div>
     </dl>
   </div>
 </section>
@@ -1289,6 +1284,23 @@ header nav a.active { color: var(--maroon, #a02a45); }
   loop();
 })();
 
+</script>
+<script>
+(function () {
+  var header = document.querySelector('header');
+  var btn = document.querySelector('.nav-toggle');
+  if (!header || !btn) return;
+  function setOpen(open) {
+    header.classList.toggle('open', open);
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+  }
+  btn.addEventListener('click', function () { setOpen(!header.classList.contains('open')); });
+  Array.prototype.forEach.call(header.querySelectorAll('nav a'), function (a) {
+    a.addEventListener('click', function () { setOpen(false); });
+  });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') setOpen(false); });
+  document.addEventListener('click', function (e) { if (!header.contains(e.target)) setOpen(false); });
+})();
 </script>
 </body>
 </html>
