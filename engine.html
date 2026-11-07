@@ -851,4 +851,22 @@ a:hover { color: #c1476a; border-bottom-color: #c1476a; }
 })();
 
 </script>
+<script>
+(function () {
+  // In-house visit counter: one beacon per page view to a private Google Sheet. Nothing is shown on the site.
+  if (location.hostname !== 'valentynakundas.github.io') return;
+  if (/bot|crawl|spider|headless|lighthouse/i.test(navigator.userAgent)) return;
+  var id = '';
+  try {
+    id = localStorage.getItem('vk_visitor');
+    if (!id) { id = Math.random().toString(36).slice(2, 10) + Date.now().toString(36); localStorage.setItem('vk_visitor', id); }
+  } catch (e) {}
+  var tz = '';
+  try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch (e) {}
+  var d = { p: location.pathname, t: document.title, r: document.referrer, v: id, s: screen.width + 'x' + screen.height, l: navigator.language, z: tz, ua: navigator.userAgent };
+  var q = Object.keys(d).map(function (k) { return k + '=' + encodeURIComponent(d[k] || ''); }).join('&');
+  var url = 'https://script.google.com/macros/s/AKfycbzoNJpskBLD94tAicChh7XtRKCU6KaDeJ9mpEHU2AXjUnoW21fr-jgwdcWV2y7h80nCnw/exec?' + q;
+  if (navigator.sendBeacon) { navigator.sendBeacon(url); } else { new Image().src = url; }
+})();
+</script>
 </body></html>
