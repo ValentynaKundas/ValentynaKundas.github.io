@@ -141,6 +141,25 @@
       "summary": "The author reassessed the benchmarking data behind robust Aitchison PCA (RPCA), a compositional data analysis method proposed as an alternative to rarefaction for handling uneven sequencing depth in amplicon studies. He found numerous problems in the Python code used to support RPCA, affecting the simulated data sets, the machine learning implementation, and the choice of analysis parameters. After correcting the code, adding data sets with smaller effect sizes, and expanding the set of methods compared, he found that RPCA was not insensitive to uneven sequencing effort as originally claimed, and that it performed worse than rarefaction. Even using the original benchmarking framework, rarefaction outperformed RPCA, other compositional data analysis methods, and other normalization methods at controlling for uneven sequencing effort.",
       "why": "This bears directly on how you normalize your 16S data before Bray-Curtis, PCoA and PERMANOVA. Compositional methods built on the Aitchison framework have been pushed as a replacement for rarefaction, and if you had planned to normalize your amplicon counts with a CLR or RPCA-type transform before comparing your selection lines, this paper is a reason to reconsider. It argues that rarefying to an even depth still controls for uneven sequencing effort better than those alternatives, which matters because your samples come from different cycles and treatments and will not sequence to identical depth. Before you lock in a normalization step for your compositional and longitudinal microbiome chapter, read this alongside whatever rarefaction-versus-CLR comparison you were planning to cite, since it directly disputes the benchmarking that newer methods have relied on.",
       "added_by": "routine"
+    },
+    {
+      "week": "2026-11-09",
+      "title": "CoMeDA: an integrated platform for compositional analysis of metabarcoding data with batch correction",
+      "authors": "Cheng-Yang Lee, Tzu-Hao Chang",
+      "journal": "BMC Bioinformatics",
+      "year": 2026,
+      "published": "2026-10-14",
+      "doi": "10.1186/s12859-026-06705-8",
+      "tags": [
+        "compositional data analysis",
+        "batch correction",
+        "16s amplicon sequencing",
+        "clr transformation"
+      ],
+      "read_minutes": 20,
+      "summary": "The authors built CoMeDA, a web platform for analysing 16S rRNA and ITS amplicon metabarcoding data that treats compositional structure and batch effects together instead of as separate steps. It accepts raw FASTQ files or pre-classified taxa tables, estimates zeros probabilistically, and applies a centered log-ratio transformation before an automated batch correction step that removes technical variation while keeping biological signal. From that corrected table it runs diversity with compositionally appropriate metrics, differential abundance with effect sizes, co-occurrence networks, and functional prediction for bacteria and fungi, and adds a split-CLR transform for comparing across datasets. Using simulated data, a mock community with known composition, and three published multi-cohort datasets, the authors show the pipeline recovers expected diversity and differential abundance patterns while correcting for batch.",
+      "why": "This is relevant to your compositional and longitudinal microbiome statistics chapter. Your amplicon samples come from different transfer cycles and likely different sequencing runs, which is exactly the batch effect problem CoMeDA is built to handle before you run Shannon diversity, Bray-Curtis, PCoA or PERMANOVA. The platform's default of centered log-ratio transformation plus batch correction, rather than correcting cycle and treatment effects separately, gives you a concrete pipeline to compare against rarefaction, which last week's paper argued still controls for uneven sequencing depth better than CLR-based methods. Running both approaches on your own cycle-by-cycle 16S data, and checking whether your selection-regime and water-treatment effects hold under each, would be a direct and citable sensitivity check for your methods chapter, and the differential-abundance-with-effect-size output is useful for reporting which bacteria differ between your light and water treatments.",
+      "added_by": "routine"
     }
   ],
   "classics": [
